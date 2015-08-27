@@ -1,0 +1,5 @@
+"LightmappedGeneric"
+{
+	"$basetexture" "vgui/replay/thumbnails/bgpanel"
+	"$translucent" 1
+}
