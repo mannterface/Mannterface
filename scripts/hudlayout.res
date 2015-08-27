@@ -4,15 +4,15 @@
     {
             "controlName"                                   "CExLabel"
             "fieldName"                                     "KnucklesCrosshair"
-            "visible"                                       "1"
-            "enabled"                                       "1"
+            "visible"                                       "0"
+            "enabled"                                       "0"
             "zpos"                                          "1"
             "xpos"                                          "c-25"
             "ypos"                                          "c-25"
             "wide"                                          "50"
             "tall"                                          "50"
             "font"                                          "size:30,outline:off"
-            "labelText"                                     "0"//http://i.imgur.com/w0AcH2l.png
+            "labelText"                                     "a"  //http://i.imgur.com/w0AcH2l.png
             "textAlignment"                                 "center"
             "fgcolor"                                       "255 255 255 255"
     }
@@ -413,7 +413,16 @@
 
     HudDamageIndicator
     {
-
+        "fieldName" "HudDamageIndicator"
+        "visible" "1"
+        "enabled" "1"
+        "MinimumWidth" "10"
+        "MaximumWidth" "10"
+        "StartRadius" "80"
+        "EndRadius" "80"
+        "MinimumHeight" "30"
+        "MaximumHeight" "60"
+        "MinimumTime" "1"
     }
 
     HudCommentary
