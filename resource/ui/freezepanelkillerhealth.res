@@ -55,10 +55,10 @@
         "image"         "../hud/health_over_bg"
         "scaleImage"    "1" 
     }
-    "PlayerStatusHealthValue"
+    "PlayerStatusHealthValueFreeze"
     {
         "ControlName"   "Label"
-        "fieldName"     "PlayerStatusHealthValue"
+        "fieldName"     "PlayerStatusHealthValueFreeze"
         "xpos"          "-9"//-9
         "ypos"          "11"//11
         "zpos"          "7"
@@ -68,7 +68,7 @@
         "enabled"       "1"
         "labeltext"     "%Health%"
         "textAlignment"     "center"
-        "font"          "HudFontSmallestBold"//"DefaultVerySmall"
-        "fgcolor_override"      "255 255 255 255"
+        "font"          "HudFontSmallestBold"
+        "fgcolor_override"      "Health Normal"
     }                               
 }

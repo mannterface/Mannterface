@@ -537,6 +537,8 @@ event HudHealthBonusPulse
     Animate PlayerStatusHealthValueTargetIDD1Blur            Alpha       "0"                     Linear 1.6 0.0
     Animate PlayerStatusHealthValueTargetIDD1Blur            FgColor     "Health Buff Blur"      Linear 0.0 0.0
     Animate PlayerStatusHealthValueTargetIDD1Blur            Alpha       "0"                     Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthValueFreeze                    FgColor   "Health Buff"         Linear 0.0 0.0
 
     RunEvent HudHealthBonusPulseLoop    1.6
 }
@@ -639,21 +641,29 @@ event HudHealthBonusPulseStop
     Animate PlayerStatusHealthValueD4Blur              Alpha       "0"              Linear 0.0 0.0
 
     
-    //RETURN TO NORMAL HEALTH
+    //RETURN TO NORMAL HEALTH TARGETID
     Animate PlayerStatusHealthValueSpecT   FgColor "Health Normal" Linear 0.0 0.0
-    Animate PlayerStatusHealthValueTargetID    FgColor "Health Normal" Linear 0.0 0.0
     
-    Animate PlayerStatusHealthValueTargetIDD1            FgColor     "Health Buff Blur"      Linear 0.0 0.0
-    Animate PlayerStatusHealthValueTargetIDD1            Alpha       "0"                     Linear 0.0 0.0
-    Animate PlayerStatusHealthValueTargetIDD2            FgColor     "Health Buff Blur"      Linear 0.0 0.0
-    Animate PlayerStatusHealthValueTargetIDD2            Alpha       "0"                     Linear 0.0 0.0
-    Animate PlayerStatusHealthValueTargetIDU1            FgColor     "Health Buff Blur"      Linear 0.0 0.0
-    Animate PlayerStatusHealthValueTargetIDU1            Alpha       "0"                     Linear 0.0 0.0
-    Animate PlayerStatusHealthValueTargetIDU2            FgColor     "Health Buff Blur"      Linear 0.0 0.0
-    Animate PlayerStatusHealthValueTargetIDU2            Alpha       "0"                     Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetID              FgColor     "Health Normal"         Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetID              Alpha       "255"                   Linear 0.0 0.0
+
     
-    Animate PlayerStatusHealthValueTargetIDBlur            FgColor "Black" Linear 0.0 0.0
-    Animate PlayerStatusHealthValueTargetIDBlur            Alpha             "255" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDD1                FgColor   "Health Buff Blur"      Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDD1                Alpha     "0"                     Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDU1                FgColor   "Health Buff Blur"      Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDU1                Alpha     "0"                     Linear 0.0 0.0
+
+    
+    Animate PlayerStatusHealthValueTargetIDBlur              FgColor   "Black"                 Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlur              Alpha     "255"                   Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDU1Blur            FgColor   "Black"                 Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDU1Blur            Alpha     "255"                   Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDD1Blur            FgColor   "Black"                 Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDD1Blur            Alpha     "255"                   Linear 0.0 0.0
+
+    Animate PlayerStatusHealthValueFreeze                    FgColor   "Health Normal"         Linear 0.0 0.0
+
+
 
     
 }
@@ -748,6 +758,8 @@ event HudHealthDyingPulse
     Animate PlayerStatusHealthValueHugeScanlinesDL            Alpha       "255" Linear 0.15 0.0
     Animate PlayerStatusHealthValueHugeScanlinesDL            FgColor "Health Hurt Blur" Linear 0.2 0.0
     Animate PlayerStatusHealthValueHugeScanlinesDL            Alpha       "0" Linear 0.2 0.0
+    
+    
 
     //BEGIN TARGETID SHAKE
     Animate PlayerStatusHealthValueSpecT   FgColor "Health Hurt"     Linear 0.0 0.0
@@ -778,6 +790,8 @@ event HudHealthDyingPulse
     Animate PlayerStatusHealthValueTargetID            Alpha           "255" Linear 0.15 0.0
     Animate PlayerStatusHealthValueTargetID            FgColor "Health Hurt" Linear 0.2 0.0
     Animate PlayerStatusHealthValueTargetID            Alpha             "0" Linear 0.2 0.0
+    
+    Animate PlayerStatusHealthValueFreeze                    FgColor   "Health Hurt"         Linear 0.0 0.0
     
     
   
@@ -861,6 +875,8 @@ event HudHealthDyingPulseStop
     
     Animate PlayerStatusHealthValueTargetIDBlur            FgColor "Black" Linear 0.0 0.0
     Animate PlayerStatusHealthValueTargetIDBlur            Alpha             "255" Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthValueFreeze                    FgColor   "Health Normal"         Linear 0.0 0.0
 
 
 
