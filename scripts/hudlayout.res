@@ -12,7 +12,7 @@
             "wide"                                          "50"
             "tall"                                          "50"
             "font"                                          "size:30,outline:off"
-            "labelText"                                     "l"//http://i.imgur.com/w0AcH2l.png
+            "labelText"                                     "0"//http://i.imgur.com/w0AcH2l.png
             "textAlignment"                                 "center"
             "fgcolor"                                       "255 255 255 255"
     }

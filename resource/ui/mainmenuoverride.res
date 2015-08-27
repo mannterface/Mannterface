@@ -143,7 +143,7 @@
             "fieldName" "LastUpdate"
             "font"  "HudFontSmallestBold"
             "fgcolor_override"   "TanLight"
-            "labelText" "15.08.26.RC1"
+            "labelText" "15.08.26.1"
             "textAlignment" "west"
             "xpos"  "20"
             "ypos"  "5"
