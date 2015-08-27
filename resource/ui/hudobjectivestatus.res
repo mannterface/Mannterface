@@ -27,7 +27,7 @@
             "font"          "HudFontSmallBold"
             "fgcolor"       "TanDark"
             "xpos"          "26"
-            "ypos"          "50"//100
+            "ypos"          "125"//100
             "zpos"          "3"
             "wide"          "55"
             "tall"          "31"
