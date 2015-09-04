@@ -32,8 +32,6 @@ Scheme
         
         "Target Data"                           "255 220 20 255"
         "Damage Crosshair"                      "255 180 20 255"
-        "Crosshair Color"                       "235 226 202 255"
-        "Target Name"                           "235 226 202 255"
 
         
         "Uber Bar Color"                        "235 226 202 255"

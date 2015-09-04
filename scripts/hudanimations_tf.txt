@@ -1,7 +1,7 @@
 event DamagedPlayer
 {   
     Animate KnucklesCrosshair FgColor "Damage Crosshair" Linear 0.0 0.1
-    Animate KnucklesCrosshair FgColor "Crosshair Color" Linear 0.2 0.200001
+    Animate KnucklesCrosshair FgColor "255 255 255 255" Linear 0.2 0.200001
 }
 
 event LevelInit

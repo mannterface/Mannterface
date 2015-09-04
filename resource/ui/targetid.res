@@ -114,12 +114,12 @@
     {   
         "ControlName"       "Label"
         "fieldName"     "TargetDataLabel"
-        "font"          "HudFontSmallBoldOutline"
+        "font"          "HudFontSmallestBoldOutline"
         "xpos"          "0"
-        "ypos"          "-3"    [$WIN32]        
+        "ypos"          "0"    [$WIN32]        
         "zpos"          "1"
         "wide"          "200"
-        "tall"          "18"
+        "tall"          "8"
         "autoResize"        "0"
         "pinCorner"     "0"
         "visible"       "1"
@@ -151,14 +151,14 @@
     {
         "ControlName"   "ImagePanel"
         "fieldName"     "AmmoIcon"
-        "xpos"          "38"
-        "ypos"          "1"
+        "xpos"          "35"
+        "ypos"          "0"
         "zpos"          "12"
-        "wide"          "10"
-        "tall"          "10"
+        "wide"          "8"
+        "tall"          "8"
         "visible"       "0"
         "enabled"       "1"
-        "image"         "../hud/hud_obj_status_ammo_64"
+        "image"         "../hud/leaderboard_class_heavy"
         "scaleImage"    "1"
     }
     
