@@ -12,9 +12,9 @@
             "wide"                                          "50"
             "tall"                                          "50"
             "font"                                          "size:30,outline:off"
-            "labelText"                                     "a"  //http://i.imgur.com/w0AcH2l.png
+            "labelText"                                     "p"  //http://i.imgur.com/w0AcH2l.png
             "textAlignment"                                 "center"
-            "fgcolor"                                       "255 255 255 255"
+            "fgcolor"                                       "Crosshair Color"
     }
    "TransparentViewmodelMask"
     {
