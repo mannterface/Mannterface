@@ -12,9 +12,9 @@
             "wide"                                          "50"
             "tall"                                          "50"
             "font"                                          "size:30,outline:off"
-            "labelText"                                     "a"  //http://i.imgur.com/w0AcH2l.png
+            "labelText"                                     "p"  //http://i.imgur.com/w0AcH2l.png
             "textAlignment"                                 "center"
-            "fgcolor"                                       "255 255 255 255"
+            "fgcolor"                                       "Crosshair Color"
     }
    "TransparentViewmodelMask"
     {
@@ -27,7 +27,7 @@
         "wide"  "f0"
         "tall"  "480"
         "visible"   "0"
-        "enabled"   "0"
+        "enabled"   "0
         "image" "replay/thumbnails/REFRACTnormal_transparent"
         "scaleImage"    "1"
     }

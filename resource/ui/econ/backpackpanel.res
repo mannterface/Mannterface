@@ -125,6 +125,7 @@
             {
                 "use_item_rendertarget" "0"
                 "allow_rot"             "0"
+                "inventory_image_type" "1"
             }
 
             "New"
@@ -466,7 +467,7 @@
         "Command"       "nextpage"
         "sound_depressed"   "UI/buttonclick.wav"
         "sound_released"    "UI/buttonclickrelease.wav"
-    }       
+    }     
     
     "DragToNextPageButton"
     {
