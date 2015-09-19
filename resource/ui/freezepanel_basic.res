@@ -1,5 +1,13 @@
 "Resource/UI/FreezePanel_Basic.res"
 {
+    "FreezePanel"
+    {
+        "ControlName"   "CTFFreezePanel"
+        "fieldName"     "FreezePanel"
+
+        "screenshot_move_panel_to_corner"   "1"
+    }
+
     "FreezePanelBase"   [$X360]
     {
         "ControlName"   "EditablePanel"
@@ -31,26 +39,11 @@
                 "xpos"          "0"
                 "ypos"          "0"
                 "zpos"          "5"
-                "wide"          "0"
-                "tall"          "0"
-                "visible"       "1"
-                "enabled"       "1"
-                "image"         "replay/thumbnails/bg_black"
-                "scaleImage"        "1" 
-            }
-            "NemesisPanelShadow"
-            {
-                "ControlName"       "ImagePanel"
-                "fieldName"     "NemesisPanelShadow"
-                "xpos"          "0"
-                "ypos"          "0"
-                "zpos"          "5"
                 "wide"          "166"
-                "tall"          "28"
-                "alpha"         "175"
+                "tall"          "38"
                 "visible"       "1"
                 "enabled"       "1"
-                "image"         "replay/thumbnails/bg_black"
+                "image"         "../hud/freezecam_black_bg"
                 "scaleImage"        "1" 
             }
             "NemesisIcon"
@@ -93,27 +86,16 @@
             "ControlName"       "CTFImagePanel"
             "fieldName"     "FreezePanelBG"
             "xpos"          "c-38"
+            "xpos_hidef"        "c25"
             "ypos"          "245"
-            "zpos"          "0"
-            "wide"          "0"
-            "tall"          "0"
-            "visible"       "1"
-            "enabled"       "1"
-            "image"         "replay/thumbnails/bg_black"
-            "scaleImage"        "1" 
-        }
-        "FreezePanelShadow"
-        {
-            "ControlName"       "CTFImagePanel"
-            "fieldName"     "FreezePanelShadow"
-            "xpos"          "c-38"
-            "ypos"          "245"
+            "ypos_hidef"        "245"
+            "ypos_lodef"        "215"
             "zpos"          "0"
             "wide"          "266"
             "tall"          "48"
             "visible"       "1"
             "enabled"       "1"
-            "image"         "replay/thumbnails/bg_black"
+            "image"         "replay/thumbnails/bg_blue"
             "scaleImage"        "1" 
         }
 
@@ -122,7 +104,7 @@
             "ControlName"       "Label"
             "fieldName"     "FreezeLabel"
             "font"          "DefaultSmall"
-            "xpos"          "c5"
+            "xpos"          "c2"
             "xpos_hidef"        "c65"
             "ypos"          "255"
             "ypos_hidef"        "256"
@@ -145,7 +127,7 @@
             "ControlName"       "Label"
             "fieldName"     "FreezeLabelKiller"
             "font"          "HudFontSmall"
-            "xpos"          "c15"            // No avatar image on X360
+            "xpos"          "c6"            // No avatar image on X360
             "xpos_hidef"        "c69"
             "ypos"          "266"
             "ypos_hidef"        "266"
@@ -158,7 +140,7 @@
             "visible"       "1"
             "enabled"       "1"
             "labelText"     "%killername%"
-            "textAlignment"     "west"
+            "textAlignment"     "Left"
         }
 
         "FreezePanelHealth"
@@ -167,7 +149,7 @@
             "fieldName"     "FreezePanelHealth"
             "xpos"          "c-30"
             "xpos_hidef"        "c35"
-            "ypos"          "253"
+            "ypos"          "254"
             "ypos_hidef"        "253"
             "ypos_lodef"        "223"
             "zpos"          "1"
@@ -237,7 +219,7 @@
             "dulltext"      "0"
             "brighttext"    "0"
         }
-    }          
+    }       
     
     "FreezePanelBase"   [$WIN32]
     {
@@ -256,34 +238,11 @@
             "xpos"          "8"
             "ypos"          "160"
             "zpos"          "0"
-            "wide"          "0"
-            "tall"          "0"
+            "wide"          "256"
+            "tall"          "33"
             "visible"       "1"
             "enabled"       "1"
             "image"         "replay/thumbnails/bg_blue"
-            "scaleImage"        "1" 
-            
-            "src_corner_height"     "23"                // pixels inside the image
-            "src_corner_width"      "23"
-                
-            "draw_corner_width"     "5"             // screen size of the corners ( and sides ), proportional
-            "draw_corner_height"    "5" 
-        }
-        "FreezePanelShadow"
-        {
-            "ControlName"       "CTFImagePanel"
-            "fieldName"     "FreezePanelShadow"
-            "xpos"          "8"
-            "ypos"          "160"
-            "zpos"          "0"
-            "wide"          "256"
-            "tall"          "33"
-            "alpha"         "175"
-            "visible"       "1"
-            "enabled"       "1"
-            "teambg_1"      "replay/thumbnails/bg_blue"
-            "teambg_2"      "replay/thumbnails/bg_blue"
-            "teambg_3"      "replay/thumbnails/bg_red"
             "scaleImage"        "1" 
             
             "src_corner_height"     "23"                // pixels inside the image
@@ -335,10 +294,10 @@
         {   
             "ControlName"   "Label"
             "fieldName"     "FreezeLabelKiller"
-            "font"          "HudFontSmallBold"
+            "font"          "HudFontSmall"
             "xpos"          "61"
             "ypos"          "173"
-            "zpos"          "1"
+            "zpos"          "5"
             "wide"          "252"
             "tall"          "18"
             "autoResize"    "0"
@@ -353,8 +312,8 @@
         {
             "ControlName"       "CAvatarImagePanel"
             "fieldName"     "AvatarImage"
-            "xpos"          "9999"
-            "ypos"          "9999"
+            "xpos"          "49"
+            "ypos"          "174"
             "zpos"          "0"
             "wide"          "14"
             "tall"          "14"
@@ -383,32 +342,11 @@
                 "xpos"          "95"
                 "ypos"          "4"
                 "zpos"          "5"
-                "wide"          "0"
-                "tall"          "0"
-                "visible"       "1"
-                "enabled"       "1"
-                "image"         "replay/thumbnails/bg_blue"
-                "scaleImage"        "1" 
-                
-                "src_corner_height"     "23"                // pixels inside the image
-                "src_corner_width"      "23"
-                    
-                "draw_corner_width"     "6"             // screen size of the corners ( and sides ), proportional
-                "draw_corner_height"    "6" 
-            }
-            "NemesisPanelShadow"
-            {
-                "ControlName"       "ScalableImagePanel"
-                "fieldName"     "NemesisPanelShadow"
-                "xpos"          "95"
-                "ypos"          "4"
-                "zpos"          "5"
                 "wide"          "161"
-                "tall"          "27"
-                "alpha"         "175"
+                "tall"          "30"
                 "visible"       "1"
                 "enabled"       "1"
-                "teambg_1"      "replay/thumbnails/bg_black"
+                "image"         "../hud/color_panel_brown"
                 "scaleImage"        "1" 
                 
                 "src_corner_height"     "23"                // pixels inside the image
@@ -490,7 +428,7 @@
             "tall"          "38"
             "visible"       "1"
             "enabled"       "1"
-            "image"         "replay/thumbnails/bg_blue"
+            "image"         "../hud/freezecam_black_bg"
             "scaleImage"        "1"
         }
         "ScreenshotIcon"

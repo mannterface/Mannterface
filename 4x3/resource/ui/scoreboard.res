@@ -13,15 +13,14 @@
         "visible"       "1"
         "enabled"       "1"
         "tabPosition"       "0"
-        "medal_width"       "20"
-        "avatar_width"      "57"    [$WIN32]
-        "name_width"        "165"   [$WIN32]
-        "name_width_short"  "85"    [$WIN32]        
-        "status_width"      "15"    [$WIN32]
-        "nemesis_width"     "15"    [$WIN32]
-        "class_width"       "15"    [$WIN32]
-        "score_width"       "36"
-        "ping_width"        "48"    [$WIN32]
+        "medal_width"       "14"
+        "avatar_width"      "50"    
+        "name_width"        "60"
+        "status_width"      "15"    
+        "nemesis_width"     "15"    
+        "class_width"       "15"    
+        "score_width"       "24"
+        "ping_width"        "24"
         "stats_width"       "30"
         "killstreak_width"  "20"
     }
@@ -49,7 +48,7 @@
         "xpos"          "c5"
         "ypos"          "c20"
         "zpos"          "0"
-        "wide"          "400"
+        "wide"          "250"
         "tall"          "24"
         "visible"       "1"
         "enabled"       "1"
@@ -65,12 +64,12 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "BlueTeamLabel"
-        "font"          "HudFontMediumBold"
+        "font"          "HudFontSmallBold"
         "labelText"     "%blueteamname%"
         "textAlignment"     "east"
-        "xpos"          "c45" [!$OSX]
+        "xpos"          "c0" [!$OSX]
         "ypos"          "c20"   [$WIN32]
-        "wide"          "359"
+        "wide"          "250"
         "tall"          "24"
         "autoResize"        "0"
         "pinCorner"     "0"
@@ -127,17 +126,17 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "BlueTeamPlayerCount"
-        "xpos"          "c5"
+        "xpos"          "c0"
         "ypos"          "c20"
         "zpos"          "1"
-        "wide"          "359"
+        "wide"          "250"
         "tall"          "24"
         "visible"       "1"
         "enabled"       "1"
         "textAlignment" "center"
         "labeltext"     "%blueteamplayercount%"
         "fgcolor"       "TanLight"
-        "font"          "HudFontSmallBold"
+        "font"          "HudFontSmallestBold"
         
         if_mvm
         {
@@ -151,7 +150,7 @@
         "xpos"          "c5"
         "ypos"          "c50"
         "zpos"          "0"
-        "wide"          "400"
+        "wide"          "250"
         "tall"          "144"
         "visible"       "1"
         "enabled"       "1"
@@ -170,7 +169,7 @@
         "xpos"          "c5"
         "ypos"          "c50"
         "zpos"          "20"
-        "wide"          "400"
+        "wide"          "250"
         "tall"          "144"   [$WIN32]
         "pinCorner"     "0"
         "visible"       "1"
@@ -209,10 +208,10 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "RedScoreBG2"
-        "xpos"          "c-405"
+        "xpos"          "c-255"
         "ypos"          "c20"
         "zpos"          "0"
-        "wide"          "400"
+        "wide"          "250"
         "tall"          "24"
         "visible"       "1"
         "enabled"       "1"
@@ -228,10 +227,10 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "RedTeamLabel"
-        "font"          "HudFontMediumBold"
+        "font"          "HudFontSmallBold"
         "labelText"     "%redteamname%"
         "textAlignment"     "west"
-        "xpos"          "c-402" [!$OSX]
+        "xpos"          "c-250" [!$OSX]
         "ypos"          "c20"   [$WIN32]
         "wide"          "359"
         "tall"          "24"
@@ -290,7 +289,7 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "RedTeamPlayerCount"
-        "xpos"          "c-404"
+        "xpos"          "c-300"
         "ypos"          "c20"
         "zpos"          "1"
         "wide"          "359"
@@ -300,7 +299,7 @@
         "textAlignment" "center"
         "labeltext"     "%redteamplayercount%"
         "fgcolor"       "TanLight"
-        "font"          "HudFontSmallBold"
+        "font"          "HudFontSmallestBold"
         
         if_mvm
         {
@@ -311,10 +310,10 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "RedMainBG"
-        "xpos"          "c-405"
+        "xpos"          "c-255"
         "ypos"          "c50"
         "zpos"          "0"
-        "wide"          "400"
+        "wide"          "250"
         "tall"          "144"
         "visible"       "1"
         "enabled"       "1"
@@ -330,10 +329,10 @@
     {
         "ControlName"   "SectionedListPanel"
         "fieldName"     "RedPlayerList"
-        "xpos"          "c-405"
+        "xpos"          "c-255"
         "ypos"          "c50"
         "zpos"          "20"
-        "wide"          "400"
+        "wide"          "250"
         "tall"          "144"   [$WIN32]
         "pinCorner"     "0"
         "visible"       "1"
@@ -769,10 +768,10 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "ShadedBar"
-        "xpos"          "c-405"
+        "xpos"          "c-255"
         "ypos"          "c200"  [$WIN32]
         "zpos"          "2"
-        "wide"          "810"
+        "wide"          "510"
         "tall"          "36"
         "autoResize"    "0"
         "pinCorner"     "0"
@@ -847,11 +846,11 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "Kills2"
-            "font"          "HudFontBiggerBold"
+            "font"          "HudFontMediumSmallBold"
             "labelText"     "%kills%"
-            "textAlignment"     "east"
-            "xpos"          "0"
-            "ypos"          "0" [$WIN32]
+            "textAlignment"     "west"
+            "xpos"          "160"
+            "ypos"          "-10" [$WIN32]
             "zpos"          "3"
             "wide"          "52"
             "tall"          "40"
@@ -877,11 +876,11 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "Deaths2"
-            "font"          "HudFontBiggerBold"
+            "font"          "HudFontMediumSmallBold"
             "labelText"     "%deaths%"
             "textAlignment"     "west"
-            "xpos"          "60"
-            "ypos"          "0" [$WIN32]
+            "xpos"          "160"
+            "ypos"          "5" [$WIN32]
             "zpos"          "3"
             "wide"          "52"
             "tall"          "40"
@@ -898,8 +897,8 @@
             "font"          "HudFontBiggerBold"
             "labelText"     ":"
             "textAlignment"     "center"
-            "xpos"          "52"
-            "ypos"          "0"    [$WIN32]
+            "xpos"          "9999"
+            "ypos"          "9999 "    [$WIN32]
             "zpos"          "3"
             "wide"          "8"
             "tall"          "40"
@@ -926,9 +925,9 @@
             "ControlName"   "CExLabel"
             "fieldName"     "DamageLabel2"
             "font"          "HudFontSmall"
-            "labelText"     "Damage"
+            "labelText"     "DMG"
             "textAlignment" "center"
-            "xpos"          "114"   [$WIN32]
+            "xpos"          "205"   [$WIN32]
             "ypos"          "2" [$WIN32]
             "zpos"          "3"
             "wide"          "64"
@@ -958,7 +957,7 @@
             "font"          "HudFontSmallBold"
             "labelText"     "%damage%"
             "textAlignment" "center"
-            "xpos"          "124"   [$WIN32]
+            "xpos"          "215"   [$WIN32]
             "ypos"          "18"    [$WIN32]
             "zpos"          "3"
             "wide"          "44"
@@ -974,9 +973,9 @@
             "ControlName"       "CExLabel"
             "fieldName"     "AssistsLabel"
             "font"          "HudFontSmall"
-            "labelText"     "#TF_ScoreBoard_AssistsLabel"
+            "labelText"     "AST:"
             "textAlignment"     "east"
-            "xpos"          "168"
+            "xpos"          "238"
             "ypos"          "2" [$WIN32]
             "zpos"          "3"
             "wide"          "83"
@@ -1006,7 +1005,7 @@
             "font"          "HudFontSmallBold"
             "labelText"     "%assists%"
             "textAlignment" "west"
-            "xpos"          "257"   [$WIN32]
+            "xpos"          "327"   [$WIN32]
             "ypos"          "2" [$WIN32]
             "zpos"          "3"
             "wide"          "18"
@@ -1034,9 +1033,9 @@
             "ControlName"       "CExLabel"
             "fieldName"     "BonusLabel"
             "font"          "HudFontSmall"
-            "labelText"     "#TF_ScoreBoard_BonusLabel"
+            "labelText"     "BON:"
             "textAlignment"     "east"
-            "xpos"          "168"
+            "xpos"          "238"
             "ypos"          "18"    [$WIN32]
             "zpos"          "3"
             "wide"          "83"
@@ -1054,7 +1053,7 @@
             "font"          "HudFontSmallBold"
             "labelText"     "%bonus%"
             "textAlignment" "west"
-            "xpos"          "257"   [$WIN32]
+            "xpos"          "327"   [$WIN32]
             "ypos"          "18"    [$WIN32]
             "zpos"          "3"
             "wide"          "18"
@@ -1070,9 +1069,9 @@
             "ControlName"       "CExLabel"
             "fieldName"     "CapturesLabel"
             "font"          "HudFontSmall"
-            "labelText"     "#TF_ScoreBoard_CapturesLabel"
+            "labelText"     "CAP:"
             "textAlignment"     "east"
-            "xpos"          "275"
+            "xpos"          "295"
             "ypos"          "2" [$WIN32]
             "zpos"          "3"
             "wide"          "83"
@@ -1102,7 +1101,7 @@
             "font"          "HudFontSmallBold"
             "labelText"     "%captures%"
             "textAlignment" "west"
-            "xpos"          "364"   [$WIN32]
+            "xpos"          "384"   [$WIN32]
             "ypos"          "2" [$WIN32]
             "zpos"          "3"
             "wide"          "18"
@@ -1118,9 +1117,9 @@
             "ControlName"       "CExLabel"
             "fieldName"     "DefensesLabel"
             "font"          "HudFontSmall"
-            "labelText"     "#TF_ScoreBoard_DefensesLabel"
+            "labelText"     "DEF:"
             "textAlignment"     "east"
-            "xpos"          "275"
+            "xpos"          "295"
             "ypos"          "18"    [$WIN32]
             "zpos"          "3"
             "wide"          "83"
@@ -1150,7 +1149,7 @@
             "font"          "HudFontSmallBold"
             "labelText"     "%defenses%"
             "textAlignment"     "west"
-            "xpos"          "364"   [$WIN32]
+            "xpos"          "384"   [$WIN32]
             "ypos"          "18"    [$WIN32]
             "zpos"          "3"
             "wide"          "18"
@@ -1166,9 +1165,9 @@
             "ControlName"       "CExLabel"
             "fieldName"     "TeleportsLabel"
             "font"          "HudFontSmall"
-            "labelText"     "#TF_ScoreBoard_TeleportsLabel"
+            "labelText"     "TEL:"
             "textAlignment"     "east"
-            "xpos"          "382"
+            "xpos"          "352"
             "ypos"          "2" [$WIN32]
             "zpos"          "3"
             "wide"          "83"
@@ -1198,7 +1197,7 @@
             "font"          "HudFontSmallBold"
             "labelText"     "%teleports%"
             "textAlignment"     "west"
-            "xpos"          "471"   [$WIN32]
+            "xpos"          "441"   [$WIN32]
             "ypos"          "2" [$WIN32]
             "zpos"          "3"
             "wide"          "18"
@@ -1214,9 +1213,9 @@
             "ControlName"       "CExLabel"
             "fieldName"     "DestructionLabel"
             "font"          "HudFontSmall"
-            "labelText"     "#TF_ScoreBoard_DestructionLabel"
+            "labelText"     "DES:"
             "textAlignment"     "east"
-            "xpos"          "382"
+            "xpos"          "352"
             "ypos"          "18"    [$WIN32]
             "zpos"          "3"
             "wide"          "83"
@@ -1246,7 +1245,7 @@
             "font"          "HudFontSmallBold"
             "labelText"     "%destruction%"
             "textAlignment"     "west"
-            "xpos"          "471"   [$WIN32]
+            "xpos"          "441"   [$WIN32]
             "ypos"          "18"    [$WIN32]
             "zpos"          "3"
             "wide"          "18"
@@ -1262,9 +1261,9 @@
             "ControlName"       "CExLabel"
             "fieldName"     "DominationLabel"
             "font"          "HudFontSmall"
-            "labelText"     "#TF_ScoreBoard_DominationLabel"
+            "labelText"     "DOM:"
             "textAlignment"     "east"
-            "xpos"          "489"
+            "xpos"          "406"
             "ypos"          "2" [$WIN32]
             "zpos"          "3"
             "wide"          "83"
@@ -1294,7 +1293,7 @@
             "font"          "HudFontSmallBold"
             "labelText"     "%dominations%"
             "textAlignment"     "west"
-            "xpos"          "578"   [$WIN32]
+            "xpos"          "495"   [$WIN32]
             "ypos"          "2" [$WIN32]
             "zpos"          "3"
             "wide"          "18"
@@ -1310,9 +1309,9 @@
             "ControlName"       "CExLabel"
             "fieldName"     "RevengeLabel"
             "font"          "HudFontSmall"
-            "labelText"     "#TF_ScoreBoard_RevengeLabel"
+            "labelText"     "REV:"
             "textAlignment"     "east"
-            "xpos"          "489"
+            "xpos"          "406"
             "ypos"          "18"    [$WIN32]
             "zpos"          "3"
             "wide"          "83"
@@ -1345,7 +1344,7 @@
             "font"          "HudFontSmallBold"
             "labelText"     "%Revenge%"
             "textAlignment"     "west"
-            "xpos"          "578"   [$WIN32]
+            "xpos"          "495"   [$WIN32]
             "ypos"          "18"    [$WIN32]
             "zpos"          "3"
             "wide"          "18"
@@ -1361,9 +1360,9 @@
             "ControlName"       "CExLabel"
             "fieldName"     "HeadshotsLabel"
             "font"          "HudFontSmall"
-            "labelText"     "#TF_ScoreBoard_HeadshotsLabel"
+            "labelText"     "HST:"
             "textAlignment"     "east"
-            "xpos"          "596"
+            "xpos"          "460"
             "ypos"          "2" [$WIN32]
             "zpos"          "3"
             "wide"          "83"
@@ -1393,7 +1392,7 @@
             "font"          "HudFontSmallBold"
             "labelText"     "%headshots%"
             "textAlignment"     "west"
-            "xpos"          "685"   [$WIN32]
+            "xpos"          "549"   [$WIN32]
             "ypos"          "2" [$WIN32]
             "zpos"          "3"
             "wide"          "18"
@@ -1421,9 +1420,9 @@
             "ControlName"       "CExLabel"
             "fieldName"     "BackstabsLabel"
             "font"          "HudFontSmall"
-            "labelText"     "#TF_ScoreBoard_BackstabsLabel"
+            "labelText"     "BST:"
             "textAlignment"     "east"
-            "xpos"          "596"
+            "xpos"          "460"
             "ypos"          "18"    [$WIN32]
             "zpos"          "3"
             "wide"          "83"
@@ -1441,7 +1440,7 @@
             "font"          "HudFontSmallBold"
             "labelText"     "%backstabs%"
             "textAlignment" "west"
-            "xpos"          "685"   [$WIN32]
+            "xpos"          "549"   [$WIN32]
             "ypos"          "18"    [$WIN32]
             "zpos"          "3"
             "wide"          "18"
@@ -1457,9 +1456,9 @@
             "ControlName"       "CExLabel"
             "fieldName"     "HealingLabel"
             "font"          "HudFontSmall"
-            "labelText"     "#TF_ScoreBoard_HealingLabel"
+            "labelText"     "HEA:"
             "textAlignment"     "east"
-            "xpos"          "691"
+            "xpos"          "514"
             "ypos"          "2" [$WIN32]
             "zpos"          "3"
             "wide"          "83"
@@ -1489,7 +1488,7 @@
             "font"          "HudFontSmallBold"
             "labelText"     "%healing%"
             "textAlignment"     "west"
-            "xpos"          "779"   [$WIN32]
+            "xpos"          "603"   [$WIN32]
             "ypos"          "2" [$WIN32]
             "zpos"          "3"
             "wide"          "30"
@@ -1505,9 +1504,9 @@
             "ControlName"       "CExLabel"
             "fieldName"     "InvulnLabel"
             "font"          "HudFontSmall"
-            "labelText"     "#TF_ScoreBoard_InvulnLabel"
+            "labelText"     "INV:"
             "textAlignment"     "east"
-            "xpos"          "691"
+            "xpos"          "514"
             "ypos"          "18"    [$WIN32]
             "zpos"          "3"
             "wide"          "83"
@@ -1537,7 +1536,7 @@
             "font"          "HudFontSmallBold"
             "labelText"     "%invulns%"
             "textAlignment"     "west"
-            "xpos"          "779"   [$WIN32]
+            "xpos"          "603"   [$WIN32]
             "ypos"          "18"    [$WIN32]
             "zpos"          "3"
             "wide"          "30"
