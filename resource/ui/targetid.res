@@ -98,7 +98,7 @@
         "xpos"          "8"
         "ypos"          "14"
         "zpos"          "1"
-        "wide"          "200"
+        "wide"          "250"
         "tall"          "18"
         "autoResize"        "0"
         "pinCorner"     "0"
@@ -118,7 +118,7 @@
         "xpos"          "0"
         "ypos"          "-3"    [$WIN32]        
         "zpos"          "1"
-        "wide"          "200"
+        "wide"          "250"
         "tall"          "18"
         "autoResize"        "0"
         "pinCorner"     "0"

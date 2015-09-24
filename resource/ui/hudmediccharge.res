@@ -341,8 +341,8 @@
         "ControlName"           "ContinuousProgressBar"
         "fieldName"             "ChargeMeter"
         "font"                  "Default"
-        "xpos"                  "2"
-        "ypos"                  "17"
+        "xpos"                  "2" //2
+        "ypos"                  "17" //17
         "zpos"                  "3"
         "wide"                  "36"
         "tall"                  "3"
