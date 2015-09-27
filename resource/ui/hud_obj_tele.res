@@ -14,32 +14,14 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 	}
-	"ClassBG"
-	{
-		"ControlName"	    	"CTFImagePanel"
-		"fieldName"	      	"ClassBG"
-		"xpos"		        	"0"
-		"ypos"		        	"0"
-		"zpos"		        	"2"
-		"wide"		        	"120"
-		"tall"		         	"60"
-		""alpha" "255""					"175"
-		"visible"	        	"1"
-		"enabled"	        	"1"
-		"image"					"replay/thumbnails/bg_black"
-		"scaleImage"	    	"1"	
-		"src_corner_height"	 "10"
-		"src_corner_width"	 "10"
-		"draw_corner_width"	 "0"	
-		"draw_corner_height" "0"	
-	}
+	
 	"Background"
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
-		"xpos"			"99999"//0
+		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-4"
+		"zpos"			"-1"
 		"wide"			"120"
 		"tall"			"31"
 		"visible"		"1"
@@ -48,6 +30,7 @@
 		"icon"			"obj_status_background_disabled"
 		"iconColor"		"255 255 255 255"
 	}
+	
 	"Icon_Teleport"
 	{
 		"ControlName"	"CIconPanel"

@@ -19,7 +19,7 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"Background"
-		"xpos"			"99999"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
 		"wide"			"120"
@@ -27,7 +27,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
-		"icon"			"asdf"
+		"icon"			"obj_status_background_red"
 		"iconColor"		"255 255 255 255"
 	}
 	
@@ -58,7 +58,7 @@
 
 		"NotBuiltLabel"
 		{
-			"ControlName"	"CTFLabel"
+			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
 			"font"			"DefaultSmall"
 			"xpos"			"60"
@@ -116,7 +116,7 @@
 
 			"BuildingLabel"
 			{
-				"ControlName"	"CTFLabel"
+				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
 				"font"			"DefaultSmall"
 				"xpos"			"0"

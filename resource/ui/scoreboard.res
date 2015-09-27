@@ -373,13 +373,19 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "ServerLabel"
-        "xpos"          "9999"
-        "ypos"          "9999"
-        "zpos"          "0"
-        "wide"          "0"
-        "tall"          "0"
-        "visible"       "0"
-        "enabled"       "0"     
+        "font"          "HudFontSmallestBold"
+        "labelText"     "%server%"
+        "textAlignment"     "west"
+        "xpos"          "20"
+        "ypos"          "c-10"    [$WIN32]
+        "zpos"          "4"
+        "wide"          "816"
+        "tall"          "20"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "fgcolor"       "TanLight"
         
         if_mvm
         {
@@ -425,7 +431,7 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "Spectators"
-        "font"          "ScoreboardVerySmall"
+        "font"          "HudFontSmallestBold"
         "labelText"     "%spectators%"
         "textAlignment"     "west"
         "xpos"          "20"
@@ -506,14 +512,19 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "mapname"
-        "xpos"          "9999"
-        "ypos"          "9999"
-        "zpos"          "0"
-        "wide"          "0"
-        "tall"          "0"
-        "visible"       "0"
-        "enabled"       "0"     
-
+        "font"          "HudFontMediumBold"
+        "labelText"     "%mapname%"
+        "textAlignment"     "west"
+        "xpos"          "20"
+        "ypos"          "c-25"    [$WIN32]
+        "zpos"          "4"
+        "wide"          "816"
+        "tall"          "20"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "fgcolor"       "TanLight"
         if_mvm
         {
             "visible"       "0"

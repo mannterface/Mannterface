@@ -129,8 +129,8 @@
     {
         "ControlName" "EditablePanel"
         "fieldName" "VersionPanel"
-        "xpos" "770"
-        "ypos" "443"
+        "xpos" "750"
+        "ypos" "437"
         "zpos" "5"
         "wide" "125"
         "tall" "50"
@@ -141,9 +141,9 @@
         {
             "ControlName"   "CExLabel"
             "fieldName" "LastUpdate"
-            "font"  "HudFontSmallestBold"
+            "font"  "HudFontSmallMediumBold"
             "fgcolor_override"   "TanLight"
-            "labelText" "15.09.23.0"//xx
+            "labelText" "15.09.27.0"//xx
             "textAlignment" "west"
             "xpos"  "20"
             "ypos"  "5"
@@ -624,11 +624,11 @@
         "tall"          "24"
         "visible"       "1"
 
-        "navUp"         "PlayPVEButton"
-        "navDown"       "CharacterSetupButton"
-        "navLeft"       "ServerBrowserButton"
-        "navRight"      "TrainingButton"
-        "navToRelay"    "SubButton"
+        //"navUp"         "PlayPVEButton"
+        //"navDown"       "CharacterSetupButton"
+        //"navLeft"       "ServerBrowserButton"
+        //"navRight"      "TrainingButton"
+        //"navToRelay"    "SubButton"
 
         
         "SubButton"
@@ -696,11 +696,11 @@
         "visible"       "1"
         "enabled"       "1"
 
-        "navUp"         "MOTD_Panel"                // pass through when naving up to this or the fully displayed MOTD
-        "navDown"       "Notifications_Panel"       // when a sub element can't nav down it will pass through this
-        "navLeft"       "Notifications_Panel"       // when a sub element can't nav left it will pass through this
-        "navRight"      "MOTD_Panel"                // pass through when naving right to this or the fully displayed MOTD
-        "navToRelay"    "MOTD_ShowButtonPanel_SB"   // when naving to this it auto navs to this child instead
+        //"navUp"         "MOTD_Panel"                // pass through when naving up to this or the fully displayed MOTD
+        //"navDown"       "Notifications_Panel"       // when a sub element can't nav down it will pass through this
+        //"navLeft"       "Notifications_Panel"       // when a sub element can't nav left it will pass through this
+        //"navRight"      "MOTD_Panel"                // pass through when naving right to this or the fully displayed MOTD
+        //"navToRelay"    "MOTD_ShowButtonPanel_SB"   // when naving to this it auto navs to this child instead
         
         "MOTD_ShowButtonPanel_SB"
         {
@@ -763,9 +763,9 @@
         "paintbackground"   "0"
         "border"        "MainMenuHighlightBorder"
 
-        "navDown"       "SettingsButton"        // when a sub element can't nav down it will pass through this
-        "navLeft"       "MOTD_ShowButtonPanel"  // when a sub element can't nav left it will pass through this
-        "navToRelay"    "MOTD_URLButton"        // when naving to this it auto navs to this child instead
+        //"navDown"       "SettingsButton"        // when a sub element can't nav down it will pass through this
+        //"navLeft"       "MOTD_ShowButtonPanel"  // when a sub element can't nav left it will pass through this
+        //"navToRelay"    "MOTD_URLButton"        // when naving to this it auto navs to this child instead
         
         "MOTD_HeaderContainer"
         {
@@ -819,7 +819,7 @@
             "brighttext"    "0"
             "default"       "0"
 
-            "navDown"           "MOTD_URLButton"
+            //"navDown"           "MOTD_URLButton"
             "navActivate"       "<QuickplayButton"
 
             "sound_depressed"   "UI/buttonclick.wav"
@@ -1015,9 +1015,9 @@
             "command"       "motd_viewurl"
             "proportionaltoparent" "1"
 
-            "navUp"         "MOTD_CloseButton"
-            "navLeft"       "MOTD_PrevButton"
-            "navRight"      "MOTD_NextButton"
+            //"navUp"         "MOTD_CloseButton"
+            //"navLeft"       "MOTD_PrevButton"
+            //"navRight"      "MOTD_NextButton"
 
             "sound_depressed"   "UI/buttonclick.wav"
             "sound_released"    "UI/buttonclickrelease.wav"
@@ -1050,8 +1050,8 @@
             "default"       "1"
             "Command"       "motd_prev"
 
-            "navUp"         "MOTD_CloseButton"
-            "navRight"      "MOTD_URLButton"
+            //"navUp"         "MOTD_CloseButton"
+            //"navRight"      "MOTD_URLButton"
 
             "sound_depressed"   "UI/buttonclick.wav"
             "sound_released"    "UI/buttonclickrelease.wav"
@@ -1097,8 +1097,8 @@
             "default"       "1"
             "Command"       "motd_next"
 
-            "navUp"         "MOTD_CloseButton"
-            "navLeft"       "MOTD_URLButton"
+            //"navUp"         "MOTD_CloseButton"
+            //"navLeft"       "MOTD_URLButton"
 
             "sound_depressed"   "UI/buttonclick.wav"
             "sound_released"    "UI/buttonclickrelease.wav"
@@ -1137,11 +1137,11 @@
         "visible"       "1"
         "enabled"       "1"
 
-        "navUp"         "MOTD_ShowButtonPanel"
-        "navDown"       "SettingsButton"
-        "navLeft"       "QuickplayButton"
-        "navRight"      "Notifications_Panel"
-        "navToRelay"    "Notifications_ShowButtonPanel_SB"
+        //"navUp"         "MOTD_ShowButtonPanel"
+        //"navDown"       "SettingsButton"
+        //"navLeft"       "QuickplayButton"
+        //"navRight"      "Notifications_Panel"
+        //"navToRelay"    "Notifications_ShowButtonPanel_SB"
         
         "SubImage"
         {
@@ -1240,11 +1240,11 @@
         "paintbackground"   "0"
         "border"        "MainMenuHighlightBorder"
 
-        "navUp"         "MOTD_ShowButtonPanel"
-        "navDown"       "SettingsButton"
-        "navLeft"       "Notifications_ShowButtonPanel"
-        "navRight"      "MOTD_ShowButtonPanel"
-        "navToRelay"    "Notifications_CloseButton"
+        //"navUp"         "MOTD_ShowButtonPanel"
+        //"navDown"       "SettingsButton"
+        //"navLeft"       "Notifications_ShowButtonPanel"
+        //"navRight"      "MOTD_ShowButtonPanel"
+        //"navToRelay"    "Notifications_CloseButton"
         
         "Notifications_CloseButton"
         {
@@ -1354,8 +1354,8 @@
         "enabled"       "1"
         "tabPosition"   "0"
         
-        "navUp"         "Notifications_Panel"
-        "navLeft"       "SettingsButton"
+        //"navUp"         "Notifications_Panel"
+        //"navLeft"       "SettingsButton"
 
         "SubButton"
         {
@@ -1468,19 +1468,19 @@
     {
         "ControlName"   "EditablePanel"
         "fieldname"     "TrainingButton"
-        "xpos"          "9999"
-        "ypos"          "9999"
+        "xpos"          "c306"
+        "ypos"          "r15"
         "zpos"          "12"
-        "wide"          "24"
-        "tall"          "24"
+        "wide"          "15"
+        "tall"          "15"
         "visible"       "1"
         "PaintBackgroundType"   "2"
 
-        "navUp"         "PlayPVEButton"
-        "navDown"       "GeneralStoreButton"
-        "navLeft"       "CreateServerButton"
-        "navRight"      "Notifications_ShowButtonPanel"
-        "navToRelay"    "SubButton"
+        //"navUp"         "PlayPVEButton"
+        //"navDown"       "GeneralStoreButton"
+        //"navLeft"       "CreateServerButton"
+        //"navRight"      "Notifications_ShowButtonPanel"
+        //"navToRelay"    "SubButton"
 
 
         "SubButton"
@@ -1522,8 +1522,8 @@
                 "xpos"          "3"
                 "ypos"          "3"
                 "zpos"          "1"
-                "wide"          "12"
-                "tall"          "12"
+                "wide"          "10"
+                "tall"          "10"
                 "visible"       "1"
                 "enabled"       "1"
                 "scaleImage"    "1"
@@ -1535,19 +1535,19 @@
     {
         "ControlName"   "EditablePanel"
         "fieldname"     "SteamWorkshopButton"
-        "xpos"          "c268"
-        "ypos"          "r30"
+        "xpos"          "c246"
+        "ypos"          "r15"
         "zpos"          "11"
-        "wide"          "18"
-        "tall"          "18"
+        "wide"          "15"
+        "tall"          "15"
         "visible"       "1"
         "PaintBackgroundType"   "2"
 
-        "navUp"         "GeneralStoreButton"
-        "navDown"       "VRModeButton"
-        "navLeft"       "ReplayBrowserButton"
-        "navRight"      "Notifications_ShowButtonPanel"
-        "navToRelay"    "SubButton"
+        //"navUp"         "GeneralStoreButton"
+        //"navDown"       "VRModeButton"
+        //"navLeft"       "ReplayBrowserButton"
+        //"navRight"      "Notifications_ShowButtonPanel"
+        //"navToRelay"    "SubButton"
 
 
         "SubButton"
@@ -1589,8 +1589,8 @@
                 "xpos"          "3"
                 "ypos"          "3"
                 "zpos"          "1"
-                "wide"          "12"
-                "tall"          "12"
+                "wide"          "10"
+                "tall"          "10"
                 "visible"       "1"
                 "enabled"       "1"
                 "scaleImage"    "1"
@@ -1610,10 +1610,10 @@
         "visible"       "1"
         "PaintBackgroundType"   "2"
 
-        "navUp"         "ReplayBrowserButton"
-        "navDown"       "QuitButton"
-        "navRight"      "Notifications_ShowButtonPanel"
-        "navToRelay"    "SubButton"
+        //"navUp"         "ReplayBrowserButton"
+        //"navDown"       "QuitButton"
+        //"navRight"      "Notifications_ShowButtonPanel"
+        //"navToRelay"    "SubButton"
 
 
         "SubButton"
@@ -1673,15 +1673,15 @@
         "xpos"          "c246"
         "ypos"          "r30"
         "zpos"          "11"
-        "wide"          "18"
-        "tall"          "18"
+        "wide"          "15"
+        "tall"          "15"
         "visible"       "1"
         "PaintBackgroundType"   "2"
 
-        "navUp"         "CharacterSetupButton"
-        "navDown"       "VRModeButton"
-        "navRight"      "SteamWorkshopButton"
-        "navToRelay"    "SubButton"
+        //"navUp"         "CharacterSetupButton"
+        //"navDown"       "VRModeButton"
+        //"navRight"      "SteamWorkshopButton"
+        //"navToRelay"    "SubButton"
 
 
         "SubButton"
@@ -1723,8 +1723,8 @@
                 "xpos"          "3"
                 "ypos"          "3"
                 "zpos"          "1"
-                "wide"          "12"
-                "tall"          "12"
+                "wide"          "10"
+                "tall"          "10"
                 "visible"       "1"
                 "enabled"       "1"
                 "scaleImage"    "1"
@@ -1744,11 +1744,11 @@
         "visible"       "1"
         "PaintBackgroundType"   "2"
 
-        "navUp"         "ChangeServerButton"
-        "navDown"       "SteamWorkshopButton"
-        "navLeft"       "CharacterSetupButton"
-        "navRight"      "Notifications_ShowButtonPanel"
-        "navToRelay"    "SubButton"
+        //"navUp"         "ChangeServerButton"
+        //"navDown"       "SteamWorkshopButton"
+        //"navLeft"       "CharacterSetupButton"
+        //"navRight"      "Notifications_ShowButtonPanel"
+        //"navToRelay"    "SubButton"
 
 
         "SubButton"
@@ -1826,10 +1826,10 @@
         "visible"       "1"
         "PaintBackgroundType"   "2"
 
-        "navUp"         "ChangeServerButton"
-        "navDown"       "ReplayBrowserButton"
-        "navRight"      "GeneralStoreButton"
-        "navToRelay"    "SubButton"
+        //"navUp"         "ChangeServerButton"
+        //"navDown"       "ReplayBrowserButton"
+        //"navRight"      "GeneralStoreButton"
+        //"navToRelay"    "SubButton"
 
 
         "SubButton"
@@ -2087,9 +2087,9 @@
         "visible"       "1"
         "PaintBackgroundType"   "0"
 
-        "navDown"       "PlayPVEButton"
-        "navRight"      "Notifications_ShowButtonPanel"
-        "navToRelay"    "SubButton"
+        //"navDown"       "PlayPVEButton"
+        //"navRight"      "Notifications_ShowButtonPanel"
+        //"navToRelay"    "SubButton"
 
         "SubButton"
         {
@@ -2154,10 +2154,10 @@
         "visible"       "1"
         "PaintBackgroundType"   "0"
 
-        "navUp"         "ServerBrowserButton"
-        "navDown"       "QuickplayChangeButton"
-        "navRight"      "CallVoteButton"
-        "navToRelay"    "SubButton"
+        //"navUp"         "ServerBrowserButton"
+        //"navDown"       "QuickplayChangeButton"
+        //"navRight"      "CallVoteButton"
+        //"navToRelay"    "SubButton"
 
         "SubButton"
         {
@@ -2222,10 +2222,10 @@
         "visible"       "1"
         "PaintBackgroundType"   "0"
 
-        "navUp"         "ResumeGameButton"
-        "navDown"       "ChangeServerButton"
-        "navRight"      "Notifications_ShowButtonPanel"
-        "navToRelay"    "SubButton"
+        //"navUp"         "ResumeGameButton"
+        //"navDown"       "ChangeServerButton"
+        //"navRight"      "Notifications_ShowButtonPanel"
+        //"navToRelay"    "SubButton"
 
         "SubButton"
         {
@@ -2353,10 +2353,10 @@
         "visible"       "1"
         "PaintBackgroundType"   "0"
 
-        "navUp"         "QuickplayButton"
-        "navDown"       "ServerBrowserButton"
-        "navRight"      "Notifications_ShowButtonPanel"
-        "navToRelay"    "SubButton"
+        //"navUp"         "QuickplayButton"
+        //"navDown"       "ServerBrowserButton"
+        //"navRight"      "Notifications_ShowButtonPanel"
+        //"navToRelay"    "SubButton"
 
         "SubButton"
         {
@@ -2424,10 +2424,10 @@
         "visible"       "1"
         "PaintBackgroundType"   "0"
 
-        "navUp"         "PlayPVEButton"
-        "navDown"       "ResumeGameButton"
-        "navRight"      "CreateServerButton"
-        "navToRelay"    "SubButton"
+        //"navUp"         "PlayPVEButton"
+        //"navDown"       "ResumeGameButton"
+        //"navRight"      "CreateServerButton"
+        //"navToRelay"    "SubButton"
 
 
         "SubButton"
@@ -2493,10 +2493,10 @@
         "visible"       "1"
         "PaintBackgroundType"   "0"
 
-        "navUp"         "QuickplayChangeButton"
-        "navDown"       "CharacterSetupButton"
-        "navRight"      "Notifications_ShowButtonPanel"
-        "navToRelay"    "SubButton"
+        //"navUp"         "QuickplayChangeButton"
+        //"navDown"       "CharacterSetupButton"
+        //"navRight"      "Notifications_ShowButtonPanel"
+        //"navToRelay"    "SubButton"
 
         "SubButton"
         {
@@ -2559,10 +2559,10 @@
         "tall"          "20"
         "visible"       "1"
 
-        "navLeft"       "ResumeGameButton"
-        "navDown"       "QuickplayChangeButton"
-        "navRight"      "MutePlayersButton"
-        "navToRelay"    "SubButton"
+        //"navLeft"       "ResumeGameButton"
+        //"navDown"       "QuickplayChangeButton"
+        //"navRight"      "MutePlayersButton"
+        //"navToRelay"    "SubButton"
 
         "SubButton"
         {
@@ -2625,10 +2625,10 @@
         "tall"          "20"
         "visible"       "1"
 
-        "navLeft"       "CallVoteButton"
-        "navDown"       "QuickplayChangeButton"
-        "navRight"      "RequestCoachButton"
-        "navToRelay"    "SubButton"
+        //"navLeft"       "CallVoteButton"
+        //"navDown"       "QuickplayChangeButton"
+        //"navRight"      "RequestCoachButton"
+        //"navToRelay"    "SubButton"
 
         "SubButton"
         {
@@ -2692,10 +2692,10 @@
         "tall"          "20"
         "visible"       "1"
 
-        "navLeft"       "MutePlayersButton"
-        "navRight"      "Notifications_ShowButtonPanel"
-        "navDown"       "QuickplayChangeButton"
-        "navToRelay"    "SubButton"
+        //"navLeft"       "MutePlayersButton"
+        //"navRight"      "Notifications_ShowButtonPanel"
+        //"navDown"       "QuickplayChangeButton"
+        //"navToRelay"    "SubButton"
 
         "SubButton"
         {
@@ -2781,11 +2781,11 @@
     {
         "ControlName"   "CExImageButton"
         "fieldName"     "NewUserForumsButton"
-        "xpos"          "c290"
+        "xpos"          "c261"
         "ypos"          "r30"
         "zpos"          "2"
-        "wide"          "18"
-        "tall"          "18"
+        "wide"          "15"
+        "tall"          "15"
         "autoResize"    "0"
         "pinCorner"     "3"
         "visible"       "1"
@@ -2799,9 +2799,9 @@
         "default"       "1"
         "Command"       "view_newuser_forums"
 
-        "navUp"         "VRModeButton"
-        "navLeft"       "QuitButton"
-        "navRight"      "AchievementsButton"
+        //"navUp"         "VRModeButton"
+        //"navLeft"       "QuitButton"
+        //"navRight"      "AchievementsButton"
 
         "sound_depressed"   "UI/buttonclick.wav"
         "sound_released"    "UI/buttonclickrelease.wav"
@@ -2818,8 +2818,8 @@
             "xpos"          "3"
             "ypos"          "2"
             "zpos"          "1"
-            "wide"          "12"
-            "tall"          "12"
+            "wide"          "10"
+            "tall"          "10"
             "visible"       "1"
             "enabled"       "1"
             "image"         "glyph_tutorial"
@@ -2831,11 +2831,11 @@
     {
         "ControlName"   "CExImageButton"
         "fieldName"     "AchievementsButton"
-        "xpos"          "c312"
-        "ypos"          "r30"
+        "xpos"          "c261"
+        "ypos"          "r15"
         "zpos"          "3"
-        "wide"          "18"
-        "tall"          "18"
+        "wide"          "15"
+        "tall"          "15"
         "autoResize"    "0"
         "pinCorner"     "3"
         "visible"       "1"
@@ -2849,9 +2849,9 @@
         "default"       "1"
         "Command"       "OpenAchievementsDialog"
 
-        "navUp"         "VRModeButton"
-        "navLeft"       "NewUserForumsButton"
-        "navRight"      "CommentaryButton"
+        //"navUp"         "VRModeButton"
+        //"navLeft"       "NewUserForumsButton"
+        //"navRight"      "CommentaryButton"
 
         "sound_depressed"   "UI/buttonclick.wav"
         "sound_released"    "UI/buttonclickrelease.wav"
@@ -2868,8 +2868,8 @@
             "xpos"          "3"
             "ypos"          "3"
             "zpos"          "1"
-            "wide"          "12"
-            "tall"          "12"
+            "wide"          "10"
+            "tall"          "10"
             "visible"       "1"
             "enabled"       "1"
             "image"         "glyph_achievements"
@@ -2881,11 +2881,11 @@
     {
         "ControlName"   "CExImageButton"
         "fieldName"     "CommentaryButton"
-        "xpos"          "c334"
+        "xpos"          "c276"
         "ypos"          "r30"
         "zpos"          "4"
-        "wide"          "18"
-        "tall"          "18"
+        "wide"          "15"
+        "tall"          "15"
         "autoResize"    "0"
         "pinCorner"     "3"
         "visible"       "1"
@@ -2899,9 +2899,9 @@
         "default"       "1"
         "Command"       "OpenLoadSingleplayerCommentaryDialog"
 
-        "navUp"         "VRModeButton"
-        "navLeft"       "AchievementsButton"
-        "navRight"      "CoachPlayersButton"
+        //"navUp"         "VRModeButton"
+        //"navLeft"       "AchievementsButton"
+        //"navRight"      "CoachPlayersButton"
 
         "sound_depressed"   "UI/buttonclick.wav"
         "sound_released"    "UI/buttonclickrelease.wav"
@@ -2918,8 +2918,8 @@
             "xpos"          "3"
             "ypos"          "3"
             "zpos"          "1"
-            "wide"          "12"
-            "tall"          "12"
+            "wide"          "10"
+            "tall"          "10"
             "visible"       "1"
             "enabled"       "1"
             "image"         "glyph_forums"
@@ -2931,11 +2931,11 @@
     {
         "ControlName"   "CExImageButton"
         "fieldName"     "CoachPlayersButton"
-        "xpos"          "c356"
-        "ypos"          "r30"
+        "xpos"          "c276"
+        "ypos"          "r15"
         "zpos"          "5"
-        "wide"          "18"
-        "tall"          "18"
+        "wide"          "15"
+        "tall"          "15"
         "autoResize"    "0"
         "pinCorner"     "3"
         "visible"       "1"
@@ -2949,9 +2949,9 @@
         "default"       "1"
         "Command"       "engine cl_coach_toggle"
 
-        "navUp"         "VRModeButton"
-        "navLeft"       "CommentaryButton"
-        "navRight"      "ReportBugButton"
+        //"navUp"         "VRModeButton"
+        //"navLeft"       "CommentaryButton"
+        //"navRight"      "ReportBugButton"
 
         "sound_depressed"   "UI/buttonclick.wav"
         "sound_released"    "UI/buttonclickrelease.wav"
@@ -2968,8 +2968,8 @@
             "xpos"          "3"
             "ypos"          "3"
             "zpos"          "1"
-            "wide"          "12"
-            "tall"          "12"
+            "wide"          "10"
+            "tall"          "10"
             "visible"       "1"
             "enabled"       "1"
             "image"         "glyph_commentary"
@@ -2981,11 +2981,11 @@
     {
         "ControlName"   "CExImageButton"
         "fieldName"     "ReportBugButton"
-        "xpos"          "c378"
+        "xpos"          "c291"
         "ypos"          "r30"
         "zpos"          "1"
-        "wide"          "18"
-        "tall"          "18"
+        "wide"          "15"
+        "tall"          "15"
         "autoResize"    "0"
         "pinCorner"     "3"
         "visible"       "1"
@@ -2999,9 +2999,9 @@
         "default"       "1"
         "Command"       "engine bug"
 
-        "navUp"         "VRModeButton"
-        "navLeft"       "CoachPlayersButton"
-        "navRight"      "SettingsButton"
+        //"navUp"         "VRModeButton"
+        //"navLeft"       "CoachPlayersButton"
+        //"navRight"      "SettingsButton"
 
         "sound_depressed"   "UI/buttonclick.wav"
         "sound_released"    "UI/buttonclickrelease.wav"
@@ -3018,8 +3018,8 @@
             "xpos"          "3"
             "ypos"          "3"
             "zpos"          "1"
-            "wide"          "12"
-            "tall"          "12"
+            "wide"          "10"
+            "tall"          "10"
             "visible"       "1"
             "enabled"       "1"
             "image"         "glyph_bug"
@@ -3031,11 +3031,11 @@
     {
         "ControlName"   "EditablePanel"
         "fieldname"     "ToggleConsoleButton"
-        "xpos"          "c400"
-        "ypos"          "r30"
+        "xpos"          "c291"
+        "ypos"          "r15"
         "zpos"          "15"
-        "wide"          "18"
-        "tall"          "18"
+        "wide"          "15"
+        "tall"          "15"
         "visible"       "1"
         "PaintBackgroundType"   "2"
 
@@ -3045,8 +3045,8 @@
             "fieldName"     "SubButton"
             "xpos"          "0"
             "ypos"          "0"
-            "wide"          "18"
-            "tall"          "18"
+            "wide"          "15"
+            "tall"          "15"
             "autoResize"    "0"
             "pinCorner"     "3"
             "visible"       "1"
@@ -3076,14 +3076,72 @@
                 "xpos"          "3"
                 "ypos"          "3"
                 "zpos"          "1"
-                "wide"          "12"
-                "tall"          "12"
+                "wide"          "10"
+                "tall"          "10"
                 "visible"       "1"
                 "enabled"       "1"
                 "scaleImage"    "1"
             }       
         }
-    }   
+    }
+    "DemoUIButton"
+    {
+        "ControlName"   "EditablePanel"
+        "fieldname"     "DemoUIButton"
+        "xpos"          "c306"
+        "ypos"          "r30"
+        "zpos"          "15"
+        "wide"          "15"
+        "tall"          "15"
+        "visible"       "1"
+        "PaintBackgroundType"   "2"
+
+        "SubButton"
+        {
+            "ControlName"   "CExImageButton"
+            "fieldName"     "SubButton"
+            "xpos"          "0"
+            "ypos"          "0"
+            "wide"          "15"
+            "tall"          "15"
+            "autoResize"    "0"
+            "pinCorner"     "3"
+            "visible"       "1"
+            "enabled"       "1"
+            "tabPosition"   "0"
+            "textinsetx"    "0"
+            "use_proportional_insets" "1"
+            "font"          "HudFontSmallBold"
+            "textAlignment" "center"
+            "dulltext"      "0"
+            "brighttext"    "0"
+            "default"       "1"
+            
+            "border_default"    "MainMenuMiniButtonDefault"
+            "border_armed"      "MainMenuMiniButtonArmed"
+            "paintbackground"   "0"
+            
+            "defaultFgColor_override" "255 255 255 255"
+            "armedFgColor_override" "255 255 255 255"
+            "depressedFgColor_override" "255 255 255 255"
+            
+            "image_drawcolor"   "255 255 255 255"
+            "SubImage"
+            {
+                "ControlName"   "ImagePanel"
+                "fieldName"     "SubImage"
+                "xpos"          "3"
+                "ypos"          "3"
+                "zpos"          "1"
+                "wide"          "10"
+                "tall"          "10"
+                "visible"       "1"
+                "enabled"       "1"
+                "scaleImage"    "1"
+            }       
+        }
+    }
+   
     
 "TF2SettingsButton"
     {
@@ -3109,8 +3167,8 @@
         "default"       "1"
         "Command"       "opentf2options"
 
-        "navUp"         "Notifications_Panel"
-        "navLeft"       "SettingsButton"
+        //"navUp"         "Notifications_Panel"
+        //"navLeft"       "SettingsButton"
 
         "sound_depressed"   "UI/buttonclick.wav"
         "sound_released"    "UI/buttonclickrelease.wav"
@@ -3163,9 +3221,9 @@
         "default"       "1"
         "Command"       "OpenOptionsDialog"
 
-        "navUp"         "Notifications_Panel"
-        "navLeft"       "ReportBugButton"
-        "navRight"      "TF2SettingsButton"
+        //"navUp"         "Notifications_Panel"
+        //"navLeft"       "ReportBugButton"
+        //"navRight"      "TF2SettingsButton"
 
         "sound_depressed"   "UI/buttonclick.wav"
         "sound_released"    "UI/buttonclickrelease.wav"
@@ -3216,10 +3274,10 @@
         "default"       "1"
         "Command"       "engine replay_confirmquit"
 
-        "navUp"         "VRModeButton"
-        "navDown"       "DisconnectButton"
-        "navLeft"       "DisconnectButton"
-        "navRight"      "NewUserForumsButton"
+        //"navUp"         "VRModeButton"
+        //"navDown"       "DisconnectButton"
+        //"navLeft"       "DisconnectButton"
+        //"navRight"      "NewUserForumsButton"
 
         "sound_depressed"   "UI/buttonclick.wav"
         "sound_released"    "UI/buttonclickrelease.wav"
@@ -3271,8 +3329,8 @@
         "sound_depressed"   "UI/buttonclick.wav"
         "sound_released"    "UI/buttonclickrelease.wav"
 
-        "navUp"         "QuitButton"
-        "navRight"      "NewUserForumsButton"
+        //"navUp"         "QuitButton"
+        //"navRight"      "NewUserForumsButton"
         
         "border_default"    "MainMenuMiniButtonDefault"
         "border_armed"      "MainMenuMiniButtonArmed"

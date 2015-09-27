@@ -137,6 +137,14 @@
         "subimage"      "icon_checkbox_empty"
         "tooltip"       "Console"
     }
+    "DemoUIButton"
+    {
+        "label"         ""
+        "command"       "engine demoui"
+        "subimage"      "../hud/ico_camera"
+        "tooltip"       "Demo Review"
+    }
+
     "InGamePanel"
     {
         "label"         ""
