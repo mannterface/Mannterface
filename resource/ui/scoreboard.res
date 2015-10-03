@@ -46,7 +46,7 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "BlueScoreBG2"
-        "xpos"          "c5"
+		"xpos"          "c-405"
         "ypos"          "c20"
         "zpos"          "0"
         "wide"          "400"
@@ -67,8 +67,8 @@
         "fieldName"     "BlueTeamLabel"
         "font"          "HudFontMediumBold"
         "labelText"     "%blueteamname%"
-        "textAlignment"     "east"
-        "xpos"          "c45" [!$OSX]
+		"textAlignment"     "west"
+        "xpos"          "c-402" [!$OSX]
         "ypos"          "c20"   [$WIN32]
         "wide"          "359"
         "tall"          "24"
@@ -89,8 +89,8 @@
         "fieldName"     "BlueTeamScore"
         "font"          "HudFontMediumBold"
         "labelText"     "%blueteamscore%"
-        "textAlignment"     "west"
-        "xpos"          "c8"
+		"textAlignment"     "east"
+        "xpos"          "c-45"
         "ypos"          "c20" 
         "zpos"          "4"
         "wide"          "39"
@@ -127,7 +127,7 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "BlueTeamPlayerCount"
-        "xpos"          "c5"
+		"xpos"          "c-404"
         "ypos"          "c20"
         "zpos"          "1"
         "wide"          "359"
@@ -148,7 +148,7 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "BlueMainBG"
-        "xpos"          "c5"
+        "xpos"          "c-405"
         "ypos"          "c50"
         "zpos"          "0"
         "wide"          "400"
@@ -167,11 +167,11 @@
     {
         "ControlName"   "SectionedListPanel"
         "fieldName"     "BluePlayerList"
-        "xpos"          "c5"
+        "xpos"          "c-405"
         "ypos"          "c50"
         "zpos"          "20"
         "wide"          "400"
-        "tall"          "144"   [$WIN32]
+        "tall"          "144"     [$WIN32]
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
@@ -209,7 +209,7 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "RedScoreBG2"
-        "xpos"          "c-405"
+        "xpos"          "c5"
         "ypos"          "c20"
         "zpos"          "0"
         "wide"          "400"
@@ -230,8 +230,8 @@
         "fieldName"     "RedTeamLabel"
         "font"          "HudFontMediumBold"
         "labelText"     "%redteamname%"
-        "textAlignment"     "west"
-        "xpos"          "c-402" [!$OSX]
+        "textAlignment"     "east"
+        "xpos"          "c45" [!$OSX]
         "ypos"          "c20"   [$WIN32]
         "wide"          "359"
         "tall"          "24"
@@ -252,8 +252,8 @@
         "fieldName"     "RedTeamScore"
         "font"          "HudFontMediumBold"
         "labelText"     "%redteamscore%"
-        "textAlignment"     "east"
-        "xpos"          "c-45"
+        "textAlignment"     "west"
+        "xpos"          "c8"
         "ypos"          "c20" 
         "zpos"          "4"
         "wide"          "39"
@@ -290,7 +290,7 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "RedTeamPlayerCount"
-        "xpos"          "c-404"
+        "xpos"          "c5"
         "ypos"          "c20"
         "zpos"          "1"
         "wide"          "359"
@@ -311,7 +311,7 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "RedMainBG"
-        "xpos"          "c-405"
+        "xpos"          "c5"
         "ypos"          "c50"
         "zpos"          "0"
         "wide"          "400"
@@ -330,11 +330,11 @@
     {
         "ControlName"   "SectionedListPanel"
         "fieldName"     "RedPlayerList"
-        "xpos"          "c-405"
+        "xpos"          "c5"
         "ypos"          "c50"
         "zpos"          "20"
         "wide"          "400"
-        "tall"          "144"   [$WIN32]
+        "tall"          "144"  [$WIN32]
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"

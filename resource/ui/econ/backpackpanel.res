@@ -1,5 +1,36 @@
 "Resource/UI/FullLoadoutPanel.res"
 {
+       "C_LBG"
+    {
+        "ControlName"   "ImagePanel"
+        "fieldName"     "C_LBG"
+        "xpos"          "0"
+        "ypos"          "0"
+        "zpos"          "-6"
+        "wide"          "f0"
+        "tall"          "f0"
+        "visible"       "1"
+        "enabled"       "1"
+        "image"         "../console/background_upward"
+        "scaleImage"    "1"
+        
+        if_halloween_0
+        {
+        //  "image"     "../console/title_team_halloween2011"
+        }
+        if_halloween_1
+        {
+        //  "image"     "../console/title_team_halloween2012"
+        }
+        if_fullmoon
+        {
+        //  "image"     "../console/title_fullmoon"
+        }
+        if_christmas
+        {
+        //  "image"     "../console/background_xmas2011"
+        }
+    }
     "backpack_panel"
     {
         "ControlName"   "Frame"

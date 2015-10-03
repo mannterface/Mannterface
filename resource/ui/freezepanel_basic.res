@@ -149,7 +149,7 @@
             "fieldName"     "FreezePanelHealth"
             "xpos"          "c-30"
             "xpos_hidef"        "c35"
-            "ypos"          "254"
+            "ypos"          "253"
             "ypos_hidef"        "253"
             "ypos_lodef"        "223"
             "zpos"          "1"
@@ -346,7 +346,7 @@
                 "tall"          "30"
                 "visible"       "1"
                 "enabled"       "1"
-                "image"         "../hud/color_panel_brown"
+                "image"         "replay/thumbnails/bg_black"
                 "scaleImage"        "1" 
                 
                 "src_corner_height"     "23"                // pixels inside the image

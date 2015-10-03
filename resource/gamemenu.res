@@ -144,6 +144,15 @@
         "subimage"      "../hud/ico_camera"
         "tooltip"       "Demo Review"
     }
+    "ScoreboardSwitcher"
+    {
+        "label"         ""
+        "command"       "engine incrementvar cl_hud_minmode 0 1 1"
+        "subimage"      "glyph_view"
+        "tooltip"       "Scoreboard Switcher"
+        "OnlyInGame"    "1"
+    }
+
 
     "InGamePanel"
     {

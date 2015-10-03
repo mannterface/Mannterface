@@ -143,7 +143,7 @@
             "fieldName" "LastUpdate"
             "font"  "HudFontSmallMediumBold"
             "fgcolor_override"   "TanLight"
-            "labelText" "15.09.27.0"//xx
+            "labelText" "15.10.02.0"//xx
             "textAlignment" "west"
             "xpos"  "20"
             "ypos"  "5"
@@ -475,10 +475,6 @@
         if_eotl_launch
         {
             "image"     "../console/title_eotl01"
-        }
-        if_operation
-        {
-            "image"     "../console/title_summer_operation_2015"
         }
     }
                     
@@ -3141,6 +3137,64 @@
             }       
         }
     }
+    "ScoreboardSwitcher"
+    {
+        "ControlName"   "EditablePanel"
+        "fieldname"     "ScoreboardSwitcher"
+        "xpos"          "c306"
+        "ypos"          "r15"
+        "zpos"          "12"
+        "wide"          "15"
+        "tall"          "15"
+        "visible"       "1"
+        "PaintBackgroundType"   "2"
+
+        "SubButton"
+        {
+            "ControlName"   "CExImageButton"
+            "fieldName"     "SubButton"
+            "xpos"          "0"
+            "ypos"          "0"
+            "wide"          "15"
+            "tall"          "15"
+            "autoResize"    "0"
+            "pinCorner"     "3"
+            "visible"       "1"
+            "enabled"       "1"
+            "tabPosition"   "0"
+            "textinsetx"    "0"
+            "use_proportional_insets" "1"
+            "font"          "HudFontSmallBold"
+            "textAlignment" "center"
+            "dulltext"      "0"
+            "brighttext"    "0"
+            "default"       "1"
+            
+            "border_default"    "MainMenuMiniButtonDefault"
+            "border_armed"      "MainMenuMiniButtonArmed"
+            "paintbackground"   "0"
+            
+            "defaultFgColor_override" "255 255 255 255"
+            "armedFgColor_override" "255 255 255 255"
+            "depressedFgColor_override" "255 255 255 255"
+            
+            "image_drawcolor"   "255 255 255 255"
+            "SubImage"
+            {
+                "ControlName"   "ImagePanel"
+                "fieldName"     "SubImage"
+                "xpos"          "3"
+                "ypos"          "3"
+                "zpos"          "1"
+                "wide"          "10"
+                "tall"          "10"
+                "visible"       "1"
+                "enabled"       "1"
+                "scaleImage"    "1"
+            }       
+        }
+    }
+
    
     
 "TF2SettingsButton"
