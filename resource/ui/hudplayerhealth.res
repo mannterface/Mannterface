@@ -385,10 +385,10 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "PlayerStatusHealthValueHugeL"
-        "xpos"          "44"
+        "xpos"          "34"
         "ypos"          "22"    [$WIN32]
         "zpos"          "5"
-        "wide"          "90"
+        "wide"          "110"
         "tall"          "60"
         "visible"       "1"
         "enabled"       "1"
@@ -402,10 +402,10 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "PlayerStatusHealthValueHugeR"
-        "xpos"          "47"
+        "xpos"          "37"
         "ypos"          "22"    [$WIN32]
         "zpos"          "5"
-        "wide"          "90"
+        "wide"          "110"
         "tall"          "60"
         "visible"       "1"
         "enabled"       "1"
@@ -419,10 +419,10 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "PlayerStatusHealthValueHugeScanlines"
-        "xpos"          "46"
+        "xpos"          "36"
         "ypos"          "22"    [$WIN32]
         "zpos"          "5"
-        "wide"          "90"
+        "wide"          "110"
         "tall"          "60"
         "visible"       "1"
         "enabled"       "1"
@@ -435,10 +435,10 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "PlayerStatusHealthValueHugeScanlinesUL"
-        "xpos"          "43"
+        "xpos"          "33"
         "ypos"          "19"    [$WIN32]
         "zpos"          "5"
-        "wide"          "90"
+        "wide"          "110"
         "tall"          "60"
         "visible"       "1"
         "enabled"       "1"
@@ -451,10 +451,10 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "PlayerStatusHealthValueHugeScanlinesUR"
-        "xpos"          "49"
+        "xpos"          "39"
         "ypos"          "19"    [$WIN32]
         "zpos"          "5"
-        "wide"          "90"
+        "wide"          "110"
         "tall"          "60"
         "visible"       "1"
         "enabled"       "1"
@@ -467,10 +467,10 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "PlayerStatusHealthValueHugeScanlinesDL"
-        "xpos"          "43"
+        "xpos"          "33"
         "ypos"          "25"    [$WIN32]
         "zpos"          "5"
-        "wide"          "90"
+        "wide"          "110"
         "tall"          "60"
         "visible"       "1"
         "enabled"       "1"
@@ -483,10 +483,10 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "PlayerStatusHealthValueHugeScanlinesDR"
-        "xpos"          "49"
+        "xpos"          "39"
         "ypos"          "25"    [$WIN32]
         "zpos"          "5"
-        "wide"          "90"
+        "wide"          "110"
         "tall"          "60"
         "visible"       "1"
         "enabled"       "1"

@@ -34,6 +34,8 @@ Scheme
         "Damage Crosshair"                      "255 180 20 255"
         "Crosshair Color"                       "235 226 202 255"
         "Target Name"                           "235 226 202 255"
+        
+        "Server Time"                           "255 220 20 255"
 
         
         "Uber Bar Color"                        "235 226 202 255"
@@ -1557,6 +1559,19 @@ Scheme
                 "outline"   "1"
             }
         }
+        "HudFontSmallerBoldOutline"
+        {
+            "1"
+            {
+                "name"      "TF2 Build"
+                "tall"      "11"
+                "weight"    "500"
+                "additive"  "0"
+                "antialias" "1"
+                "outline"   "1"
+            }
+        }
+
 
         "HudFontSmallBoldScanlines"
         {

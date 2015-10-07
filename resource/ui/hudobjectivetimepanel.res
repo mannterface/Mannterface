@@ -234,10 +234,10 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "ServerTimeLimitLabel"
-        "xpos"          "15"
+        "xpos"          "6"
         "ypos"          "112"
         "zpos"          "5"
-        "wide"          "78"
+        "wide"          "88"
         "tall"          "20"
         "visible"       "0"
         "enabled"       "1"
@@ -246,7 +246,7 @@
         "dulltext"      "0"
         "brighttext"        "0"
         "wrap"          "0"
-        "fgcolor_override" "Target Data"
+        "fgcolor_override" "Server Time"
         "font"          "HudFontMediumBigBold"
     } 
 
