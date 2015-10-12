@@ -68,7 +68,7 @@
         "xpos"          "56"
         "ypos"          "32"    [$WIN32]
         "zpos"          "5"
-        "wide"          "70"
+        "wide"          "85"
         "tall"          "40"
         "visible"       "1"
         "enabled"       "1"
@@ -510,7 +510,7 @@
         "xpos"          "56"
         "ypos"          "32"    [$WIN32]
         "zpos"          "5"
-        "wide"          "70"
+        "wide"          "85"
         "tall"          "40"
         "visible"       "1"
         "enabled"       "1"
@@ -526,14 +526,14 @@
         "xpos"          "56"
         "ypos"          "31"    [$WIN32]
         "zpos"          "5"
-        "wide"          "70"
+        "wide"          "85"
         "tall"          "40"
         "visible"       "1"
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
         "font"                  "HudFontBiggerBoldBlur"
-        "fgcolor_override"      "Black"
+        "fgcolor_override"      "TanDarker"
     }      
      "PlayerStatusHealthValueBlurD"
     {
@@ -542,14 +542,14 @@
         "xpos"          "56"
         "ypos"          "33"    [$WIN32]
         "zpos"          "5"
-        "wide"          "70"
+        "wide"          "85"
         "tall"          "40"
         "visible"       "1"
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
         "font"                  "HudFontBiggerBoldBlur"
-        "fgcolor_override"      "Black"
+        "fgcolor_override"      "TanDarker"
     }   
  
       "PlayerStatusHealthValueBlurL"
@@ -559,14 +559,14 @@
         "xpos"          "55"
         "ypos"          "32"    [$WIN32]
         "zpos"          "5"
-        "wide"          "70"
+        "wide"          "85"
         "tall"          "40"
         "visible"       "1"
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
         "font"                  "HudFontBiggerBoldBlur"
-        "fgcolor_override"      "Black"
+        "fgcolor_override"      "TanDarker"
     }   
         "PlayerStatusHealthValueBlurR"
     {
@@ -575,14 +575,14 @@
         "xpos"          "57"
         "ypos"          "32"    [$WIN32]
         "zpos"          "5"
-        "wide"          "70"
+        "wide"          "85"
         "tall"          "40"
         "visible"       "1"
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
         "font"                  "HudFontBiggerBoldBlur"
-        "fgcolor_override"      "Black"
+        "fgcolor_override"      "TanDarker"
     }   
         "PlayerStatusHealthValueBlurUL"
     {
@@ -591,14 +591,14 @@
         "xpos"          "55"
         "ypos"          "31"    [$WIN32]
         "zpos"          "5"
-        "wide"          "70"
+        "wide"          "85"
         "tall"          "40"
         "visible"       "1"
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
         "font"                  "HudFontBiggerBoldBlur"
-        "fgcolor_override"      "Black"
+        "fgcolor_override"      "TanDarker"
     }
         "PlayerStatusHealthValueBlurUR"
     {
@@ -607,14 +607,14 @@
         "xpos"          "57"
         "ypos"          "31"    [$WIN32]
         "zpos"          "5"
-        "wide"          "70"
+        "wide"          "85"
         "tall"          "40"
         "visible"       "1"
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
         "font"                  "HudFontBiggerBoldBlur"
-        "fgcolor_override"      "Black"
+        "fgcolor_override"      "TanDarker"
     }
     "PlayerStatusHealthValueBlurDL"
     {
@@ -623,14 +623,14 @@
         "xpos"          "55"
         "ypos"          "33"    [$WIN32]
         "zpos"          "5"
-        "wide"          "70"
+        "wide"          "85"
         "tall"          "40"
         "visible"       "1"
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
         "font"                  "HudFontBiggerBoldBlur"
-        "fgcolor_override"      "Black"
+        "fgcolor_override"      "TanDarker"
     }
     "PlayerStatusHealthValueBlurDR"
     {
@@ -639,14 +639,14 @@
         "xpos"          "57"
         "ypos"          "33"    [$WIN32]
         "zpos"          "5"
-        "wide"          "70"
+        "wide"          "85"
         "tall"          "40"
         "visible"       "1"
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
         "font"                  "HudFontBiggerBoldBlur"
-        "fgcolor_override"      "Black"
+        "fgcolor_override"      "TanDarker"
     }
 
 

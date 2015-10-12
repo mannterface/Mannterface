@@ -159,7 +159,7 @@ Scheme
         "QualityColorrarity1"                   "77 116 85 255"
         "QualityColorrarity2"                   "141 131 75 255"
         "QualityColorrarity3"                   "204 204 250 255"
-        "QualityColorrarity4"                   "134 80 172 255"
+        "QualityColorrarity4"                   "225 255 15 255"
         "QualityColorVintage"                   "71 98 145 255"
         "QualityColorUnique"                    "255 215 0 255"
         "QualityColorCommunity"                 "112 176 74 255"
@@ -167,7 +167,7 @@ Scheme
         "QualityColorSelfMade"                  "112 176 74 255"
         "QualityColorCustomized"                "71 98 145 255"
         "QualityColorStrange"                   "207 106 50 255"
-        "QualityColorCompleted"                 "134 80 172 255"
+        "QualityColorCompleted"                 "225 255 15 255"
         "QualityColorHaunted"                   "56 243 171 255"
         "QualityColorCollectors"                "170 0 0 255"
         "QualityColorPaintkitWeapon"            "250 250 250 255"
@@ -932,19 +932,31 @@ Scheme
                 "blur"      "3"
             }
         }
-        "HudFontBiggerBoldBlur"
+
+        "HudFont20SmallBold"
         {
             "1"
             {
                 "name"      "TF2 Build"
-                "tall"      "35"
-                "tall_lodef"    "40"
+                "tall"      "18"
+                "weight"    "500"
+                "additive"  "0"
+                "antialias" "1"
+            }
+        }
+        "HudFont20SmallBoldBlur"
+        {
+            "1"
+            {
+                "name"      "TF2 Build"
+                "tall"      "20"
                 "weight"    "500"
                 "additive"  "0"
                 "antialias" "1"
                 "blur"      "3"
             }
         }
+
         "ScoreboardMediumBlur"
         {
             "1"
@@ -1281,11 +1293,22 @@ Scheme
             "1"
             {
                 "name"      "TF2 Build"
-                "tall"      "35"
-                "tall_lodef"    "40"
+                "tall"      "45"
                 "weight"    "500"
                 "additive"  "0"
                 "antialias" "1"
+            }
+        }
+        "HudFontBiggerBoldBlur"
+        {
+            "1"
+            {
+                "name"      "TF2 Build"
+                "tall"      "45"
+                "weight"    "500"
+                "additive"  "0"
+                "antialias" "1"
+                "blur"      "3"
             }
         }
         "HudFontHugeBold"
@@ -2754,11 +2777,12 @@ Scheme
         {
             "1"
             {
-                "name"      "Verdana"
-                "tall"      "7"
+                "name"      "TF2 Build"
+                "tall"      "8"
                 "weight"    "400"
                 "additive"  "0"
                 "antialias" "1"
+                "outline"   "1"
             }
         }
         // Used by scoreboard and spectator UI for names which don't map in the normal fashion
