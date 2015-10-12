@@ -46,7 +46,7 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "BlueScoreBG2"
-		"xpos"          "c-405"
+        "xpos"          "c-405"
         "ypos"          "c20"
         "zpos"          "0"
         "wide"          "400"
@@ -67,7 +67,7 @@
         "fieldName"     "BlueTeamLabel"
         "font"          "HudFontMediumBold"
         "labelText"     "%blueteamname%"
-		"textAlignment"     "west"
+        "textAlignment"     "west"
         "xpos"          "c-402" [!$OSX]
         "ypos"          "c20"   [$WIN32]
         "wide"          "359"
@@ -89,7 +89,7 @@
         "fieldName"     "BlueTeamScore"
         "font"          "HudFontMediumBold"
         "labelText"     "%blueteamscore%"
-		"textAlignment"     "east"
+        "textAlignment"     "east"
         "xpos"          "c-45"
         "ypos"          "c20" 
         "zpos"          "4"
@@ -127,7 +127,7 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "BlueTeamPlayerCount"
-		"xpos"          "c-404"
+        "xpos"          "c-404"
         "ypos"          "c20"
         "zpos"          "1"
         "wide"          "359"
@@ -861,10 +861,10 @@
             "font"          "HudFontBiggerBold"
             "labelText"     "%kills%"
             "textAlignment"     "east"
-            "xpos"          "0"
+            "xpos"          "-8"
             "ypos"          "0" [$WIN32]
             "zpos"          "3"
-            "wide"          "52"
+            "wide"          "60"
             "tall"          "40"
             "autoResize"    "0"
             "pinCorner"     "0"

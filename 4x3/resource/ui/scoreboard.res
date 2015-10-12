@@ -45,7 +45,7 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "BlueScoreBG2"
-        "xpos"          "c5"
+        "xpos"          "c-255"
         "ypos"          "c20"
         "zpos"          "0"
         "wide"          "250"
@@ -66,10 +66,10 @@
         "fieldName"     "BlueTeamLabel"
         "font"          "HudFontSmallBold"
         "labelText"     "%blueteamname%"
-        "textAlignment"     "east"
-        "xpos"          "c0" [!$OSX]
+        "textAlignment"     "west"
+        "xpos"          "c-250" [!$OSX]
         "ypos"          "c20"   [$WIN32]
-        "wide"          "250"
+        "wide"          "359"
         "tall"          "24"
         "autoResize"        "0"
         "pinCorner"     "0"
@@ -88,8 +88,8 @@
         "fieldName"     "BlueTeamScore"
         "font"          "HudFontMediumBold"
         "labelText"     "%blueteamscore%"
-        "textAlignment"     "west"
-        "xpos"          "c8"
+        "textAlignment"     "east"
+        "xpos"          "c-45"
         "ypos"          "c20" 
         "zpos"          "4"
         "wide"          "39"
@@ -126,10 +126,10 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "BlueTeamPlayerCount"
-        "xpos"          "c0"
+        "xpos"          "c-300"
         "ypos"          "c20"
         "zpos"          "1"
-        "wide"          "250"
+        "wide"          "359"
         "tall"          "24"
         "visible"       "1"
         "enabled"       "1"
@@ -147,7 +147,7 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "BlueMainBG"
-        "xpos"          "c5"
+        "xpos"          "c-255"
         "ypos"          "c50"
         "zpos"          "0"
         "wide"          "250"
@@ -166,7 +166,7 @@
     {
         "ControlName"   "SectionedListPanel"
         "fieldName"     "BluePlayerList"
-        "xpos"          "c5"
+        "xpos"          "c-255"
         "ypos"          "c50"
         "zpos"          "20"
         "wide"          "250"
@@ -208,7 +208,7 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "RedScoreBG2"
-        "xpos"          "c-255"
+        "xpos"          "c5"
         "ypos"          "c20"
         "zpos"          "0"
         "wide"          "250"
@@ -229,10 +229,10 @@
         "fieldName"     "RedTeamLabel"
         "font"          "HudFontSmallBold"
         "labelText"     "%redteamname%"
-        "textAlignment"     "west"
-        "xpos"          "c-250" [!$OSX]
+        "textAlignment"     "east"
+        "xpos"          "c0" [!$OSX]
         "ypos"          "c20"   [$WIN32]
-        "wide"          "359"
+        "wide"          "250"
         "tall"          "24"
         "autoResize"        "0"
         "pinCorner"     "0"
@@ -251,8 +251,8 @@
         "fieldName"     "RedTeamScore"
         "font"          "HudFontMediumBold"
         "labelText"     "%redteamscore%"
-        "textAlignment"     "east"
-        "xpos"          "c-45"
+        "textAlignment"     "west"
+        "xpos"          "c8"
         "ypos"          "c20" 
         "zpos"          "4"
         "wide"          "39"
@@ -289,10 +289,10 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "RedTeamPlayerCount"
-        "xpos"          "c-300"
+        "xpos"          "c0"
         "ypos"          "c20"
         "zpos"          "1"
-        "wide"          "359"
+        "wide"          "250"
         "tall"          "24"
         "visible"       "1"
         "enabled"       "1"
@@ -310,7 +310,7 @@
     {
         "ControlName"       "ImagePanel"
         "fieldName"     "RedMainBG"
-        "xpos"          "c-255"
+        "xpos"          "c5"
         "ypos"          "c50"
         "zpos"          "0"
         "wide"          "250"
@@ -329,7 +329,7 @@
     {
         "ControlName"   "SectionedListPanel"
         "fieldName"     "RedPlayerList"
-        "xpos"          "c-255"
+        "xpos"          "c5"
         "ypos"          "c50"
         "zpos"          "20"
         "wide"          "250"
@@ -375,7 +375,7 @@
         "font"          "HudFontSmallestBold"
         "labelText"     "%server%"
         "textAlignment"     "west"
-        "xpos"          "65"
+        "xpos"          "c-255"
         "ypos"          "c-10"    [$WIN32]
         "zpos"          "4"
         "wide"          "816"
@@ -433,7 +433,7 @@
         "font"          "HudFontSmallestBold"
         "labelText"     "%spectators%"
         "textAlignment"     "west"
-        "xpos"          "65"
+        "xpos"          "c-255"
         "ypos"          "c0"    [$WIN32]
         "zpos"          "4"
         "wide"          "816"
@@ -514,7 +514,7 @@
         "font"          "HudFontMediumBold"
         "labelText"     "%mapname%"
         "textAlignment"     "west"
-        "xpos"          "65"
+        "xpos"          "c-255"
         "ypos"          "c-25"    [$WIN32]
         "zpos"          "4"
         "wide"          "816"

@@ -870,10 +870,21 @@
         "fieldName"             "ArenaWinPanel"
         "visible"               "1"
         "enabled"               "1"
-        "xpos"                  "0"
-        "ypos"                  "0"
-        "wide"                  "f0"
-        "tall"                  "480"
+        "xpos"                  "c-225"
+        "ypos"                  "250"
+        "wide"                  "450"
+        "tall"                  "218"
+    }
+    
+    PVEWinPanel
+    {
+        "fieldName"             "PVEWinPanel"
+        "visible"               "1"
+        "enabled"               "1"
+        "xpos"                  "c-150"
+        "ypos"                  "255"
+        "wide"                  "300"
+        "tall"                  "215"
     }
     
     StatPanel
@@ -887,17 +898,6 @@
         "wide_lodef"            "400"
         "tall"                  "120"
         "tall_lodef"            "190"
-    }
-    
-    PVEWinPanel
-    {
-        "fieldName"             "PVEWinPanel"
-        "visible"               "1"
-        "enabled"               "1"
-        "xpos"                  "c-150"
-        "ypos"                  "255"
-        "wide"                  "300"
-        "tall"                  "215"
     }
 
     FreezePanel

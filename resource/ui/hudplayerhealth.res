@@ -13,7 +13,7 @@
         "visible"       "1"
         "enabled"       "1" 
         "HealthBonusPosAdj" "35"
-        "HealthDeathWarning"    "0.49"
+        "HealthDeathWarning"    "0.74"
         "HealthDeathWarningColor"   "HUDDeathWarning"
     }   
     "PlayerStatusHealthImage"

@@ -1080,29 +1080,24 @@ event UberchargeBg
     Animate ChargeLabelScanlines Alpha       "0"             Linear 0.7 0.2
     
     Animate ChargeLabel             FgColor     "100 200 100 255"        Linear 1.0 0.0
-    Animate ChargeMeter             FgColor     "0 0 0 0"       Linear 1.2 0.0
-    Animate ChargeMeter             BgColor     "0 0 0 0"       Linear 1.2 0.0
+    
+    Animate ChargeMeter             xpos        "20"                     Linear 0.5 0.4
+    Animate ChargeMeter             wide        "0"                      Linear 0.5 0.4
+
 }
 
 event HudMedicChargedBlink
 {
-    Animate ChargeMeter             FgColor     "0 0 0 0"       Linear 0.0 0.45
-    Animate ChargeMeter             BgColor     "0 0 0 0"       Linear 0.0 0.0
-    
     Animate ChargeMeter1            FgColor     "Uber Bar Color"       Linear 0.0 0.2
     Animate ChargeMeter2            FgColor     "Uber Bar Color"       Linear 0.1 0.2
     Animate ChargeMeter3            FgColor     "Uber Bar Color"       Linear 0.2 0.2
     Animate ChargeMeter4            FgColor     "Uber Bar Color"       Linear 0.3 0.2
     
-    Animate ChargeMeter             FgColor     "0 0 0 0"        Linear 0.45 0.45
+    Animate ChargeMeter1            FgColor     "TanDark"        Linear 0.4 0.2
+    Animate ChargeMeter2            FgColor     "TanDark"        Linear 0.5 0.2
+    Animate ChargeMeter3            FgColor     "TanDark"        Linear 0.6 0.2
+    Animate ChargeMeter4            FgColor     "TanDark"        Linear 0.7 0.2
     
-    Animate ChargeMeter1            FgColor     "Uber Bar Color"        Linear 0.4 0.2
-    Animate ChargeMeter2            FgColor     "Uber Bar Color"        Linear 0.5 0.2
-    Animate ChargeMeter3            FgColor     "Uber Bar Color"        Linear 0.6 0.2
-    Animate ChargeMeter4            FgColor     "Uber Bar Color"        Linear 0.7 0.2
-    
-
-
 
     RunEvent HudMedicChargedLoop    0.9
 }
@@ -1126,17 +1121,14 @@ event HudMedicChargedStop
     StopEvent HudMedicChargedBlink 0.0
     
     Animate ChargeLabel             FgColor     "Uber Bar Color"        Linear 0.0 0.0
-    Animate ChargeMeter             FgColor     "Uber Bar Color"        Linear 0.0 0.0
-    Animate ChargeMeter             BgColor     "Uber Ready Panel"        Linear 0.0 0.0
 
-
-    
-
-    Animate ChargeMeter             FgColor     "Uber Bar Color"       Linear 0.0 0.45
     Animate ChargeMeter1            FgColor     "Uber Bar Color"       Linear 0.0 0.2
     Animate ChargeMeter2            FgColor     "Uber Bar Color"       Linear 0.0 0.2
     Animate ChargeMeter3            FgColor     "Uber Bar Color"       Linear 0.0 0.2
     Animate ChargeMeter4            FgColor     "Uber Bar Color"       Linear 0.0 0.2
+    
+    Animate ChargeMeter             xpos        "2"                     Linear 0.5 0.4
+    Animate ChargeMeter             wide        "36"                      Linear 0.5 0.4
 }
 //====================================
 
