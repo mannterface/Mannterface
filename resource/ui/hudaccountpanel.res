@@ -59,6 +59,30 @@
         "textAlignment" "center"
         "dulltext"      "0"
         "brighttext"    "0"
+        "fgcolor"       "Default Color"
         "font"          "HudFontSmallBold"
     }
+    
+    "AccountValueBlur"
+    {
+        "ControlName"   "CExLabel"
+        "fieldName"     "AccountValueBlur"
+        "xpos"          "-8"
+        "ypos"          "0"
+        "zpos"          "2"
+        "wide"          "55"
+        "tall"          "26"
+        "autoResize"    "1"
+        "pinCorner"     "2"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "%metal%"
+        "textAlignment" "center"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "fgcolor"       "Shadow Color"
+        "font"          "HudFontSmallBoldBlur"
+    }
+
 }

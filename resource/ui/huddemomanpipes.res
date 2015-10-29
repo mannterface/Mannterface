@@ -48,7 +48,7 @@
         "font"                  "Default"
         "xpos"                  "c-18"
         "ypos"                  "253"
-        "zpos"                  "3"
+        "zpos"                  "-99"
         "wide"                  "36"
         "tall"                  "4"            
         "autoResize"            "0"
@@ -64,8 +64,8 @@
     {
         "ControlName"   "EditablePanel"
         "fieldName"     "PipesPresentPanel"
-        "xpos"          "c-67"
-        "ypos"          "225"
+        "xpos"          "c82"
+        "ypos"          "290"
         "zpos"          "1"
         "wide"          "100"
         "tall"          "50"
@@ -75,10 +75,10 @@
         {
             "ControlName"   "CTFImagePanel"
             "fieldName"     "PipeIcon"
-            "xpos"          "9999"
-            "ypos"          "9999"
-            "wide"          "20"
-            "tall"          "20"
+            "xpos"          "50"
+            "ypos"          "23"
+            "wide"          "10"
+            "tall"          "10"
             "visible"       "1"
             "enabled"       "1"
             "image"         "../hud/ico_stickybomb_red"
@@ -106,7 +106,7 @@
             "textAlignment" "center"
             "dulltext"      "0"
             "brighttext"    "0"
-            "font"          "HudFontSmallBold"
+            "font"          "HudFontMediumSmallBold"
             "fgcolor"       "255 255 0 255"
         }
         "NumPipesLabelDropshadow"
@@ -128,7 +128,7 @@
             "textAlignment" "center"
             "dulltext"      "0"
             "brighttext"    "0"
-            "font"          "HudFontSmallBoldBlur"
+            "font"          "HudFontMediumSmallBoldBlur"
             "fgcolor"       "black"
         }       
     }
@@ -137,8 +137,8 @@
     {
         "ControlName"   "EditablePanel"
         "fieldName"     "NoPipesPresentPanel"
-        "xpos"          "c-67"
-        "ypos"          "225"
+        "xpos"          "c82"
+        "ypos"          "290"
         "zpos"          "1"
         "wide"          "100"
         "tall"          "50"
@@ -148,10 +148,10 @@
         {
             "ControlName"   "CTFImagePanel"
             "fieldName"     "PipeIcon"
-            "xpos"          "9999"
-            "ypos"          "9999"
-            "wide"          "20"
-            "tall"          "20"
+            "xpos"          "50"
+            "ypos"          "23"
+            "wide"          "10"
+            "tall"          "10"
             "visible"       "1"
             "enabled"       "1"
             "image"         "../hud/ico_stickybomb_red_faded"
@@ -179,7 +179,7 @@
             "textAlignment" "center"
             "dulltext"      "1"
             "brighttext"    "0"
-            "font"          "HudFontSmallBold"
+            "font"          "HudFontMediumSmallBold"
         }
         "NumPipesLabelDropshadow"
         {
@@ -200,7 +200,7 @@
             "textAlignment" "center"
             "dulltext"      "1"
             "brighttext"    "0"
-            "font"          "HudFontSmallBoldBlur"
+            "font"          "HudFontMediumSmallBoldBlur"
             "fgcolor"       "black"
         }           
     }               

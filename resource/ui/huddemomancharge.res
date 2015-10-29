@@ -7,9 +7,9 @@
         "font"                  "Default"
         "xpos"                  "0"
         "ypos"                  "0"
-        "zpos"                  "2"
-        "wide"                  "30"
-        "tall"                  "4"             
+        "zpos"                  "-99"
+        "wide"                  "75"
+        "tall"                  "40"             
         "autoResize"            "0"
         "pinCorner"             "0"
         "visible"               "1"
@@ -17,8 +17,8 @@
         "textAlignment"         "Left"
         "dulltext"              "0"
         "brighttext"            "0"
-        "bgcolor_override"      "46 43 42 150"
+        "bgcolor_override"      "46 43 42 50"
         "paintborder"           "1"
-        "fgcolor_override"      "TanLight"
+        "fgcolor_override"      "Uber Ready2"
     }
 }

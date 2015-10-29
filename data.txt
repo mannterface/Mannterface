@@ -1,0 +1,9 @@
+name=Mannterface
+desc=The latest in eye-numbers technology!
+creator=Mann Co.
+steamid=76561198042111402
+url=https://github.com/mannterface/Mannterface
+url=http://steamcommunity.com/groups/mannterface
+url=http://www.teamfortress.tv/28348/introducing-the-mannterface
+version=1510220
+update_url=https://github.com/mannterface/Mannterface/archive/master.zip

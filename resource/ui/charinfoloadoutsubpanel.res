@@ -2,7 +2,7 @@
 {
      "C_LBG"
     {
-        "ControlName"   "ImagePanel"
+        "ControlName"   "EditablePanel"
         "fieldName"     "C_LBG"
         "xpos"          "0"
         "ypos"          "0"
@@ -10,26 +10,10 @@
         "wide"          "f0"
         "tall"          "f0"
         "visible"       "1"
-        "enabled"       "1"
-        "image"         "../console/background_upward"
-        "scaleImage"    "1"
-        
-        if_halloween_0
-        {
-        //  "image"     "../console/title_team_halloween2011"
-        }
-        if_halloween_1
-        {
-        //  "image"     "../console/title_team_halloween2012"
-        }
-        if_fullmoon
-        {
-        //  "image"     "../console/title_fullmoon"
-        }
-        if_christmas
-        {
-        //  "image"     "../console/background_xmas2011"
-        }
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "paintbackground"   "1"
+        "bgcolor_override"  "TanDarker"
     }
     
     "BG_classes"
@@ -117,7 +101,7 @@
         "visible"           "1"
         "enabled"           "1"
         "tabPosition"       "0"
-        "labelText"         ""
+        "labelText"         "&1"
         "textAlignment"     "south-west"
         "Command"           "loadout scout"
         "Default"           "0"
@@ -144,7 +128,7 @@
         "visible"           "1"
         "enabled"           "1"
         "tabPosition"       "0"
-        "labelText"         ""
+        "labelText"         "&2"
         "textAlignment"     "south-west"
         "Command"           "loadout soldier"
         "Default"           "0"
@@ -169,7 +153,7 @@
         "visible"           "1"
         "enabled"           "1"
         "tabPosition"       "0"
-        "labelText"         ""
+        "labelText"         "&3"
         "textAlignment"     "south-west"
         "Command"           "loadout pyro"
         "Default"           "0"
@@ -195,7 +179,7 @@
         "visible"           "1"
         "enabled"           "1"
         "tabPosition"       "0"
-        "labelText"         ""
+        "labelText"         "&4"
         "textAlignment"     "south-west"
         "Command"           "loadout demoman"
         "Default"           "0"
@@ -220,7 +204,7 @@
         "visible"           "1"
         "enabled"           "1"
         "tabPosition"       "0"
-        "labelText"         ""
+        "labelText"         "&5"
         "textAlignment"     "south-west"
         "Command"           "loadout heavy"
         "Default"           "0"
@@ -245,7 +229,7 @@
         "visible"           "1"
         "enabled"           "1"
         "tabPosition"       "0"
-        "labelText"         ""
+        "labelText"         "&6"
         "textAlignment"     "south-west"
         "Command"           "loadout engineer"
         "Default"           "0"
@@ -271,7 +255,7 @@
         "visible"           "1"
         "enabled"           "1"
         "tabPosition"       "0"
-        "labelText"         ""
+        "labelText"         "&7"
         "textAlignment"     "south-west"
         "Command"           "loadout medic"
         "Default"           "0"
@@ -296,7 +280,7 @@
         "visible"           "1"
         "enabled"           "1"
         "tabPosition"       "0"
-        "labelText"         ""
+        "labelText"         "&8"
         "textAlignment"     "south-west"
         "Command"           "loadout sniper"
         "Default"           "0"
@@ -321,7 +305,7 @@
         "visible"           "1"
         "enabled"           "1"
         "tabPosition"       "0"
-        "labelText"         ""
+        "labelText"         "&9"
         "textAlignment"     "south-west"
         "Command"           "loadout spy"
         "Default"           "0"
@@ -584,8 +568,8 @@
         "font"          "HudFontSmallBold"
         "labelText"     "#SelectClassLoadout"
         "textAlignment" "north"
-        "xpos"          "0"
-        "ypos"          "300"
+        "xpos"          "9999"
+        "ypos"          "9999"
         "zpos"          "1"
         "wide"          "f0"
         "tall"          "30"

@@ -1,3 +1,4 @@
+#base "mannterfaceversion.res"
 "Resource/UI/MainMenuOverride.res"
 {
     "InfoBGPanel"
@@ -125,36 +126,23 @@
             "enabled"   "1"
         }
     }
-    "VersionPanel"
+    "VersionNumber"
     {
-        "ControlName" "EditablePanel"
-        "fieldName" "VersionPanel"
-        "xpos" "c336"
-        "ypos" "437"
+        "ControlName"   "CExLabel"
+        "fieldName" "VersionNumber"
+        "font"  "HudFontSmallMediumBold"
+        "textAlignment" "center"
+        "xpos" "c310"
+        "ypos" "442"
         "zpos" "5"
         "wide" "125"
         "tall" "50"
-        "visible" "1"
-        "PaintBackgroundType" "0"
-        "bgcolor_override" "0 0 0 0"
-        "LastUpdate"
-        {
-            "ControlName"   "CExLabel"
-            "fieldName" "LastUpdate"
-            "font"  "HudFontSmallMediumBold"
-            "fgcolor_override"   "TanLight"
-            "labelText" "15.10.12.0"//xx
-            "textAlignment" "west"
-            "xpos"  "20"
-            "ypos"  "5"
-            "wide"  "200"
-            "tall"  "50"
-            "autoResize"    "0"
-            "pinCorner" "0"
-            "visible"   "1"
-            "enabled"   "1"
-        }
+        "autoResize"    "0"
+        "pinCorner" "0"
+        "visible"   "1"
+        "enabled"   "1"
     }
+
 
 
     "InGamePanel"
@@ -464,6 +452,10 @@
         {
             "image"     "../console/title_team_halloween2014"
         }
+        if_halloween_4
+        {
+            "image"     "../console/title_team_halloween2015"
+        }
         if_fullmoon
         {
             "image"     "../console/title_fullmoon"
@@ -475,6 +467,10 @@
         if_eotl_launch
         {
             "image"     "../console/title_eotl01"
+        }
+        if_operation
+        {
+            "image"     "../console/title_team_halloween2015"
         }
         if_community_update
         {
@@ -4239,8 +4235,7 @@
             }               
         }       
     }
-
-"EventPromo"
+    "EventPromo"
     {
         "ControlName"   "EditablePanel"
         "fieldname"     "EventPromo"
@@ -4275,10 +4270,10 @@
             "ControlName"   "EditablePanel"
             "fieldname"     "Background"
             "xpos"          "cs-0.5"
-            "ypos"          "315"
+            "ypos"          "300"
             "zpos"          "0"
             "wide"          "p0.8"
-            "tall"          "90"
+            "tall"          "120"
             "visible"       "1"
             "PaintBackgroundType"   "0"
             "proportionaltoparent"  "1"
@@ -4314,7 +4309,7 @@
                 "zpos"          "11"
                 "wide"          "p0.48"
                 "tall"          "26"
-                "visible"       "0"
+                "visible"       "1"
                 "PaintBackgroundType"   "0"
                 "proportionaltoparent"  "1"
 
@@ -4366,7 +4361,7 @@
                 "zpos"          "11"
                 "wide"          "p0.48"
                 "tall"          "26"
-                "visible"       "0"
+                "visible"       "1"
                 "PaintBackgroundType"   "0"
                 "proportionaltoparent"  "1"
 
@@ -4414,10 +4409,10 @@
                 "ControlName"           "CCyclingAdContainerPanel"
                 "fieldName"             "CyclingAd"
                 "xpos"                  "5"
-                "ypos"                  "25"
+                "ypos"                  "p0.47"
                 "zpos"                  "100"
                 "wide"                  "f10"
-                "tall"                  "60"
+                "tall"                  "p0.5"
                 "visible"               "1"
                 "enabled"               "1"
                 "scaleImage"            "1"
@@ -4429,37 +4424,22 @@
                 {
                     "0"
                     {
-                        "item"      "Unused Invasion Pass"
-
-                        "wide"      "f0"
-                        "tall"      "f0"
-                        "proportionaltoparent"  "1"
+                        "item"      "Halloween 2015 Key"
                         "show_market"   "0"
                     }
                     "1"
                     {
-                        "item"      "Invasion Key"
-
-                        "wide"      "f0"
-                        "tall"      "f0"
-                        "proportionaltoparent"  "1"
-                        "show_market"   "0"
+                        "item"      "Halloween 2015 case"
                     }
                     "2"
                     {
-                        "item"      "Invasion Case 01"
-
-                        "wide"      "f0"
-                        "tall"      "f0"
-                        "proportionaltoparent"  "1"
+                        "item"      "Taunt: Zoomin' Broom"
+                        "show_market"   "0"
                     }
                     "3"
                     {
-                        "item"      "Invasion Case 02"
-
-                        "wide"      "f0"
-                        "tall"      "f0"
-                        "proportionaltoparent"  "1"
+                        "item"      "Taunt: Maggot's Condolence"
+                        "show_market"   "0"
                     }
                 }
             }

@@ -1,0 +1,290 @@
+event HudHealthBonusPulse
+{
+    Animate PlayerStatusHealthBonusImage        Alpha       "0"          Linear 0.0 0.2
+    Animate PlayerStatusHealthBonusImage        Alpha       "0"          Linear 0.2 0.4
+    Animate PlayerStatusHealthValueFreeze       FgColor     "Health Buff" Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthValueHugeShadow1  Alpha       "255"        Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow2  Alpha       "255"        Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow3  Alpha       "255"        Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow4  Alpha       "255"        Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow5  Alpha       "255"        Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthValueHugeShadow1  FgColor     "Prism Buff" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow2  FgColor     "Prism Buff" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow3  FgColor     "Prism Buff" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow4  FgColor     "Prism Buff" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow5  FgColor     "Prism Buff" Linear 0.0 0.0
+  
+    Animate PlayerStatusHealthValueHuge         FgColor     "Prism Number Buff"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValue             FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlur         FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurU        FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurD        FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurL        FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurR        FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurUL       FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurUR       FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurDL       FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurDR       FgColor     "0 0 0 0"    Linear 0.0 0.0
+
+  //---  
+    Animate PlayerStatusHealthValueTargetIDShadow1  Alpha       "255"        Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow2  Alpha       "255"        Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow3  Alpha       "255"        Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow4  Alpha       "255"        Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow5  Alpha       "255"        Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthValueTargetIDShadow1  FgColor     "Prism Buff" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow2  FgColor     "Prism Buff" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow3  FgColor     "Prism Buff" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow4  FgColor     "Prism Buff" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow5  FgColor     "Prism Buff" Linear 0.0 0.0
+  
+    Animate PlayerStatusHealthValueTargetID         FgColor     "Prism Number Buff"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetID         ypos        "9"          Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlur     FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurU    FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurD    FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurL    FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurR    FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurUL   FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurUR   FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurDL   FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurDR   FgColor     "0 0 0 0"    Linear 0.0 0.0
+
+
+    RunEvent HudHealthBonusPulse2 0.2
+}
+
+event HudHealthBonusPulse2
+{
+    Animate PlayerStatusHealthValueTargetIDShadow1  FgColor     "Prism Buff"  Linear 0.0 0.15
+    Animate PlayerStatusHealthValueTargetIDShadow1  FgColor     "Prism Buff2" Linear 0.2 0.15
+    Animate PlayerStatusHealthValueTargetIDShadow2  FgColor     "Prism Buff"  Linear 0.05 0.15
+    Animate PlayerStatusHealthValueTargetIDShadow2  FgColor     "Prism Buff2" Linear 0.25 0.15
+    Animate PlayerStatusHealthValueTargetIDShadow3  FgColor     "Prism Buff"  Linear 0.1 0.15
+    Animate PlayerStatusHealthValueTargetIDShadow3  FgColor     "Prism Buff2" Linear 0.3 0.15
+    Animate PlayerStatusHealthValueTargetIDShadow4  FgColor     "Prism Buff"  Linear 0.15 0.15
+    Animate PlayerStatusHealthValueTargetIDShadow4  FgColor     "Prism Buff2" Linear 0.35 0.15
+    Animate PlayerStatusHealthValueTargetIDShadow5  FgColor     "Prism Buff"  Linear 0.2 0.15
+    Animate PlayerStatusHealthValueTargetIDShadow5  FgColor     "Prism Buff2" Linear 0.4 0.15
+    
+    Animate PlayerStatusHealthValueHugeShadow1  FgColor     "Prism Buff"  Linear 0.0 0.15
+    Animate PlayerStatusHealthValueHugeShadow1  FgColor     "Prism Buff2" Linear 0.2 0.15
+    Animate PlayerStatusHealthValueHugeShadow2  FgColor     "Prism Buff"  Linear 0.05 0.15
+    Animate PlayerStatusHealthValueHugeShadow2  FgColor     "Prism Buff2" Linear 0.25 0.15
+    Animate PlayerStatusHealthValueHugeShadow3  FgColor     "Prism Buff"  Linear 0.1 0.15
+    Animate PlayerStatusHealthValueHugeShadow3  FgColor     "Prism Buff2" Linear 0.3 0.15
+    Animate PlayerStatusHealthValueHugeShadow4  FgColor     "Prism Buff"  Linear 0.15 0.15
+    Animate PlayerStatusHealthValueHugeShadow4  FgColor     "Prism Buff2" Linear 0.35 0.15
+    Animate PlayerStatusHealthValueHugeShadow5  FgColor     "Prism Buff"  Linear 0.2 0.15
+    Animate PlayerStatusHealthValueHugeShadow5  FgColor     "Prism Buff2" Linear 0.4 0.15
+
+    
+    RunEvent HudHealthBonusPulseLoop    0.55
+}
+// call to loop HudHealthBonusPulse
+event HudHealthBonusPulseLoop
+{
+    RunEvent HudHealthBonusPulse2 0.0
+}
+
+event HudHealthBonusPulseStop
+{
+    StopEvent HudHealthBonusPulse 0.0
+    StopEvent HudHealthBonusPulse2 0.0
+    StopEvent HudHealthBonusPulseLoop 0.0
+    
+    Animate PlayerStatusHealthValueHugeShadow1 Alpha "0" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow2 Alpha "0" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow3 Alpha "0" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow4 Alpha "0" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow5 Alpha "0" Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthValueTargetIDShadow1 Alpha "0" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow2 Alpha "0" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow3 Alpha "0" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow4 Alpha "0" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow5 Alpha "0" Linear 0.0 0.0
+
+    
+
+    //RETURN TO NORMAL HEALTH AND SHADOWS
+    Animate PlayerStatusHealthValueHuge         FgColor     "0 0 0 0"         Linear 0.0 0.0   
+    Animate PlayerStatusHealthValue             FgColor     "Health Normal"   Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlur         FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurU        FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurD        FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurL        FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurR        FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurUL       FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurUR       FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurDL       FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurDR       FgColor     "Shadow Color"    Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthValueTargetID         ypos        "10"              Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetID         FgColor     "Health Normal"   Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlur     FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurU    FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurD    FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurL    FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurR    FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurUL   FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurUR   FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurDL   FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurDR   FgColor     "Shadow Color"    Linear 0.0 0.0
+ 
+   
+    
+    //RETURN TO NORMAL HEALTH TARGETID
+    Animate PlayerStatusHealthValueSpecT   FgColor "Health Normal" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueFreeze                    FgColor   "Health Normal"         Linear 0.0 0.0
+ 
+}
+
+//HURT
+event HudHealthDyingPulse
+{
+    Animate PlayerStatusHealthBonusImage        Alpha       "0"          Linear 0.0 0.2
+    Animate PlayerStatusHealthBonusImage        Alpha       "0"          Linear 0.2 0.4
+    Animate PlayerStatusHealthValueFreeze       FgColor     "Health Hurt" Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthValueHugeShadow1  Alpha       "255"        Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow2  Alpha       "255"        Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow3  Alpha       "255"        Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow4  Alpha       "255"        Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow5  Alpha       "255"        Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthValueHugeShadow1  FgColor     "Prism Hurt" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow2  FgColor     "Prism Hurt" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow3  FgColor     "Prism Hurt" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow4  FgColor     "Prism Hurt" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow5  FgColor     "Prism Hurt" Linear 0.0 0.0
+  
+    Animate PlayerStatusHealthValueHuge         FgColor     "Prism Number Hurt"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetID     ypos        "9"          Linear 0.0 0.0
+    Animate PlayerStatusHealthValue             FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlur         FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurU        FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurD        FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurL        FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurR        FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurUL       FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurUR       FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurDL       FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurDR       FgColor     "0 0 0 0"    Linear 0.0 0.0
+
+    //---  
+    Animate PlayerStatusHealthValueTargetIDShadow1  Alpha       "255"        Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow2  Alpha       "255"        Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow3  Alpha       "255"        Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow4  Alpha       "255"        Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow5  Alpha       "255"        Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthValueTargetIDShadow1  FgColor     "Prism Hurt" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow2  FgColor     "Prism Hurt" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow3  FgColor     "Prism Hurt" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow4  FgColor     "Prism Hurt" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow5  FgColor     "Prism Hurt" Linear 0.0 0.0
+  
+    Animate PlayerStatusHealthValueTargetID         FgColor     "Prism Number Hurt"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlur     FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurU    FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurD    FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurL    FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurR    FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurUL   FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurUR   FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurDL   FgColor     "0 0 0 0"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurDR   FgColor     "0 0 0 0"    Linear 0.0 0.0
+    RunEvent HudHealthDyingPulse2 0.2
+}
+
+event HudHealthDyingPulse2
+{
+    Animate PlayerStatusHealthValueTargetIDShadow5  FgColor     "Prism Hurt"  Linear 0.0 0.15
+    Animate PlayerStatusHealthValueTargetIDShadow5  FgColor     "Prism Hurt2" Linear 0.2 0.15
+    Animate PlayerStatusHealthValueTargetIDShadow4  FgColor     "Prism Hurt"  Linear 0.05 0.15
+    Animate PlayerStatusHealthValueTargetIDShadow4  FgColor     "Prism Hurt2" Linear 0.25 0.15
+    Animate PlayerStatusHealthValueTargetIDShadow3  FgColor     "Prism Hurt"  Linear 0.1 0.15
+    Animate PlayerStatusHealthValueTargetIDShadow3  FgColor     "Prism Hurt2" Linear 0.3 0.15
+    Animate PlayerStatusHealthValueTargetIDShadow2  FgColor     "Prism Hurt"  Linear 0.15 0.15
+    Animate PlayerStatusHealthValueTargetIDShadow2  FgColor     "Prism Hurt2" Linear 0.35 0.15
+    Animate PlayerStatusHealthValueTargetIDShadow1  FgColor     "Prism Hurt"  Linear 0.2 0.15
+    Animate PlayerStatusHealthValueTargetIDShadow1  FgColor     "Prism Hurt2" Linear 0.4 0.15
+    
+    Animate PlayerStatusHealthValueHugeShadow5  FgColor     "Prism Hurt"  Linear 0.0 0.15
+    Animate PlayerStatusHealthValueHugeShadow5  FgColor     "Prism Hurt2" Linear 0.2 0.15
+    Animate PlayerStatusHealthValueHugeShadow4  FgColor     "Prism Hurt"  Linear 0.05 0.15
+    Animate PlayerStatusHealthValueHugeShadow4  FgColor     "Prism Hurt2" Linear 0.25 0.15
+    Animate PlayerStatusHealthValueHugeShadow3  FgColor     "Prism Hurt"  Linear 0.1 0.15
+    Animate PlayerStatusHealthValueHugeShadow3  FgColor     "Prism Hurt2" Linear 0.3 0.15
+    Animate PlayerStatusHealthValueHugeShadow2  FgColor     "Prism Hurt"  Linear 0.15 0.15
+    Animate PlayerStatusHealthValueHugeShadow2  FgColor     "Prism Hurt2" Linear 0.35 0.15
+    Animate PlayerStatusHealthValueHugeShadow1  FgColor     "Prism Hurt"  Linear 0.2 0.15
+    Animate PlayerStatusHealthValueHugeShadow1  FgColor     "Prism Hurt2" Linear 0.4 0.15
+
+    
+    RunEvent HudHealthDyingPulseLoop    0.55
+}
+
+
+// call to loop HudHealthDyingPulse
+event HudHealthDyingPulseLoop
+{
+    RunEvent HudHealthDyingPulse2 0.0
+}
+
+event HudHealthDyingPulseStop
+{
+    StopEvent HudHealthDyingPulse 0.0
+    StopEvent HudHealthDyingPulse2 0.0
+    StopEvent HudHealthDyingPulseLoop 0.0
+    
+    Animate PlayerStatusHealthValueHugeShadow1 Alpha "0" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow2 Alpha "0" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow3 Alpha "0" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow4 Alpha "0" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueHugeShadow5 Alpha "0" Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthValueTargetIDShadow1 Alpha "0" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow2 Alpha "0" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow3 Alpha "0" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow4 Alpha "0" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDShadow5 Alpha "0" Linear 0.0 0.0
+
+
+    //RETURN TO NORMAL HEALTH AND SHADOWS   
+    Animate PlayerStatusHealthValueHuge         FgColor     "0 0 0 0"         Linear 0.0 0.0
+    Animate PlayerStatusHealthValue             FgColor     "Health Normal"   Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlur         FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurU        FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurD        FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurL        FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurR        FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurUL       FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurUR       FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurDL       FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlurDR       FgColor     "Shadow Color"    Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthValueTargetID         ypos        "10"              Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetID         FgColor     "Health Normal"   Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlur     FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurU    FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurD    FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurL    FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurR    FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurUL   FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurUR   FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurDL   FgColor     "Shadow Color"    Linear 0.0 0.0
+    Animate PlayerStatusHealthValueTargetIDBlurDR   FgColor     "Shadow Color"    Linear 0.0 0.0
+ 
+   
+    
+    //RETURN TO NORMAL HEALTH TARGETID
+    Animate PlayerStatusHealthValueSpecT   FgColor "Health Normal" Linear 0.0 0.0
+    Animate PlayerStatusHealthValueFreeze                    FgColor   "Health Normal"         Linear 0.0 0.0
+ 
+}
+

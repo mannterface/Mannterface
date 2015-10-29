@@ -4,36 +4,20 @@
     
     // BACKGROUNDS //
     
-    "C_LBG"
+     "C_LBG"
     {
-        "ControlName"   "ImagePanel"
-        "fieldName"     "Background"
+        "ControlName"   "EditablePanel"
+        "fieldName"     "C_LBG"
         "xpos"          "0"
         "ypos"          "0"
-        "zpos"          "-7"
+        "zpos"          "-6"
         "wide"          "f0"
         "tall"          "f0"
         "visible"       "1"
-        "enabled"       "1"
-        "image"         "../console/background_upward"
-        "scaleImage"    "1"
-        
-        if_halloween_0
-        {
-        //  "image"     "../console/title_team_halloween2011"
-        }
-        if_halloween_1
-        {
-        //  "image"     "../console/title_team_halloween2012"
-        }
-        if_fullmoon
-        {
-        //  "image"     "../console/title_fullmoon"
-        }
-        if_christmas
-        {
-        //  "image"     "../console/background_xmas2011"
-        }
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "paintbackground"   "1"
+        "bgcolor_override"  "TanDarker"
     }
     
     "BG_loadout"
@@ -50,7 +34,7 @@
         "visible"       "0"
         "enabled"       "0"
         "paintbackground"   "1"
-        "bgcolor_override"  "0 0 0 175"
+        "bgcolor_override"  "0 0 0 0"
     }
     
     "BG_CLoadout"
@@ -67,7 +51,7 @@
         "visible"       "1"
         "enabled"       "1"
         "paintbackground"   "1"
-        "bgcolor_override"  "0 0 0 175"
+        "bgcolor_override"  "0 0 0 0"
     }
     
     "BG_CItems"
@@ -75,7 +59,7 @@
         "ControlName"   "EditablePanel"
         "fieldName"     "BG_CItems"
         "xpos"          "70"
-        "ypos"          "45"
+        "ypos"          "25"
         "zpos"          "-5"        
         "wide"          "470"
         "tall"          "425"
@@ -84,7 +68,7 @@
         "visible"       "1"
         "enabled"       "1"
         "paintbackground"   "1"
-        "bgcolor_override"  "40 40 40 255"
+        "bgcolor_override"  "52 50 52 0"
     }
     
     "BG_CIHeader"
@@ -101,7 +85,7 @@
         "visible"       "1"
         "enabled"       "1"
         "paintbackground"   "1"
-        "bgcolor_override"  "TFOrange"
+        "bgcolor_override"  "0 0 0 0"
     }
     
     //// END OF CUSTOM ELEMENTS ////
@@ -125,10 +109,10 @@
         "infocus_bgcolor_override" "46 43 42 0"
         "outoffocus_bgcolor_override" "46 43 42 0"
         
-        "item_xpos_offcenter_a" "-355"
+        "item_xpos_offcenter_a" "-385"
         "item_xpos_offcenter_b" "-225"
-        "item_ypos"     "80"
-        "item_ydelta"   "80"
+        "item_ypos"     "57"
+        "item_ydelta"   "85"
         "item_mod_wide" "50"
         
         "item_backpack_offcenter_x"     "-288"
@@ -145,19 +129,21 @@
             "ControlName"   "CItemModelPanel"
             "xpos"          "c-70"
             "ypos"          "270"
-            "wide"          "140"
-            "tall"          "70"
+            "wide"          "154"
+            "tall"          "82"
             "visible"       "0"
             "bgcolor_override"      "0 0 0 0"
             "noitem_textcolor"      "117 107 94 255"
             "PaintBackgroundType"   "2"
-            "paintborder"   "0"
+            "paintborder"   "1"
             
-            "model_ypos"    "5"
-            "model_tall"    "55"
-            "text_ypos"     "54"
-            "text_center"   "1"
-            "name_only"     "1"
+            "model_center_x"    "1"
+            "model_ypos"        "5"         
+            "model_tall"        "75"
+            "model_wide"        "116"
+            "text_ypos"         "54"
+            "text_center"       "1"
+            "name_only"         "1"
             
             "attriblabel"
             {
@@ -204,7 +190,7 @@
         "labelText"     ">>"
         "textAlignment" "west"
         "xpos"          "c-300"
-        "ypos"          "50"
+        "ypos"          "40"
         "zpos"          "1"
         "wide"          "20"
         "tall"          "30"
@@ -222,7 +208,7 @@
         "labelText"     "#ClassBeingEquipped"
         "textAlignment" "west"
         "xpos"          "c-280"
-        "ypos"          "48"
+        "ypos"          "20"
         "zpos"          "1"
         "wide"          "240"
         "tall"          "30"
@@ -230,6 +216,7 @@
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
+        "fgcolor_override" "TanLight"
     }
 
     "TauntCaratLabel"
@@ -240,7 +227,7 @@
         "labelText"     ">>"
         "textAlignment" "west"
         "xpos"          "c-150"
-        "ypos"          "48"
+        "ypos"          "20"
         "zpos"          "1"
         "wide"          "20"
         "tall"          "30"
@@ -248,7 +235,7 @@
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
-        "fgcolor_override" "TanDarker"
+        "fgcolor_override" "TanLight"
     }
     "TauntLabel"
     {
@@ -258,7 +245,7 @@
         "labelText"     "#TF_Taunt"
         "textAlignment" "west"
         "xpos"          "c-130"
-        "ypos"          "50"
+        "ypos"          "20"
         "zpos"          "1"
         "wide"          "240"
         "tall"          "30"
@@ -266,6 +253,7 @@
         "pinCorner"     "0"
         "visible"       "1"
         "enabled"       "1"
+        "fgcolor_override" "TanLight"
     }
     
     "TopLine"

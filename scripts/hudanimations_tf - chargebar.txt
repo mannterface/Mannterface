@@ -1,0 +1,231 @@
+event UberchargeBg
+{
+    //First we have to move the normal charge percent away to make room for the "Charge!" animation.
+    Animate ChargeLabel                          xpos        "-100"                     Linear 0.0 0.3
+    Animate ChargeLabelBlurBack                  xpos        "-100"                     Linear 0.0 0.3
+    Animate ChargeLabelBlurLeft                  xpos        "-100"                     Linear 0.0 0.3
+    Animate ChargeLabelBlurRight                 xpos        "-100"                     Linear 0.0 0.3
+    Animate ChargeLabelBlurUp                    xpos        "-100"                     Linear 0.0 0.3
+    Animate ChargeLabelBlurDown                  xpos        "-100"                     Linear 0.0 0.3
+    Animate ChargeLabelBlurUpLeft                xpos        "-100"                     Linear 0.0 0.3
+    Animate ChargeLabelBlurUpRight               xpos        "-100"                     Linear 0.0 0.3
+    Animate ChargeLabelBlurDownLeft              xpos        "-100"                     Linear 0.0 0.3
+    Animate ChargeLabelBlurDownRight             xpos        "-100"                     Linear 0.0 0.3
+    
+    //The charge meter godes offscreen, and is instantly replaced by a duplicate   
+    Animate ChargeMeter             xpos        "100"                     Linear 0.0 0.0
+    Animate ChargeMeter             wide        "0"                       Linear 0.0 0.0
+    Animate ChargeMeterSlide        bgcolor     "Uber Normal"             Linear 0.0 0.0
+    
+    //This duplicate slides off "changing" into the full charge bar!
+    Animate ChargeMeterSlide        wide        "0"                       Linear 0.0 0.3
+    Animate ChargeMeter             xpos        "0"                       Linear 0.0 0.3
+    Animate ChargeMeter             wide        "100"                     Linear 0.0 0.3
+    
+    //The "Charge!" label comes in from the right!! Exciting!!
+    Animate ChargeLabelFullC        xpos        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullC        wide        "0"                       Linear 0.0 0.0
+    Animate ChargeLabelFullC        wide        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullC        xpos        "3"                       Linear 0.0 0.3
+    Animate ChargeLabelFullCBlur    xpos        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullCBlur    wide        "0"                       Linear 0.0 0.0
+    Animate ChargeLabelFullCBlur    wide        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullCBlur    xpos        "3"                       Linear 0.0 0.3
+    
+    Animate ChargeLabelFullH        xpos        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullH        wide        "0"                       Linear 0.0 0.0
+    Animate ChargeLabelFullH        wide        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullH        xpos        "17"                      Linear 0.0 0.3
+    Animate ChargeLabelFullHBlur    xpos        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullHBlur    wide        "0"                       Linear 0.0 0.0
+    Animate ChargeLabelFullHBlur    wide        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullHBlur    xpos        "17"                      Linear 0.0 0.3
+    
+    Animate ChargeLabelFullA        xpos        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullA        wide        "0"                       Linear 0.0 0.0
+    Animate ChargeLabelFullA        wide        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullA        xpos        "34"                      Linear 0.0 0.3
+    Animate ChargeLabelFullABlur    xpos        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullABlur    wide        "0"                       Linear 0.0 0.0
+    Animate ChargeLabelFullABlur    wide        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullABlur    xpos        "34"                      Linear 0.0 0.3
+
+    Animate ChargeLabelFullR        xpos        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullR        wide        "0"                       Linear 0.0 0.0
+    Animate ChargeLabelFullR        wide        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullR        xpos        "50"                      Linear 0.0 0.3
+    Animate ChargeLabelFullRBlur    xpos        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullRBlur    wide        "0"                       Linear 0.0 0.0
+    Animate ChargeLabelFullRBlur    wide        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullRBlur    xpos        "50"                      Linear 0.0 0.3
+    
+    Animate ChargeLabelFullG        xpos        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullG        wide        "0"                       Linear 0.0 0.0
+    Animate ChargeLabelFullG        wide        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullG        xpos        "64"                      Linear 0.0 0.3
+    Animate ChargeLabelFullGBlur    xpos        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullGBlur    wide        "0"                       Linear 0.0 0.0
+    Animate ChargeLabelFullGBlur    wide        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullGBlur    xpos        "64"                      Linear 0.0 0.3
+    
+    Animate ChargeLabelFullE        xpos        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullE        wide        "0"                       Linear 0.0 0.0
+    Animate ChargeLabelFullE        wide        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullE        xpos        "79"                      Linear 0.0 0.3
+    Animate ChargeLabelFullEBlur    xpos        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullEBlur    wide        "0"                       Linear 0.0 0.0
+    Animate ChargeLabelFullEBlur    wide        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullEBlur    xpos        "79"                      Linear 0.0 0.3
+    
+    Animate ChargeLabelFullX        xpos        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullX        wide        "0"                       Linear 0.0 0.0
+    Animate ChargeLabelFullX        wide        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullX        xpos        "92"                      Linear 0.0 0.3
+    Animate ChargeLabelFullXBlur    xpos        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullXBlur    wide        "0"                       Linear 0.0 0.0
+    Animate ChargeLabelFullXBlur    wide        "150"                     Linear 0.0 0.0
+    Animate ChargeLabelFullXBlur    xpos        "92"                      Linear 0.0 0.3
+    
+    //Gotta have those dropshadows!!
+    Animate ChargeLabelFullCBlur    fgcolor     "Shadow Color"                   Linear 0.0 0.0
+    Animate ChargeLabelFullHBlur    fgcolor     "Shadow Color"                   Linear 0.0 0.0
+    Animate ChargeLabelFullABlur    fgcolor     "Shadow Color"                   Linear 0.0 0.0
+    Animate ChargeLabelFullRBlur    fgcolor     "Shadow Color"                   Linear 0.0 0.0
+    Animate ChargeLabelFullGBlur    fgcolor     "Shadow Color"                   Linear 0.0 0.0
+    Animate ChargeLabelFullEBlur    fgcolor     "Shadow Color"                   Linear 0.0 0.0
+    Animate ChargeLabelFullXBlur    fgcolor     "Shadow Color"                   Linear 0.0 0.0
+
+
+    //This is the normal bar color, then the color during the moving animation, then the color when it settles down.
+    Animate ChargeMeter             fgcolor     "Uber Ready"              Linear 0.0 0.0
+    Animate ChargeMeter             fgcolor     "Uber Ready2"             Linear 1.4 2.0
+    
+    //Makes the "4" change color on full Vaccinator charge. It still isn't as pretty as it could be, but it works for now.
+    Animate IndividualChargesLabel  fgcolor     "Uber Number"             Linear 0.0 0.0
+
+}
+
+event HudMedicChargedBlink
+{
+    Animate ChargeMeter1            FgColor     "Uber Ready"       Linear 0.0 0.2
+    Animate ChargeMeter2            FgColor     "Uber Ready"       Linear 0.1 0.2
+    Animate ChargeMeter3            FgColor     "Uber Ready"       Linear 0.2 0.2
+    Animate ChargeMeter4            FgColor     "Uber Ready"       Linear 0.3 0.2
+    
+    Animate ChargeMeter1            FgColor     "Uber Ready2"      Linear 0.4 0.2
+    Animate ChargeMeter2            FgColor     "Uber Ready2"      Linear 0.5 0.2
+    Animate ChargeMeter3            FgColor     "Uber Ready2"      Linear 0.6 0.2
+    Animate ChargeMeter4            FgColor     "Uber Ready2"      Linear 0.7 0.2
+    
+    //The "Charge!" letters bouncing up and down.
+    Animate ChargeLabelFullX        ypos        "-1"                      Linear 0.0 0.2
+    Animate ChargeLabelFullC        ypos        "-6"                      Linear 0.1 0.2
+    Animate ChargeLabelFullC        ypos        "-1"                      Linear 0.2 0.2
+    Animate ChargeLabelFullH        ypos        "-6"                      Linear 0.2 0.2
+    Animate ChargeLabelFullH        ypos        "-1"                      Linear 0.3 0.2
+    Animate ChargeLabelFullA        ypos        "-6"                      Linear 0.3 0.2
+    Animate ChargeLabelFullA        ypos        "-1"                      Linear 0.4 0.2
+    Animate ChargeLabelFullR        ypos        "-6"                      Linear 0.4 0.2
+    Animate ChargeLabelFullR        ypos        "-1"                      Linear 0.5 0.2
+    Animate ChargeLabelFullG        ypos        "-6"                      Linear 0.5 0.2
+    Animate ChargeLabelFullG        ypos        "-1"                      Linear 0.6 0.2
+    Animate ChargeLabelFullE        ypos        "-6"                      Linear 0.6 0.2
+    Animate ChargeLabelFullE        ypos        "-1"                      Linear 0.7 0.2
+    Animate ChargeLabelFullX        ypos        "-6"                      Linear 0.7 0.2
+    
+    //The "Charge!" letters glowing when "selected".
+    Animate ChargeLabelFullX        fgcolor     "Charge Letters 0"         Linear 0.0 0.2
+    Animate ChargeLabelFullC        fgcolor     "Charge Letters 1"         Linear 0.1 0.2
+    Animate ChargeLabelFullC        fgcolor     "Charge Letters 0"         Linear 0.2 0.2
+    Animate ChargeLabelFullH        fgcolor     "Charge Letters 1"         Linear 0.2 0.2
+    Animate ChargeLabelFullH        fgcolor     "Charge Letters 0"         Linear 0.3 0.2
+    Animate ChargeLabelFullA        fgcolor     "Charge Letters 1"         Linear 0.3 0.2
+    Animate ChargeLabelFullA        fgcolor     "Charge Letters 0"         Linear 0.4 0.2
+    Animate ChargeLabelFullR        fgcolor     "Charge Letters 1"         Linear 0.4 0.2
+    Animate ChargeLabelFullR        fgcolor     "Charge Letters 0"         Linear 0.5 0.2
+    Animate ChargeLabelFullG        fgcolor     "Charge Letters 1"         Linear 0.5 0.2
+    Animate ChargeLabelFullG        fgcolor     "Charge Letters 0"         Linear 0.6 0.2
+    Animate ChargeLabelFullE        fgcolor     "Charge Letters 1"         Linear 0.6 0.2
+    Animate ChargeLabelFullE        fgcolor     "Charge Letters 0"         Linear 0.7 0.2
+    Animate ChargeLabelFullX        fgcolor     "Charge Letters 1"         Linear 0.7 0.2
+
+    RunEvent HudMedicChargedLoop    0.9
+}
+
+event HudMedicCharged
+{
+    RunEvent UberchargeBg               0.0
+    RunEvent HudMedicChargedBlink       0.0
+}
+
+// call to loop HudHealthBonusPulse
+event HudMedicChargedLoop
+{
+    RunEvent HudMedicChargedBlink 0.0
+}
+
+event HudMedicChargedStop
+{
+    StopEvent HudMedicCharged 0.0
+    StopEvent HudMedicChargedLoop 0.0
+    StopEvent HudMedicChargedBlink 0.0
+   
+    //You know the drill. Everything has to go back to normal. First: the colors
+    Animate ChargeLabel             FgColor     "Uber Number"       Linear 0.0 0.0
+    Animate ChargeMeter1            FgColor     "255 255 255 255"   Linear 0.0 0.0
+    Animate ChargeMeter2            FgColor     "255 255 255 255"   Linear 0.0 0.0
+    Animate ChargeMeter3            FgColor     "255 255 255 255"   Linear 0.0 0.0
+    Animate ChargeMeter4            FgColor     "255 255 255 255"   Linear 0.0 0.0
+    Animate IndividualChargesLabel  fgcolor     "Uber Normal"       Linear 0.0 0.0
+    
+    //The Normal Charge Meter has to come back and the substitute bar needs to go away.
+    Animate ChargeMeter             xpos        "0"                     Linear 0.5 0.4
+    Animate ChargeMeter             wide        "100"                   Linear 0.5 0.4
+    Animate ChargeMeter             fgcolor     "Uber Normal"           Linear 0.0 0.0
+    Animate ChargeMeterSlide        bgcolor     "0 0 0 0"               Linear 0.0 0.0
+    Animate ChargeMeterSlide        wide        "100"                   Linear 0.0 0.0
+    
+    //The charge label has to come back.
+    Animate ChargeLabel                          xpos        "0"                     Linear 0.1 0.4
+    Animate ChargeLabelBlurBack                  xpos        "0"                     Linear 0.1 0.4
+    Animate ChargeLabelBlurLeft                  xpos        "0"                     Linear 0.1 0.4
+    Animate ChargeLabelBlurRight                 xpos        "0"                     Linear 0.1 0.4
+    Animate ChargeLabelBlurUp                    xpos        "0"                     Linear 0.1 0.4
+    Animate ChargeLabelBlurDown                  xpos        "0"                     Linear 0.1 0.4
+    Animate ChargeLabelBlurUpLeft                xpos        "0"                     Linear 0.1 0.4
+    Animate ChargeLabelBlurUpRight               xpos        "0"                     Linear 0.1 0.4
+    Animate ChargeLabelBlurDownLeft              xpos        "0"                     Linear 0.1 0.4
+    Animate ChargeLabelBlurDownRight             xpos        "0"                     Linear 0.1 0.4
+    
+    //And the "Charge!" has to go away to make room for the normal charge label to come back.
+    Animate ChargeLabelFullC        xpos     "100"                   Linear 0.1 0.2
+    Animate ChargeLabelFullH        xpos     "100"                   Linear 0.1 0.2
+    Animate ChargeLabelFullA        xpos     "100"                   Linear 0.1 0.2
+    Animate ChargeLabelFullR        xpos     "100"                   Linear 0.1 0.2
+    Animate ChargeLabelFullG        xpos     "100"                   Linear 0.1 0.2
+    Animate ChargeLabelFullE        xpos     "100"                   Linear 0.1 0.2
+    Animate ChargeLabelFullX        xpos     "100"                   Linear 0.0 0.2
+    Animate ChargeLabelFullCBlur    xpos     "100"                   Linear 0.1 0.2
+    Animate ChargeLabelFullHBlur    xpos     "100"                   Linear 0.1 0.2
+    Animate ChargeLabelFullABlur    xpos     "100"                   Linear 0.1 0.2
+    Animate ChargeLabelFullRBlur    xpos     "100"                   Linear 0.1 0.2
+    Animate ChargeLabelFullGBlur    xpos     "100"                   Linear 0.1 0.2
+    Animate ChargeLabelFullEBlur    xpos     "100"                   Linear 0.1 0.2
+    Animate ChargeLabelFullXBlur    xpos     "100"                   Linear 0.1 0.2
+    
+    Animate ChargeLabelFullC        wide     "0"                   Linear 0.1 0.2
+    Animate ChargeLabelFullH        wide     "0"                   Linear 0.1 0.2
+    Animate ChargeLabelFullA        wide     "0"                   Linear 0.1 0.2
+    Animate ChargeLabelFullR        wide     "0"                   Linear 0.1 0.2
+    Animate ChargeLabelFullG        wide     "0"                   Linear 0.1 0.2
+    Animate ChargeLabelFullE        wide     "0"                   Linear 0.1 0.2
+    Animate ChargeLabelFullX        wide     "0"                   Linear 0.1 0.2
+    Animate ChargeLabelFullCBlur    wide     "0"                   Linear 0.1 0.2
+    Animate ChargeLabelFullHBlur    wide     "0"                   Linear 0.1 0.2
+    Animate ChargeLabelFullABlur    wide     "0"                   Linear 0.1 0.2
+    Animate ChargeLabelFullRBlur    wide     "0"                   Linear 0.1 0.2
+    Animate ChargeLabelFullGBlur    wide     "0"                   Linear 0.1 0.2
+    Animate ChargeLabelFullEBlur    wide     "0"                   Linear 0.1 0.2
+    Animate ChargeLabelFullXBlur    wide     "0"                   Linear 0.1 0.2
+
+}
