@@ -42,7 +42,7 @@
         "enabled"       "1"
         "labelText"     "%metal%"
         "textAlignment" "east"
-        "fgcolor"       "Black"
+        "fgcolor"       "Shadow Color"
         "font"          "HudFontSmallBoldBlur"
     }
 }

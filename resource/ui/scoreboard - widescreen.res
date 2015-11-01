@@ -861,10 +861,10 @@
             "font"          "HudFontBiggerBold"
             "labelText"     "%kills%"
             "textAlignment"     "east"
-            "xpos"          "-8"
+            "xpos"          "-18"
             "ypos"          "0" [$WIN32]
             "zpos"          "3"
-            "wide"          "60"
+            "wide"          "70"
             "tall"          "40"
             "autoResize"    "0"
             "pinCorner"     "0"
@@ -894,7 +894,7 @@
             "xpos"          "60"
             "ypos"          "0" [$WIN32]
             "zpos"          "3"
-            "wide"          "52"
+            "wide"          "70"
             "tall"          "40"
             "autoResize"    "0"
             "pinCorner"     "0"

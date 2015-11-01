@@ -18,50 +18,49 @@ Scheme
     //////////////////////// COLORS ///////////////////////////
     Colors
     {
-        //hud colors
+        //mannterface colors
         "Default Color"                         "235 226 202 255"
-        "Shadow Color"                          "46 43 42 225"
+        "Shadow Color"                          "46 43 42 225"//color of shadows on text
         
-        "Ammo In Clip"                          "235 226 202 255"
-        "Ammo In Reserve"                       "117 107 94 255"
-        "Ammo In Clip Low"                      "192 56 63 255"
-        "Ammo In Reserve Low"                   "192 56 63 255"
+        "Ammo In Clip"                          "235 226 202 255"//color of default ammo in clip
+        "Ammo In Reserve"                       "117 107 94 255"//color of default ammo in reserve
+        "Ammo In Clip Low"                      "192 56 63 255"//color of ammo low in clip
+        "Ammo In Reserve Low"                   "192 56 63 255"//color of ammo low in reserve
         
-        "Health Normal"                         "235 226 202 255"
-        "Health Buff"                           "92 175 115 255"
-        "Health Buff Blur"                      "0 50 0 200"
-        "Health Hurt"                           "255 180 20 255"
-        "Health Hurt Blur"                      "255 50 0 255"
+        "Health Normal"                         "235 226 202 255"//color of default health
+        "Health Buff"                           "92 175 115 255"//color of bouncing health buff 
+        "Health Buff Blur"                      "0 50 0 200"//color of shadow behind bouncing health buff
+        "Health Hurt"                           "255 180 20 255"//color of shaking health hurt
+        "Health Hurt Blur"                      "255 50 0 255"//color of shadow behinf shaking health hurt
         
-        "Prism Number Buff"                     "160 215 50 255"
-        "Prism Number Hurt"                     "255 220 20 255"
-        "Prism Buff"                            "92 175 115 255"        
-        "Prism Buff2"                           "0 50 0 255"
-        "Prism Hurt"                            "255 50 0 255"        
-        "Prism Hurt2"                           "150 5 0 255"
+        "Prism Number Buff"                     "160 215 50 255"//color of prism health buff
+        "Prism Number Hurt"                     "255 220 20 255"//color of prism health hurt
+        "Prism Buff"                            "92 175 115 255"//color of shadow behind prism health buff
+        "Prism Buff2"                           "0 50 0 255"//color of movement behind prism health buff
+        "Prism Hurt"                            "255 50 0 255"//color of shadow behind prism health hurt        
+        "Prism Hurt2"                           "150 5 0 255"//color of movement behind prism health hurt
 
-        
+        "Healthbar BG"							"46 43 42 150"//healthbar background
 
-        "Target Data"                           "255 220 20 255"
-        "Damage Crosshair"                      "255 180 20 255"
-        "Crosshair Color"                       "235 226 202 255"
-        "Target Name"                           "235 226 202 255"
+        "Target Data"                           "255 220 20 255"//color of target data (broken)
+        "Damage Crosshair"                      "255 180 20 255"//color of flashing crosshair when you hit someone
+        "Crosshair Color"                       "235 226 202 255"//color of crosshair normally
+        "Target Name"                           "235 226 202 255"//color of target name (broken)
         
-        "Server Time"                           "255 220 20 255"
+        "Server Time"                           "255 220 20 255"//color of big server time
 
-        "Uber Number"                           "235 226 202 255"
-        "Uber Normal"                           "92 175 115 255"
-        "Uber Ready"                            "255 200 20 255"
-        "Uber Ready2"                           "255 165 20 255"
+        "Uber Number"                           "235 226 202 255"//color of uber number default
+        "Uber Normal"                           "92 175 115 255"//color of uber BAR
+        "Uber Ready"                            "255 200 20 255"//color of uber BAR when full
+        "Uber Ready2"                           "255 165 20 255"//color of uber bar when full after
         
-        "Charge Letters 0"                      "255 100 100 255"//"235 226 202 255"
-        "Charge Letters 1"                      "235 226 202 255"//"255 255 150 255"
+        "Charge Letters 0"                      "255 100 100 255"//"235 226 202 255"  color of "CHARGE!" when in uber BAR
+        "Charge Letters 1"                      "235 226 202 255"//"255 255 150 255"  color of individual bouncing "CHARGE!" letters
 
     
-        "Heal Numbers"                          "100 200 100 255"
-        "Damage Numbers"                        "255 180 20 255"
-        "DamageAccount"                         "255 180 20 255"
-        "DamageAccountBG"                       "0 0 0 35"
+        "Heal Numbers"                          "100 200 100 255"//color of healing numbers
+        "Damage Numbers"                        "255 180 20 255"//color of damage numbers
+        "DamageAccount"                         "255 180 20 255"//color of damage account (above your health)
         //end hud colors
         
         // base colors
@@ -72,6 +71,11 @@ Scheme
         "TFOrange"          "145 73 59 255"
 
         "QuestGold"         "208 147 75 255"
+        "HalloweenThemeColor2015_Light" "238 126 17 255"
+        "HalloweenThemeColor2015"       "135 54 16 255"
+        "HalloweenThemeColor2015_Dark"  "108 49 21 255"
+        "QuestStandardHighlight"    "0 255 0 255"
+        "QuestBonusHighlight"       "150 160 255 255"
         
         "White"             "235 235 235 255"
         "Red"               "192 28 0 140"
@@ -3053,6 +3057,7 @@ Scheme
                 "antialias"     "1"
             }
         }
+
         "QuestFlavorText"
         {
             "1"
@@ -3139,6 +3144,126 @@ Scheme
             }
         }
 
+        "QuestInstructionText_Merasmus"
+        {
+            "1"
+            {
+                "name"      "TF2 Secondary"
+                "tall"      "10"
+                "weight"    "400"
+                "yres"      "480 599"
+                "additive"  "0"
+                "antialias" "1"
+            }
+            "2"
+            {
+                "name"      "TF2 Secondary"
+                "tall"      "14"
+                "weight"    "400"
+                "additive"  "0"
+                "yres"      "600 1023"
+                "antialias" "1"
+            }
+            "3"
+            {
+                "name"      "TF2 Secondary"
+                "tall"      "22"
+                "weight"    "400"
+                "additive"  "0"
+                "yres"      "1024 6000"
+                "antialias" "1"
+            }
+        }
+
+        "QuestFlavorText_Merasmus"
+        {
+            "1"
+            {
+                "name"      "TF2 Secondary"
+                "tall"      "10"
+                "weight"    "400"
+                "yres"      "480 599"
+                "additive"  "0"
+                "antialias" "1"
+                "italic"    "1"
+            }
+            "2"
+            {
+                "name"      "TF2 Secondary"
+                "tall"      "14"
+                "weight"    "400"
+                "additive"  "0"
+                "yres"      "600 1023"
+                "antialias" "1"
+                "italic"    "1"
+            }
+            "3"
+            {
+                "name"      "TF2 Secondary"
+                "tall"      "22"
+                "weight"    "400"
+                "additive"  "0"
+                "yres"      "1024 6000"
+                "antialias" "1"
+                "italic"    "1"
+            }
+        }
+
+        "QuestObjectiveText_Merasmus"
+        {
+            "1"
+            {
+                "name"      "TF2 Secondary"
+                "tall"      "10"
+                "weight"    "800"
+                "yres"      "480 599"
+                "additive"  "0"
+                "antialias" "1"
+            }
+            "2"
+            {
+                "name"      "TF2 Secondary"
+                "tall"      "14"
+                "weight"    "800"
+                "additive"  "0"
+                "yres"      "600 1023"
+                "antialias" "1"
+            }
+            "3"
+            {
+                "name"      "TF2 Secondary"
+                "tall"      "18"
+                "weight"    "800"
+                "additive"  "0"
+                "yres"      "1024 6000"
+                "antialias" "1"
+            }
+        }
+
+        "QuestMediumText_Merasmus"
+        {
+            "1"
+            {
+                "name"      "TF2 Secondary"
+                "tall"      "13"
+                "weight"    "400"
+                "additive"  "0"
+                "antialias" "1"
+            }
+        }
+        
+        "QuestLargeText_Merasmus"
+        {
+            "1"
+            {
+                "name"      "TF2 Secondary"
+                "tall"      "16"
+                "weight"    "400"
+                "additive"  "0"
+                "antialias" "1"
+            }
+        }
+
         "AdFont_ItemName"
         {
             "1"
@@ -3172,7 +3297,31 @@ Scheme
                 "antialias"     "1"
             }
         }
-        
+
+        "TradeUp_Text"
+        {
+            "1"
+            {
+                "name"      "Verdana"
+                "tall"      "8"
+                "weight"    "400"
+                "antialias" "1"
+                "additive"  "0"
+            }
+        }
+
+        "TradeUp_Quote"
+        {
+            "1"
+            {
+                "name"      "Trebuchet MS"
+                "tall"      "9"
+                "weight"    "400"
+                "antialias" "1"
+                "additive"  "0"
+                "italic"    "1"
+            }
+        }
         //
         //////////////////// REPLAY FONTS //////////////////////////////
         //
