@@ -1,4 +1,4 @@
-#base "scoreboard - 4by3.res"
+#base "scoreboard - normal.res"
 "Resource/UI/Scoreboard.res"
 {
 }

@@ -852,22 +852,24 @@
         "fieldName"             "WinPanel"
         "visible"               "1"
         "enabled"               "1"
-        "xpos"                  "0"
-        "ypos"                  "0"
-        "wide"                  "f0"
-        "tall"                  "480"
+        "xpos"                  "c-140"
+        "ypos"                  "239"
+        "wide"                  "280"
+        "tall"                  "239"
+        "zpos"          "11"
     }
-
-    ArenaWinPanel
-    {
-        "fieldName"             "ArenaWinPanel"
-        "visible"               "1"
-        "enabled"               "1"
-        "xpos"                  "c-225"
-        "ypos"                  "250"
-        "wide"                  "450"
-        "tall"                  "218"
-    }
+	ArenaWinPanel
+	{
+		"fieldName"				"ArenaWinPanel"
+		"visible"				"1"
+		"enabled"				"1"
+		"xpos"					"c-200"
+		"ypos"					"230"
+		"wide"					"400"
+		"tall"					"211"
+		
+		"zpos"			"11"
+	}
     
     PVEWinPanel
     {

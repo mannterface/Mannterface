@@ -464,18 +464,18 @@
         {
             "image"     "../console/background_xmas2011"
         }
-        if_eotl_launch
-        {
-            "image"     "../console/title_eotl01"
-        }
-        if_operation
-        {
-            "image"     "../console/title_team_halloween2015"
-        }
-        if_community_update
-        {
-            "image"     "../console/title_invasion"
-        }
+//      if_eotl_launch
+//      {
+//          "image"     "../console/title_eotl01"
+//      }
+//      if_operation
+//      {
+//          "image"     "../console/title_team_halloween2015"
+//      }
+//      if_community_update
+//      {
+//          "image"     "../console/title_invasion"
+//      }
     }
                     
     "TFLogoImage"

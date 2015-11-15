@@ -1,3 +1,20 @@
+15.11.14.0 …
+mannterface
+Added 32 player scoreboard, changed name of "4:3" scoreboard to 
+"normal"(this will run on all resolutions), cleaned up menus,
+changed winpanel to be better
+
+15.11.01.0 …
+mannterface
+Fixed health turning red too fast, added "e" shortcut to continue on map
+connect, fixed healthbars on targetid for EZ-OPTIONS, fixed health
+hurt/buff not animating on tournament spectate in healthbars mode, fixed
+little witch hat appearing above health, fixed Mannpower powerups
+showing up strangely.
+
+Known bug, buffs/debuffs like marked for death and vaccinator icons do
+NOT show up with the healthbar.
+
 15.10.29.0 …
 mannterface
 BIG UPDATE! - Added 16:9 options for health (default/cross/prism/bar)

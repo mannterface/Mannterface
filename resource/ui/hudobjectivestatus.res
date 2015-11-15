@@ -25,7 +25,7 @@
             "ControlName"       "CExLabel"
             "fieldName"     "TimePanelValue"
             "font"          "HudFontSmallBold"
-            "fgcolor"       "TanDark"
+            "fgcolor"       "TanMedium"
             "xpos"          "26"
             "ypos"          "125"//100
             "zpos"          "3"
@@ -36,6 +36,23 @@
             "textAlignment"     "center"
             "labelText"     "0:00"
         }   
+        "TimePanelValueBlur"
+        {
+            "ControlName"       "CExLabel"
+            "fieldName"     "TimePanelValueBlur"
+            "font"          "HudFontSmallBoldBlur"
+            "fgcolor"       "Shadow Color"
+            "xpos"          "26"
+            "ypos"          "125"//100
+            "zpos"          "2"
+            "wide"          "55"
+            "tall"          "31"
+            "visible"       "1"
+            "enabled"       "1"
+            "textAlignment"     "center"
+            "labelText"     "0:00"
+        }   
+
         
     }
 }

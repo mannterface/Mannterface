@@ -60,7 +60,7 @@
         "enabled"       "0"
         "textAlignment" "center"
         "font"          "M0refont24"
-        "fgcolor"       "255 255 255 255"
+        "fgcolor_override"       "Default Color"
     }
     
     "teambutton0"
@@ -87,7 +87,7 @@
         "associated_model"  "bluedoor"
         "hover"             "2.0"
         "font"          "invisiblelolol"
-        "fgcolor"       "255 255 255 0"
+        "fgcolor_override"       "255 255 255 0"
     }
 
     "teambutton1"
@@ -114,7 +114,7 @@
         "associated_model"  "reddoor"   
         "hover"             "2.0"
         "font"          "invisiblelolol"
-        "fgcolor"       "255 255 255 0"
+        "fgcolor_override"       "255 255 255 0"
     }
 
     "teambutton2"
@@ -140,7 +140,7 @@
         "command"       "jointeam auto"
         "associated_model"  "autodoor"
         "font"          "invisiblelolol"
-        "fgcolor"       "255 255 255 0"
+        "fgcolor_override"       "255 255 255 0"
     }
     
     "teambutton3"
@@ -165,7 +165,7 @@
         "command"       "jointeam spectate"
         "associated_model"  "spectate"  
         "font"          "invisiblelolol"
-        "fgcolor"       "255 255 255 0"
+        "fgcolor_override"       "255 255 255 0"
     }
     
     "CancelButton"
@@ -216,7 +216,7 @@
         "dulltext"      "0"
         "brighttext"    "0"
         "font"          "MenuMainTitle"
-        "fgcolor"       "HudOffWhite"
+        "fgcolor_override"       "HudOffWhite"
     }
     
     "TeamMenuAuto"
@@ -233,7 +233,7 @@
         "labelText"     "RANDOM"
         "textAlignment" "center"
         "font"          "HudFontSmallBold"
-        "fgcolor"       "255 255 255 255"
+        "fgcolor_override"       "Default Color"
     }
     
     "TeamMenuSpectate"
@@ -250,7 +250,7 @@
         "labelText"     "SPECTATE"
         "textAlignment" "center"
         "font"          "HudFontSmallBold"
-        "fgcolor"       "255 255 255 255"
+        "fgcolor_override"       "Default Color"
     }
 
     "MenuBG"
@@ -286,7 +286,7 @@
         "pinCorner"         "0"
         "visible"           "1"
         "enabled"           "1"
-        "fillcolor"     "255 255 255 255"
+        "fillcolor"     "0 0 0 0"
     }
     
     "ShadedBar"
@@ -325,7 +325,7 @@
         "labelText"     "%bluecount%"
         "textAlignment" "east"
         "font"          "HudFontMediumBold"
-        "fgcolor"       "255 255 255 255"
+        "fgcolor_override"       "Default Color"
     }       
     
     "RedCount"
@@ -342,49 +342,36 @@
         "labelText"     "%redcount%"
         "textAlignment" "west"
         "font"          "HudFontMediumBold"
-        "fgcolor"       "255 255 255 255"
+        "fgcolor_override"       "Default Color"
     }   
 
     "blueframe"
     {
-        "ControlName"           "ScalableImagePanel"
+        "ControlName"           "ImagePanel"
         "fieldName"             "blueframe"
-        "xpos"                    "c-125"
-        "ypos"                  "c-6"
+        "xpos"                    "c-124"
+        "ypos"                  "c-12"
         "zpos"                  "1"     
         "wide"                    "124"
-        "tall"                    "12"
-        "autoResize"            "0"
-        "pinCorner"             "0"
+        "tall"                    "20"
+        "fillcolor"     "92 128 166 255"
         "visible"               "1"
         "enabled"               "1"
-        "image"                 "replay/thumbnails/bg_blue"
-        "src_corner_height"   "15"
-        "src_corner_width"    "15"
-        "draw_corner_width"   "0"   
-        "draw_corner_height"  "0"   
-
     }
     
     "redframe"
     {
-        "ControlName"             "ScalableImagePanel"
-        "fieldName"             "redframe"      
-        "xpos"                  "c1"
-        "ypos"                  "c-6"
+        "ControlName"           "ImagePanel"
+        "fieldName"             "redframe"
+        "xpos"                    "c0"
+        "ypos"                  "c-12"
         "zpos"                  "1"     
-        "wide"                  "124"
-        "tall"                  "12"
-        "autoResize"            "0"
-        "pinCorner"             "0"
+        "wide"                    "124"
+        "tall"                    "20"
+        "fillcolor"     "192 56 63 255"
         "visible"               "1"
-        "enabled"                 "1"
-        "image"                 "replay/thumbnails/bg_red"
-        "src_corner_height"     "15"
-        "src_corner_width"      "15"
-        "draw_corner_width"     "0" 
-        "draw_corner_height"    "0" 
-    }   
+        "enabled"               "1"
+    } 
     
     "BlueLabel"
     {
@@ -400,7 +387,7 @@
         "labelText"     "Blu :"
         "textAlignment" "left"
         "font"          "Default"
-        "fgcolor"       "255 255 255 255"
+        "fgcolor_override"       "Default Color"
         "autoResize"    "0"
         "pinCorner"     "0"
         "dulltext"      "0"
@@ -421,7 +408,7 @@
         "labelText"     ": Red"
         "textAlignment" "east"
         "font"          "Default"
-        "fgcolor"       "255 255 255 255"
+        "fgcolor_override"       "Default Color"
     }   
     "RandomFrame"
     {
@@ -485,7 +472,7 @@
         "button_pin_right_lodef"    "55"
         "fonttext"          "MatchmakingDialogMenuLarge"
         "fonttext_lodef"            "MatchmakingDialogMenuSmall"
-        "fgcolor"           "HudOffWhite"   
+        "fgcolor_override"           "HudOffWhite"   
         
         "button"
         {
@@ -527,7 +514,7 @@
         "dulltext"      "0"
         "brighttext"    "0"
         "font"          "CapPlayerFont"
-        "fgcolor"       "HudOffWhite"
+        "fgcolor_override"       "HudOffWhite"
         "centerwrap"    "1"
     }
     
@@ -549,7 +536,7 @@
         "dulltext"      "0"
         "brighttext"    "0"
         "font"          "CapPlayerFont"
-        "fgcolor"       "black"
+        "fgcolor_override"       "black"
         "centerwrap"    "1"
     }
     
@@ -571,7 +558,7 @@
         "dulltext"      "0"
         "brighttext"    "0"
         "font"          "CapPlayerFont"
-        "fgcolor"       "HudOffWhite"
+        "fgcolor_override"       "HudOffWhite"
         "centerwrap"    "1"
     }
     
@@ -593,7 +580,7 @@
         "dulltext"      "0"
         "brighttext"    "0"
         "font"          "CapPlayerFont"
-        "fgcolor"       "black"
+        "fgcolor_override"       "black"
         "centerwrap"    "1"
     }
 
