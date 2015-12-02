@@ -79,7 +79,7 @@
 		"max_pitch"			"360"
 		"use_pedestal"			"1"
 		"use_particle"			"1"
-		"fov"				"84"
+		"fov"				"85"
 		"mouseinputenabled"		"0"
 		"model_rotate_yaw_speed"	"20"
 
@@ -136,7 +136,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"c366"
+		"xpos"			"r60" //"c366"
 		"ypos"			"3"
 		"zpos"			"100"
 		"wide"			"19"
@@ -146,7 +146,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"labeltext"		""
+		"labeltext"		"&X"
 		"font"			"HudFontSmallBold"
 		"textAlignment"		"center"
 		"dulltext"		"0"
@@ -155,8 +155,8 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"close"
-		"proportionaltoparent" "1"
-		"actionsignallevel" "2"
+		"proportionaltoparent"	"1"
+		"actionsignallevel"	"2"
 			
 		"paintbackground"	"0"
 
@@ -164,9 +164,9 @@
 		"pin_corner_to_sibling"	"PIN_BOTTOMLEFT"
 		"pin_to_sibling_corner"	"PIN_TOPRIGHT"
 			
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "200 80 60 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultFgColor_override"	"0 0 0 0"
+		"armedFgColor_override"		"0 0 0 0"
+		"depressedFgColor_override"	"0 0 0 0"
 			
 		"image_drawcolor"	"150 60 45 255"
 		"image_armedcolor"	"200 80 60 255"

@@ -40,7 +40,7 @@ Scheme
         "Prism Hurt"                            "255 50 0 255"//color of shadow behind prism health hurt        
         "Prism Hurt2"                           "150 5 0 255"//color of movement behind prism health hurt
 
-        "Healthbar BG"							"46 43 42 150"//healthbar background
+        "Healthbar BG"                          "46 43 42 150"//healthbar background
 
         "Target Data"                           "255 220 20 255"//color of target data (broken)
         "Damage Crosshair"                      "255 180 20 255"//color of flashing crosshair when you hit someone
@@ -511,7 +511,7 @@ Scheme
         // fonts are used in order that they are listed
         // fonts listed later in the order will only be used if they fulfill a range not already filled
         // if a font fails to load then the subsequent fonts will replace
-
+        
         "Surface14"
         {
             "1"
@@ -3528,6 +3528,18 @@ Scheme
             {
                 "name"  "Bebas"
                 "tall"  "6"
+                "antialias" "1"
+                "additive"  "0"
+                "outline"   "0"
+            }
+        }
+        "MannCoFontSmallCustomAdam"
+        {
+            "1"
+            {
+                "name"  "Surface"
+                "tall"  "12"
+                "wide" "300"
                 "antialias" "1"
                 "additive"  "0"
                 "outline"   "0"
@@ -7049,5 +7061,6 @@ Scheme
             "font" "resource/fonts/Blocks.ttf"
             "name" "Blocks"
         {
+        "15" "resource/fonts/Icons.ttf"
 
 }

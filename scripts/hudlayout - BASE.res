@@ -2,34 +2,9 @@
 {
     "KnucklesCrosshair"
     {
-            "controlName"                                   "CExLabel"
-            "fieldName"                                     "KnucklesCrosshair"
-            "visible"                                       "0"
-            "enabled"                                       "0"
-            "zpos"                                          "1"
-            "xpos"                                          "c-25"
-            "ypos"                                          "c-25"
-            "wide"                                          "50"
-            "tall"                                          "50"
-            "font"                                          "size:30,outline:off"
-            "labelText"                                     "p"  //http://i.imgur.com/w0AcH2l.png
-            "textAlignment"                                 "center"
-            "fgcolor"                                       "Crosshair Color"
     }
    "TransparentViewmodelMask"
     {
-        //alpha doesn't work for this, you need to change the texture's alpha
-        "ControlName"   "ImagePanel"
-        "fieldName" "TransparentViewmodelMask"
-        "xpos"  "0"
-        "ypos"  "0"
-        "zpos"  "-100"
-        "wide"  "f0"
-        "tall"  "480"
-        "visible"   "0"
-        "enabled"   "0"
-        "image" "replay/thumbnails/REFRACTnormal_transparent"
-        "scaleImage"    "1"
     }
     HudPlayerStatus
     {
@@ -858,18 +833,18 @@
         "tall"                  "239"
         "zpos"          "11"
     }
-	ArenaWinPanel
-	{
-		"fieldName"				"ArenaWinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-200"
-		"ypos"					"230"
-		"wide"					"400"
-		"tall"					"211"
-		
-		"zpos"			"11"
-	}
+    ArenaWinPanel
+    {
+        "fieldName"             "ArenaWinPanel"
+        "visible"               "1"
+        "enabled"               "1"
+        "xpos"                  "c-200"
+        "ypos"                  "230"
+        "wide"                  "400"
+        "tall"                  "211"
+        
+        "zpos"          "11"
+    }
     
     PVEWinPanel
     {

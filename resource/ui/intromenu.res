@@ -1,5 +1,20 @@
 "Resource/UI/IntroMenu.res"
 {
+    "BottomLine"
+    {
+        "ControlName"   "ImagePanel"
+        "fieldName"     "FooterLine"
+        "xpos" "0"
+        "ypos" "50"
+        "zpos" "1"
+        "wide"          "f0"
+        "tall"          "10"
+        "visible"       "1"
+        "enabled"       "1"
+        "image"         "loadout_solid_line"
+        "scaleImage"    "1"
+    }
+
 	"intro"
 	{
 		"ControlName"		"CTFIntroMenu"

@@ -1,5 +1,25 @@
 "Resource/UI/TeamMenu.res"
 {
+    "ShadedBar"
+    {
+        "ControlName"   "ImagePanel"
+        "fieldName"     "ShadedBar"
+        "xpos"          "0"
+        "ypos"          "r50"
+        "zpos"          "5"
+        "wide"          "f0"
+        "tall"          "50"
+        "autoResize"    "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "alpha"         "175"
+        "enabled"       "1"
+        "tabPosition"   "0" 
+        "image"         "replay/thumbnails/bg_black"
+        "tileImage"     "1"
+        "PaintBackgroundType"   "0"
+    }
+    
     "team"
     {
         "ControlName"   "CTeamMenu"

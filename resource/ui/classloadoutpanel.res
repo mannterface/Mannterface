@@ -3,6 +3,161 @@
     ////// CUSTOM ELEMENTS ///////
     
     // BACKGROUNDS //
+	"Wall"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"Wall"
+		"xpos"			"0"
+		"ypos"			"40"
+		"zpos"			"-5"		
+		"wide"			"f0"
+		"tall"			"500"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"paintbackground"	"1"
+		"bgcolor_override"	"0 0 0 100"
+	}
+	
+	"TopLine"
+    {
+        "ControlName"   "ImagePanel"
+        "fieldName"     "FooterLine"
+        "xpos"          "0"
+        "ypos"          "40"
+        "zpos"          "6"
+        "wide"          "f0"
+        "tall"          "10"
+        "visible"       "1"
+        "enabled"       "1"
+        "image"         "loadout_solid_line"
+        "scaleImage"    "1"
+    }
+	"BottomLine"
+    {
+        "ControlName"   "ImagePanel"
+        "fieldName"     "FooterLine"
+        "xpos"          "0"
+        "ypos"          "388"
+        "zpos"          "6"
+        "wide"          "f0"
+        "tall"          "10"
+        "visible"       "1"
+        "enabled"       "1"
+        "image"         "loadout_solid_line"
+        "scaleImage"    "1"
+    }
+
+	"RedButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"RedButton"
+		"xpos"				"c-55"
+		"ypos"				"80"
+		"zpos"				"12"	
+		"wide"				"52"
+		"tall"				"34"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			""
+		"textAlignment"		"south-west"
+		"scaleImage"		"1"
+		"command"	"sv_cheats 1; r_skin 0"
+		
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "TanDark"
+		"depressedFgColor_override" "TanDark"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
+		
+		"paintbackground"	"0"
+		"paintbackgroundtype"	"0"
+		"defaultBgColor_Override"	"0 0 0 255"
+		
+		"paintborder"		"0"
+		
+		"image_drawcolor"		"255 255 255 77"
+		"image_armedcolor"		"255 255 255 128"
+		"image_selectedcolor"	"255 255 255 255"
+	
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"52"
+			"tall"			"52"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"/store/store_redteam"
+			"scaleImage"	"1"
+		}				
+	}
+	"BlueButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"BlueButton"
+		"xpos"				"c1"
+		"ypos"				"80"
+		"zpos"				"12"	
+		"wide"				"52"
+		"tall"				"34"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			""
+		"textAlignment"		"south-west"
+		"scaleImage"		"1"
+		"command"	"sv_cheats 1; r_skin 1"
+		
+		"fgcolor"			"TanDark"
+		"defaultFgColor_override" "TanDark"
+		"armedFgColor_override" "TanDark"
+		"depressedFgColor_override" "TanDark"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"sound_armed"		"UI/buttonrollover.wav"
+		
+		"paintbackground"	"0"
+		"paintbackgroundtype"	"0"
+		"defaultBgColor_Override"	"0 0 0 255"
+		
+		"paintborder"		"0"
+		
+		"image_drawcolor"		"255 255 255 77"
+		"image_armedcolor"		"255 255 255 128"
+		"image_selectedcolor"	"255 255 255 255"
+	
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"zpos"			"7"
+			"wide"			"52"
+			"tall"			"52"
+			"visible"		"1"
+			"enabled"		"1"
+			"scaleImage"	"1"
+			"image"			"/store/store_blueteam"
+			"scaleImage"	"1"
+		}				
+	}
+	
     
      "C_LBG"
     {
@@ -20,22 +175,6 @@
         "bgcolor_override"  "TanDarker"
     }
     
-    "BG_loadout"
-    {
-        "ControlName"   "EditablePanel"
-        "fieldName"     "BG_loadout"
-        "xpos"          "0"
-        "ypos"          "0"
-        "zpos"          "3"     
-        "wide"          "f0"
-        "tall"          "f0"
-        "autoResize"    "0"
-        "pinCorner"     "0"
-        "visible"       "0"
-        "enabled"       "0"
-        "paintbackground"   "1"
-        "bgcolor_override"  "0 0 0 0"
-    }
     
     "BG_CLoadout"
     {
@@ -111,7 +250,7 @@
         
         "item_xpos_offcenter_a" "-385"
         "item_xpos_offcenter_b" "-225"
-        "item_ypos"     "57"
+        "item_ypos"     "47"
         "item_ydelta"   "85"
         "item_mod_wide" "50"
         
@@ -187,7 +326,7 @@
         "ControlName"       "CExLabel"
         "fieldName"     "CaratLabel"
         "font"          "HudFontSmallestBold"
-        "labelText"     ">>"
+        "labelText"     ""
         "textAlignment" "west"
         "xpos"          "c-300"
         "ypos"          "40"
@@ -196,8 +335,8 @@
         "tall"          "30"
         "autoResize"    "1"
         "pinCorner"     "0"
-        "visible"       "1"
-        "enabled"       "1"
+        "visible"       "0"
+        "enabled"       "0"
         "fgcolor_override" "TanDarker"
     }
     "ClassLabel"
@@ -207,8 +346,8 @@
         "font"          "HudFontMediumBold"
         "labelText"     "#ClassBeingEquipped"
         "textAlignment" "west"
-        "xpos"          "c-280"
-        "ypos"          "20"
+        "xpos"          "c-40"
+        "ypos"          "10"
         "zpos"          "1"
         "wide"          "240"
         "tall"          "30"
@@ -233,8 +372,8 @@
         "tall"          "30"
         "autoResize"    "1"
         "pinCorner"     "0"
-        "visible"       "1"
-        "enabled"       "1"
+        "visible"       "0"
+        "enabled"       "0"
         "fgcolor_override" "TanLight"
     }
     "TauntLabel"
@@ -283,12 +422,12 @@
         "wide"          "332"
         "tall"          "425"
         "autoResize"    "0"
-        "pinCorner"     "0"
+        "pinCorner"     "1"
         "visible"       "1"
         "enabled"       "1"
         
         "render_texture"    "0"
-        "fov"           "25"
+        "fov"           "30"
         "allow_rot"     "1"
                 
         "model"
@@ -390,7 +529,7 @@
         "fieldName"     "PassiveAttribsLabel"
         "font"          "ItemFontAttribLarge"
         "xpos"          "c-135"
-        "ypos"          "c85"
+        "ypos"          "c95"
         "zpos"          "2" 
         "wide"          "270"
         "tall"          "240"
@@ -575,7 +714,7 @@
         "textAlignment" "south"
         
         "xpos"          "c-50"
-        "ypos"          "c-50"
+        "ypos"          "c-40"
         "zpos"          "2"
         "wide"          "100"
         "tall"          "100"
@@ -617,7 +756,7 @@
         "textAlignment" "south"
         
         "xpos"          "c-50"
-        "ypos"          "c60"
+        "ypos"          "c68"
         "zpos"          "2"
         "wide"          "100"
         "tall"          "100"
@@ -679,8 +818,8 @@
             "font"          "HudFontSmallBold"
             "labelText"     "#TauntsExplanation_Title"
             "textAlignment" "north"
-            "xpos"          "20"
-            "ypos"          "10"
+            "xpos"          "30"
+            "ypos"          "-20"
             "wide"          "210"
             "tall"          "30"
             "autoResize"    "0"

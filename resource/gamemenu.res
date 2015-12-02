@@ -53,13 +53,6 @@
         "subimage" "glyph_server_browser"
         "OnlyInGame" "1"
     }
-    "ReplayBrowserButton"
-    {
-        "label" ""
-        "command" "engine replay_reloadbrowser"
-        "tooltip" "#GameUI_GameMenu_ReplayDemos"
-        "subimage" "glyph_tv"
-    }
     "SteamWorkshopButton"
     {
         "label" ""
@@ -152,7 +145,20 @@
         "tooltip"       "Scoreboard Switcher"
         "OnlyInGame"    "1"
     }
-
+    "FixButton"
+    {
+        "label"         ""
+        "command"       "engine record issueFix; stop; snd_restart; hud_reloadscheme"
+        "subimage"      "glyph_view"
+        "tooltip"       "Fix All"
+        "OnlyInGame"    "0"
+    }
+    "NotificationButtonCustom"
+    {
+        "label"         ""
+        "tooltip"       "No New Icons"
+        "OnlyInGame"    "0"
+    }
 
     "InGamePanel"
     {
@@ -166,4 +172,16 @@
         "OnlyAtMenu"    "1"
         "command"       "engine"
     }
+	"ReplayBrowserButton"
+	{
+		"command" "engine replay_reloadbrowser"
+        "tooltip" "Replay"
+        "subimage" "glyph_tv"
+	}
+	"NewUserForumsButton"
+	{
+		"command" "view_newuser_forums"
+        "tooltip" "New User Forums"
+        "subimage" "glyph_tutorial"
+	}
 }

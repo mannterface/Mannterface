@@ -1,5 +1,19 @@
 "Resource/UI/MapInfoMenu.res"
 {
+        "TopLine"
+    {
+        "ControlName"   "ImagePanel"
+        "fieldName"     "FooterLine"
+        "xpos"          "0"
+        "ypos"          "430"
+        "zpos"          "6"
+        "wide"          "f0"
+        "tall"          "10"
+        "visible"       "1"
+        "enabled"       "1"
+        "image"         "loadout_solid_line"
+        "scaleImage"    "1"
+    }
     "mapinfo"
     {
         "ControlName"   "Frame"
@@ -238,32 +252,12 @@
         "autoResize"    "0"
         "pinCorner"     "0"
         "visible"       "1"
-        "alpha"         "175"
         "enabled"       "1"
         "tabPosition"   "0" 
-        "image"         "replay/thumbnails/bg_black"
+        "image"         "loadout_bottom_gradient"
         "tileImage"     "1"
         "PaintBackgroundType"   "0"
-    }           
-    "motdBG"
-    {
-        "ControlName"   "ImagePanel"
-        "fieldName"     "motdBG"
-        "xpos"          "243"
-        "ypos"          "75"
-        "zpos"          "-10"
-        "wide"          "415"
-        "tall"          "295"
-        "alpha"         "175"
-        "autoResize"    "0"
-        "pinCorner"     "0"
-        "visible"       "1"
-        "enabled"       "1"
-        "tabPosition"   "0" 
-        "image"         "replay/thumbnails/bg_black"
-        "tileImage"     "1"
-        "PaintBackgroundType"   "0"
-    }               
+    }             
 
     "Footer" [$X360]
     {

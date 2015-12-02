@@ -1,5 +1,62 @@
 "Resource/UI/CharInfoLoadoutSubPanel.res"
 {
+    "TopLine"
+    {
+        "ControlName"   "ImagePanel"
+        "fieldName"     "FooterLine"
+        "xpos"          "0"
+        "ypos"          "76"
+        "zpos"          "6"
+        "wide"          "f0"
+        "tall"          "10"
+        "visible"       "1"
+        "enabled"       "1"
+        "image"         "loadout_solid_line"
+        "scaleImage"    "1"
+    }
+	"BottomLine"
+    {
+        "ControlName"   "ImagePanel"
+        "fieldName"     "FooterLine"
+        "xpos"          "0"
+        "ypos"          "161"
+        "zpos"          "6"
+        "wide"          "f0"
+        "tall"          "10"
+        "visible"       "1"
+        "enabled"       "1"
+        "image"         "loadout_solid_line"
+        "scaleImage"    "1"
+    }
+	
+	"BottomTopLine"
+    {
+        "ControlName"   "ImagePanel"
+        "fieldName"     "BottomTopLine"
+        "xpos"          "0"
+        "ypos"          "275"
+        "zpos"          "6"
+        "wide"          "f0"
+        "tall"          "10"
+        "visible"       "1"
+        "enabled"       "1"
+        "image"         "loadout_solid_line"
+        "scaleImage"    "1"
+    }
+	"BottomBottomLine"
+    {
+        "ControlName"   "ImagePanel"
+        "fieldName"     "BottomBottomLine"
+        "xpos"          "0"
+        "ypos"          "370"
+        "zpos"          "6"
+        "wide"          "f0"
+        "tall"          "10"
+        "visible"       "1"
+        "enabled"       "1"
+        "image"         "loadout_solid_line"
+        "scaleImage"    "1"
+    }
      "C_LBG"
     {
         "ControlName"   "EditablePanel"
