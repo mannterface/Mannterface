@@ -1,6 +1,26 @@
 #base "mannterfaceversion.res"
 "Resource/UI/MainMenuOverride.res"
 {
+    "EventLogo"
+    {
+        "ControlName"   "ImagePanel"
+        "fieldName"     "EventLogo"
+        "xpos"          "c-128"
+        "ypos"          "60"
+        "zpos"          "-99"
+        "wide"          "256"
+        "tall"          "64"
+        "visible"       "1"
+        "enabled"       "1"
+        "image"         ""
+        "scaleImage"    "1"
+
+        if_operation
+        {
+            "image"     "../logo/tough_break_logo"
+        }
+    }   
+    
     "ReplayBrowserButton"
     {
         "ControlName"   "EditablePanel"
@@ -602,46 +622,10 @@
         "image"         ""
         "scaleImage"    "1"
         
-        if_halloween_0
+        if_operation
         {
-            "image"     "../console/title_team_halloween2011"
+            "image"     "../console/title_team_tough_break"
         }
-        if_halloween_1
-        {
-            "image"     "../console/title_team_halloween2012"
-        }
-        if_halloween_2
-        {
-            "image"     "../console/title_team_halloween2013"
-        }
-        if_halloween_3
-        {
-            "image"     "../console/title_team_halloween2014"
-        }
-        if_halloween_4
-        {
-            "image"     "../console/title_team_halloween2015"
-        }
-        if_fullmoon
-        {
-            "image"     "../console/title_fullmoon"
-        }
-        if_christmas
-        {
-            "image"     "../console/background_xmas2011"
-        }
-//      if_eotl_launch
-//      {
-//          "image"     "../console/title_eotl01"
-//      }
-//      if_operation
-//      {
-//          "image"     "../console/title_team_halloween2015"
-//      }
-//      if_community_update
-//      {
-//          "image"     "../console/title_invasion"
-//      }
     }
                     
     "TFLogoImage"
@@ -1605,6 +1589,47 @@
                 "proportionaltoparent"  "1"
             }
         }
+    }
+    
+    "ShowWarButton"
+    {
+        "ControlName"   "CExImageButton"
+        "fieldName"     "ShowWarButton"
+        "xpos"          "c100"
+        "ypos"          "30"
+        "zpos"          "1"
+        "wide"          "120"
+        "tall"          "28"
+        "autoResize"    "0"
+        "pinCorner"     "3"
+        "visible"       "0"
+        "enabled"       "1"
+        "tabPosition"   "0"
+        "labelText"     "War is here!"
+        "font"          "HudFontSmallBold"
+        "textAlignment" "center"
+        "textinsetx"    "25"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "default"       "1"
+        "Command"       "showcomic"
+        "proportionaltoparent" "1"
+
+        "navUp"         "Notifications_Panel"
+        "navLeft"       "SettingsButton"
+
+        "sound_depressed"   "UI/buttonclick.wav"
+        "sound_released"    "UI/buttonclickrelease.wav"
+        "border_default"    "MainMenuButtonDefault"
+        "border_armed"      "MainMenuButtonArmed"
+        "paintbackground"   "0"
+
+        "defaultFgColor_override" "46 43 42 255"
+        "armedFgColor_override" "235 226 202 255"
+        "depressedFgColor_override" "46 43 42 255"
+            
+        "image_drawcolor"   "117 107 94 255"
+        "image_armedcolor"  "235 226 202 255"
     }
     
     "TrainingButton"
@@ -2601,7 +2626,7 @@
         "ControlName"   "EditablePanel"
         "fieldname"     "CallVoteButton"
         "xpos"          "c-210"
-        "ypos"          "45"
+        "ypos"          "40"
         "zpos"          "12"
         "wide"          "20"
         "tall"          "20"
@@ -4321,12 +4346,11 @@
         }       
     }
     
-    //Featured items box on main menu
     "EventPromo"
     {
         "ControlName"   "EditablePanel"
         "fieldname"     "EventPromo"
-        "xpos"          "-30"  //change this to choose where on the screen you want it.
+        "xpos"          "-30"
         "ypos"          "10"
         "zpos"          "-60"
         "wide"          "320"
@@ -4345,7 +4369,7 @@
             "wide"                  "p0.9"
             "tall"                  "o1"
             "visible"               "0"
-            "enabled"               "0"
+            "enabled"               "1"
             "image"                 "menu_background_eotl_duck"
             "scaleImage"            "1"
             "proportionaltoparent"  "1"
@@ -4367,7 +4391,6 @@
 
             "paintborder"   "1"
             "border"        "MainMenuBGBorder"
-            
 
             "OperationTitleLabel"
             {
@@ -4375,10 +4398,10 @@
                 "fieldName"     "OperationTitleLabel"
                 "font"          "HudFontSmallBold"
                 "labelText"     "#MMenu_Update"
-                "textAlignment" "west"
-                "xpos"          "0"
+                "textAlignment" "center"
+                "xpos"          "p0.05"
                 "ypos"          "0"
-                "wide"          "f0"
+                "wide"          "p0.9"
                 "tall"          "30"
                 "autoResize"    "0"
                 "pinCorner"     "0"
@@ -4386,13 +4409,15 @@
                 "enabled"       "1"
                 "textinsetx"    "20"
                 "fgcolor_override"  "235 227 203 255"
+                "proportionaltoparent"  "1"
             }
+
             "ViewDetailsButton"
             {
                 "ControlName"   "EditablePanel"
                 "fieldname"     "ViewDetailsButton"
-                "xpos"          "r128"
-                "ypos"          "25"
+                "xpos"          "p0.25"
+                "ypos"          "27"
                 "zpos"          "11"
                 "wide"          "p0.48"
                 "tall"          "26"
@@ -4443,12 +4468,12 @@
             {
                 "ControlName"   "EditablePanel"
                 "fieldname"     "ViewComicButton"
-                "xpos"          "r252"
-                "ypos"          "25"
+                "xpos"          "p0.5"
+                "ypos"          "27"
                 "zpos"          "11"
                 "wide"          "p0.48"
                 "tall"          "26"
-                "visible"       "1"
+                "visible"       "0"
                 "PaintBackgroundType"   "0"
                 "proportionaltoparent"  "1"
 
@@ -4496,7 +4521,7 @@
                 "ControlName"           "CCyclingAdContainerPanel"
                 "fieldName"             "CyclingAd"
                 "xpos"                  "5"
-                "ypos"                  "55"
+                "ypos"                  "p0.47"
                 "zpos"                  "100"
                 "wide"                  "f10"
                 "tall"                  "p0.5"
@@ -4511,27 +4536,45 @@
                 {
                     "0"
                     {
-                        "item"      "Halloween 2015 Key"
+                        "item"          "Unused Operation Tough Break Pass"
                         "show_market"   "0"
                     }
                     "1"
                     {
-                        "item"      "Halloween 2015 case"
+                        "item"      "Tough Break Case 01 Pyroland"
+                        "show_market"   "1"
                     }
                     "2"
                     {
-                        "item"      "Taunt: Zoomin' Broom"
-                        "show_market"   "0"
+                        "item"      "Tough Break Case 02 Warbirds"
+                        "show_market"   "1"
                     }
                     "3"
                     {
-                        "item"      "Taunt: Maggot's Condolence"
+                        "item"      "Tough Break Key"
                         "show_market"   "0"
                     }
+                    "4"
+                    {
+                        "item"      "Tough Break Cosmetic Case"
+                        "show_market"   "1"
+                    }
+                    "5"
+                    {
+                        "item"      "Tough Break Cosmetic Key"
+                        "show_market"   "0"
+                    }
+                    "5"
+                    {
+                        "item"      "Taunt: Aerobic Taunt"
+                        "show_market"   "0"
+                    }
+                    
                 }
             }
 
         } // Background
+
         "NewImage"
         {
             "ControlName"           "ImagePanel"
@@ -4542,7 +4585,7 @@
             "wide"                  "80"
             "tall"                  "o1"
             "visible"               "0"
-            "enabled"               "0"
+            "enabled"               "1"
             "image"                 "new_large"
             "scaleImage"            "1"
             "proportionaltoparent"  "1"
@@ -4554,7 +4597,7 @@
         }
 
     } // EventPromo
-
+    
     "icon_generator"
     {
         "ControlName"       "CEmbeddedItemModelPanel"

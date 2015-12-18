@@ -376,7 +376,7 @@
         "brighttext"    "0"
         "FgColor_override"      "Uber Bar Color"
         "paintbackground"       "1"
-        "bgcolor_override"      "Uber Ready Panel"
+        "bgcolor_override"      "46 43 42 150"
     }
 
     "ChargeMeter2"
@@ -398,7 +398,7 @@
         "brighttext"    "0"
         "FgColor_override"      "Uber Bar Color"
         "paintbackground"       "1"
-        "bgcolor_override"      "Uber Ready Panel"
+        "bgcolor_override"      "46 43 42 150"
     }
 
     "ChargeMeter3"
@@ -420,7 +420,7 @@
         "brighttext"    "0"
         "FgColor_override"      "Uber Bar Color"
         "paintbackground"       "1"
-        "bgcolor_override"      "Uber Ready Panel"
+        "bgcolor_override"      "46 43 42 150"
     }
 
     "ChargeMeter4"
@@ -442,7 +442,7 @@
         "brighttext"    "0"
         "FgColor_override"      "Uber Bar Color"   
         "paintbackground"       "1"
-        "bgcolor_override"      "Uber Ready Panel"
+        "bgcolor_override"      "46 43 42 150"
     }
     
     "HealthClusterIcon"
