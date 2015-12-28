@@ -1,3 +1,7 @@
+15.12.27.0 …
+mannterface
+Fixed spectator and spawn healthbars and names not showing up
+
 15.12.17.0 …
 mannterface
 Updated for the Tough Break update and fixed the Vaccinator backgrounds
