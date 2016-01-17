@@ -1,0 +1,71 @@
+"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+{
+    HudItemEffectMeter
+    {
+        "fieldName"     "HudItemEffectMeter"
+        "visible"       "1"
+        "enabled"       "1"
+        "xpos" "c-40" // CUM
+        "ypos" "c10"
+        "wide" "f0"
+        "tall" "480"
+    }
+    
+    "ItemEffectMeterBG"
+    {
+        "ControlName"   "CTFImagePanel"
+        "fieldName"     "ItemEffectMeterBG"
+        "xpos"          "7"
+        "ypos"          "12"
+        "zpos"          "0"
+        "wide"          "12"
+        "tall"          "12"
+        "visible"       "1"
+        "enabled"       "1"
+        "image"         "../hud/leaderboard_class_scout_fan"
+        "scaleImage"    "1"     
+    }
+    
+    "ItemEffectMeterLabel"
+    {
+        "ControlName"           "CExLabel"
+        "fieldName"             "ItemEffectMeterLabel"
+        "xpos"                  "9999"
+        "ypos"                  "9999"
+        "zpos"                  "2"
+        "wide"                  "41"
+        "tall"                  "15"
+        "autoResize"            "1"
+        "pinCorner"             "2"
+        "visible"               "1"
+        "visible_minmode"       "1"
+        "enabled"               "1"
+        "tabPosition"           "0"
+        "labelText"             "#TF_ENERGYDRINK"
+        "textAlignment"         "center"
+        "dulltext"              "0"
+        "brighttext"            "0"
+        "font"                  "TFFontSmall"
+    }
+
+    "ItemEffectMeter"
+    {   
+        "ControlName"           "ContinuousProgressBar"
+        "fieldName"             "ItemEffectMeter"
+        "font"                  "Default"
+        "xpos"                  "22"
+        "ypos"                  "17"
+        "zpos"                  "3"
+        "wide"                  "36"
+        "tall"                  "2"
+        "autoResize"            "0"
+        "pinCorner"             "0"
+        "visible"               "1"
+        "enabled"               "1"
+        "textAlignment"         "Left"
+        "dulltext"              "0"
+        "brighttext"            "0"
+        "FgColor_override"      "255 0 255 255"
+        "bgcolor_override"      "46 43 42 150"
+    }                   
+}

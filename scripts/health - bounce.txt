@@ -1,0 +1,175 @@
+event HudHealthBonusPulse
+{
+    Animate PlayerStatusHealthValueGigantic                   FgColor     "Health Buff"       Linear 0.0 0.0
+    Animate PlayerStatusHealthValueGiganticBounceBlur1        FgColor     "Health Buff Blur"  Linear 0.0 0.0
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        FgColor     "Health Buff Blur"  Linear 0.0 0.0
+    Animate PlayerStatusHealthValueGiganticBounceBlur3        FgColor     "Health Buff Blur"  Linear 0.0 0.0
+    Animate PlayerStatusHealthValueGiganticBounceBlur4        FgColor     "Health Buff Blur"  Linear 0.0 0.0
+
+    Animate PlayerStatusHealthValue                           FgColor     "0 0 0 0"           Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlur                       FgColor     "0 0 0 0"           Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthValueID2                        FgColor     "Health Buff"       Linear 0.0 0.0
+    Animate PlayerStatusHealthValueID                         FgColor     "0 0 0 0"           Linear 0.0 0.0
+    Animate PlayerStatusHealthValueIDBlur                     FgColor     "Health Buff Blur"  Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthValueFreeze                     FgColor     "Health Buff"       Linear 0.0 0.0
+  
+    Animate PlayerStatusHealthValueGigantic                   ypos        "-4"                Linear 0.0 0.8
+    Animate PlayerStatusHealthValueGigantic                   ypos        "4"                 Linear 0.8 0.8
+    
+    Animate PlayerStatusHealthValueID2                        ypos        "3"                 Linear 0.0 0.8
+    Animate PlayerStatusHealthValueID2                        ypos        "7"                 Linear 0.8 0.8
+    Animate PlayerStatusHealthValueIDBlur                     xpos        "-24"               Linear 0.0 0.0
+    Animate PlayerStatusHealthValueIDBlur                     ypos        "4"                 Linear 0.0 0.8
+    Animate PlayerStatusHealthValueIDBlur                     ypos        "8"                 Linear 0.8 0.8
+    
+    Animate PlayerStatusHealthValueGiganticBounceBlur1        ypos        "-4"                Linear 0.0 0.8
+    Animate PlayerStatusHealthValueGiganticBounceBlur1        ypos        "4"                 Linear 0.8 0.8
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        ypos        "-4"                Linear 0.0 0.8
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        ypos        "4"                 Linear 0.8 0.8
+    Animate PlayerStatusHealthValueGiganticBounceBlur3        ypos        "-4"                Linear 0.0 0.8
+    Animate PlayerStatusHealthValueGiganticBounceBlur3        ypos        "4"                 Linear 0.8 0.8
+    Animate PlayerStatusHealthValueGiganticBounceBlur4        ypos        "-4"                Linear 0.0 0.8
+    Animate PlayerStatusHealthValueGiganticBounceBlur4        ypos        "4"                 Linear 0.8 0.8
+        
+    Animate PlayerStatusHealthBonusImage    Alpha       "175"       Linear 0.0 0.0
+    
+    RunEvent HudHealthBonusPulseLoop    1.6
+}
+// call to loop HudHealthBonusPulse
+event HudHealthBonusPulseLoop
+{
+    RunEvent HudHealthBonusPulse 0.0
+}
+
+event HudHealthBonusPulseStop
+{
+    StopEvent HudHealthBonusPulse 0.0
+    StopEvent HudHealthBonusPulseLoop 0.0
+    
+    Animate PlayerStatusHealthValueGigantic                   FgColor     "0 0 0 0"           Linear 0.0 0.0
+    Animate PlayerStatusHealthValueGiganticBounceBlur1        FgColor     "0 0 0 0"           Linear 0.0 0.0
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        FgColor     "0 0 0 0"           Linear 0.0 0.0
+    Animate PlayerStatusHealthValueGiganticBounceBlur3        FgColor     "0 0 0 0"           Linear 0.0 0.0
+    Animate PlayerStatusHealthValueGiganticBounceBlur4        FgColor     "0 0 0 0"           Linear 0.0 0.0
+
+    Animate PlayerStatusHealthValue                           FgColor     "Health Normal"     Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlur                       FgColor     "Shadow Color"      Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthValueID2                        FgColor     "0 0 0 0"           Linear 0.0 0.0
+    Animate PlayerStatusHealthValueID                         FgColor     "Health Normal"     Linear 0.0 0.0
+    Animate PlayerStatusHealthValueIDBlur                     FgColor     "Shadow Color"      Linear 0.0 0.0
+    Animate PlayerStatusHealthValueIDBlur                     xpos        "-24"               Linear 0.0 0.0
+    Animate PlayerStatusHealthValueIDBlur                     ypos        "6"                 Linear 0.0 0.0    
+    Animate PlayerStatusHealthValueFreeze                     FgColor     "Health Normal"     Linear 0.0 0.0
+    
+    
+    Animate PlayerStatusHealthBonusImage    Alpha       "175"       Linear 0.0 0.0
+}   
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+event HudHealthDyingPulse
+{
+    Animate PlayerStatusHealthValueGigantic                   FgColor     "Health Hurt"       Linear 0.0 0.0
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        FgColor     "Health Hurt Blur"  Linear 0.0 0.0
+
+    Animate PlayerStatusHealthValue                           FgColor     "0 0 0 0"           Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlur                       FgColor     "0 0 0 0"           Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthValueID2                        FgColor     "Health Hurt"       Linear 0.0 0.0
+    Animate PlayerStatusHealthValueID                         FgColor     "0 0 0 0"           Linear 0.0 0.0
+    Animate PlayerStatusHealthValueIDBlur                     FgColor     "Health Hurt Blur"  Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthValueFreeze                     FgColor     "Health Hurt"       Linear 0.0 0.0
+  
+    Animate PlayerStatusHealthValueGigantic                   xpos        "2"                 Linear 0.0 0.015
+    Animate PlayerStatusHealthValueGigantic                   ypos        "5"                 Linear 0.0 0.015
+    Animate PlayerStatusHealthValueGigantic                   xpos        "0"                 Linear 0.1 0.015
+    Animate PlayerStatusHealthValueGigantic                   ypos        "0"                 Linear 0.1 0.015
+    Animate PlayerStatusHealthValueGigantic                   xpos        "-2"                Linear 0.5 0.015
+    Animate PlayerStatusHealthValueGigantic                   ypos        "-5"                Linear 0.5 0.015
+    Animate PlayerStatusHealthValueGigantic                   xpos        "0"                 Linear 0.6 0.015
+    Animate PlayerStatusHealthValueGigantic                   ypos        "0"                 Linear 0.6 0.015
+    
+    Animate PlayerStatusHealthValueID2                        xpos        "-24"               Linear 0.0 0.015
+    Animate PlayerStatusHealthValueID2                        ypos        "7"                 Linear 0.0 0.015
+    Animate PlayerStatusHealthValueID2                        xpos        "-25"               Linear 0.1 0.015
+    Animate PlayerStatusHealthValueID2                        ypos        "5"                 Linear 0.1 0.015
+    Animate PlayerStatusHealthValueID2                        xpos        "-26"               Linear 0.5 0.015
+    Animate PlayerStatusHealthValueID2                        ypos        "3"                 Linear 0.5 0.015
+    Animate PlayerStatusHealthValueID2                        xpos        "-25"               Linear 0.6 0.015
+    Animate PlayerStatusHealthValueID2                        ypos        "5"                 Linear 0.6 0.015
+    
+    Animate PlayerStatusHealthValueIDBlur                     xpos        "-23"               Linear 0.0 0.1
+    Animate PlayerStatusHealthValueIDBlur                     ypos        "8"                 Linear 0.0 0.1
+    Animate PlayerStatusHealthValueIDBlur                     xpos        "-25"               Linear 0.1 0.1
+    Animate PlayerStatusHealthValueIDBlur                     ypos        "5"                 Linear 0.1 0.1
+    Animate PlayerStatusHealthValueIDBlur                     xpos        "-27"               Linear 0.5 0.1
+    Animate PlayerStatusHealthValueIDBlur                     ypos        "2"                 Linear 0.5 0.1
+    Animate PlayerStatusHealthValueIDBlur                     xpos        "-25"               Linear 0.6 0.1
+    Animate PlayerStatusHealthValueIDBlur                     ypos        "5"                 Linear 0.6 0.1
+
+    
+    Animate PlayerStatusHealthValueGiganticBounceBlur1        xpos        "3"                 Linear 0.0 0.1
+    Animate PlayerStatusHealthValueGiganticBounceBlur1        ypos        "6"                 Linear 0.0 0.1
+    Animate PlayerStatusHealthValueGiganticBounceBlur1        xpos        "0"                 Linear 0.1 0.1
+    Animate PlayerStatusHealthValueGiganticBounceBlur1        ypos        "0"                 Linear 0.1 0.1
+    Animate PlayerStatusHealthValueGiganticBounceBlur1        xpos        "-3"                Linear 0.5 0.1
+    Animate PlayerStatusHealthValueGiganticBounceBlur1        ypos        "-6"                Linear 0.5 0.1
+    Animate PlayerStatusHealthValueGiganticBounceBlur1        xpos        "0"                 Linear 0.6 0.1
+    Animate PlayerStatusHealthValueGiganticBounceBlur1        ypos        "0"                 Linear 0.6 0.1
+    
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        xpos        "4"                 Linear 0.0 0.13
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        ypos        "7"                 Linear 0.0 0.13
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        xpos        "0"                 Linear 0.1 0.13
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        ypos        "0"                 Linear 0.1 0.13
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        xpos        "-4"                Linear 0.5 0.13
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        ypos        "-7"                Linear 0.5 0.13
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        xpos        "0"                 Linear 0.6 0.13
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        ypos        "0"                 Linear 0.6 0.13
+    
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        xpos        "5"                 Linear 0.0 0.16
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        ypos        "8"                 Linear 0.0 0.16
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        xpos        "0"                 Linear 0.1 0.16
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        ypos        "0"                 Linear 0.1 0.16
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        xpos        "-5"                Linear 0.5 0.16
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        ypos        "-8"                Linear 0.5 0.16
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        xpos        "0"                 Linear 0.6 0.16
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        ypos        "0"                 Linear 0.6 0.16
+
+
+    
+    Animate PlayerStatusHealthBonusImage    Alpha       "225"       Linear 0.0 0.0
+
+    
+    RunEvent HudHealthDyingPulseLoop    0.6
+}
+// call to loop HudHealthDyingPulse
+event HudHealthDyingPulseLoop
+{
+    RunEvent HudHealthDyingPulse 0.0
+}
+
+event HudHealthDyingPulseStop
+{
+    StopEvent HudHealthDyingPulse 0.0
+    StopEvent HudHealthDyingPulseLoop 0.0
+    
+    Animate PlayerStatusHealthValueGigantic                   FgColor     "0 0 0 0"           Linear 0.0 0.0
+    Animate PlayerStatusHealthValueGiganticBounceBlur1        FgColor     "0 0 0 0"           Linear 0.0 0.0
+    Animate PlayerStatusHealthValueGiganticBounceBlur2        FgColor     "0 0 0 0"           Linear 0.0 0.0
+    Animate PlayerStatusHealthValueGiganticBounceBlur3        FgColor     "0 0 0 0"           Linear 0.0 0.0
+    Animate PlayerStatusHealthValueGiganticBounceBlur4        FgColor     "0 0 0 0"           Linear 0.0 0.0
+
+    Animate PlayerStatusHealthValue                           FgColor     "Health Normal"     Linear 0.0 0.0
+    Animate PlayerStatusHealthValueBlur                       FgColor     "Shadow Color"      Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthValueID2                        FgColor     "0 0 0 0"           Linear 0.0 0.0
+    Animate PlayerStatusHealthValueID                         FgColor     "Health Normal"     Linear 0.0 0.0
+    Animate PlayerStatusHealthValueIDBlur                     FgColor     "Shadow Color"      Linear 0.0 0.0
+    Animate PlayerStatusHealthValueIDBlur                     xpos        "-24"               Linear 0.0 0.0
+    Animate PlayerStatusHealthValueIDBlur                     ypos        "6"                 Linear 0.0 0.0    
+    Animate PlayerStatusHealthValueFreeze                     FgColor     "Health Normal"     Linear 0.0 0.0
+    
+    Animate PlayerStatusHealthBonusImage    Alpha       "225"       Linear 0.0 0.0
+}   

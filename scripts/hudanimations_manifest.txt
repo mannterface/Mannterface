@@ -1,0 +1,50 @@
+hudanimations_manifest
+{
+    "file"      "scripts/hudanimations.txt"
+    
+    //medic charge
+    "file"      "scripts/charge - center.txt"
+    
+    //health
+    "file"      "scripts/health - default.txt"
+    
+    //low ammo
+    "file"      "scripts/lowammo.txt"
+    
+    "file"      "scripts/hudanimations_tf.txt"
+}
+
+
+///////////////////////////////////////////////
+//HEALTH OPTIONS
+///////////////////////////////////////////////
+
+//DEFAULT HEALTH - change "health" line to:
+//"file"      "scripts/health - default.txt"
+
+//BOUNCING HEALTH - change "health" line to:
+//"file"      "scripts/health - bounce.txt"
+
+//BAR HEALTH - change "health" line to:
+//"file"      "scripts/health - bar.txt"
+
+
+
+
+///////////////////////////////////////////////
+//MEDIC CHARGE OPTIONS
+///////////////////////////////////////////////
+
+//CENTER CHARGE - change "medic charge" line to:
+//"file"      "scripts/charge - center.txt"
+//IMPORTANT IMPORTANT IMPORTANT
+//refer to custom/Mannterface/resource/ui/hudmediccharge.res and change the first line in it to:
+//#base "hudmediccharge - center.res"
+
+//BAR CHARGE - change "medic charge" line to:
+//"file"      "scripts/charge - center.txt"
+//IMPORTANT IMPORTANT IMPORTANT
+//refer to custom/Mannterface/resource/ui/hudmediccharge.res and change the first line in it to:
+//#base "hudmediccharge - bar.res"
+
+

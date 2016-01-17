@@ -1,0 +1,41 @@
+event HudHealthBonusPulse
+{
+    Animate PlayerStatusHealthBonusImage        xpos        "-100"                 Linear 0.0 9.9
+    
+    RunEvent HudHealthBonusPulseLoop    9.9
+}
+// call to loop HudHealthBonusPulse
+event HudHealthBonusPulseLoop
+{
+    RunEvent HudHealthBonusPulse 0.0
+}
+
+event HudHealthBonusPulseStop
+{
+    StopEvent HudHealthBonusPulse 0.0
+    StopEvent HudHealthBonusPulseLoop 0.0
+    
+    Animate PlayerStatusHealthBonusImage        xpos        "100"                 Linear 0.0 0.0
+    
+}   
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
+event HudHealthDyingPulse
+{
+    Animate PlayerStatusHealthBonusImage        xpos        "100"                 Linear 0.0 0.0
+    
+    RunEvent HudHealthDyingPulseLoop    0.0
+}
+// call to loop HudHealthBonusPulse
+event HudHealthDyingPulseLoop
+{
+    RunEvent HudHealthDyingPulse 0.0
+}
+
+event HudHealthDyingPulseStop
+{
+    StopEvent HudHealthDyingPulse 0.0
+    StopEvent HudHealthDyingPulseLoop 0.0
+    
+    Animate PlayerStatusHealthBonusImage        xpos        "100"                 Linear 0.0 0.0
+    
+}   
