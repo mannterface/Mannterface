@@ -64,21 +64,46 @@
     {
         "xpos"          "r0"
         "ypos"          "r0"
+        if_competitive
+        {
+            "ypos"      "r0"
+        }
     }
     "CustomizeLabel" 
     {
         "xpos"          "r0"
         "ypos"          "r0"
+        if_competitive
+        {
+            "ypos"      "r0"
+        }
     } 
     "CreateBGPanel"
     {
         "xpos"          "r0"
         "ypos"          "r0"
+        if_competitive
+        {
+            "ypos"      "r0"
+        }        
     }
     "CreateLabel" 
     {
         "xpos"          "r0"
         "ypos"          "r0"
+        if_competitive
+        {
+            "ypos"      "r0"
+        }        
+    }
+    "PlayCompetitiveButton"
+    {
+        "xpos"          "r0"
+        "ypos"          "r0"
+        if_competitive
+        {
+            "ypos"      "r0"
+        }
     } 
   
 
@@ -377,6 +402,27 @@
             }
         }
     }
+    
+    "CompetitiveBetaImage"
+    {
+        "xpos"          "c-112"
+        "ypos"          "10"
+        "zpos"          "12"
+        "wide"          "20"
+        "tall"          "20"
+        "visible"       "1"
+        "enabled"       "1"
+        if_competitive
+        {
+        }
+        if_competitive_stress_event
+        {
+            "ypos"  "4"
+            "xpos"  "c-112"
+            "wide"  "35"
+            "tall"  "35"
+        }
+    }
     //mvm
     "PlayPVEButton"
     {
@@ -423,6 +469,10 @@
                 "visible"       "0"
                 "enabled"       "0"
             }
+        }
+        if_competitive
+        {
+            "ypos"      "0"
         }
     }
     "ChangeServerButton"
@@ -471,6 +521,10 @@
                 "image"         "glyph_create"
             }
         }
+        if_competitive
+        {
+            "ypos"      "8"
+        }
     }
 
     //inventory
@@ -491,6 +545,10 @@
                 "enabled"       "0"
             }
         }
+        if_competitive
+        {
+            "ypos"      "0"
+        }
     }
     //store
     "GeneralStoreButton"
@@ -509,6 +567,10 @@
                 "visible"       "0"
                 "enabled"       "0"
             }       
+        }
+        if_competitive
+        {
+            "ypos"      "440"
         }
     }
     //settings
@@ -583,6 +645,10 @@
                 "tall"          "10"
                 "scaleImage"    "1"
             }       
+        }
+        if_competitive
+        {
+            "ypos"      "r35"
         }
     }
     "NewUserForumsButton"
@@ -720,6 +786,10 @@
                 "scaleImage"    "1"
             }       
         }
+        if_competitive
+        {
+            "ypos"      "r19"
+        }
     } 
     "AchievementsButton"
     {
@@ -842,6 +912,10 @@
                 "tall"          "10"
                 "scaleImage"    "1"
             }       
+        }
+        if_competitive
+        {
+            "ypos"      "r19"
         }
     }      
    "ScoreboardSwitcher"

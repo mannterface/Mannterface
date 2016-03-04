@@ -25,9 +25,6 @@ hudanimations_manifest
 //BOUNCING HEALTH - change "health" line to:
 //"file"      "scripts/health - bounce.txt"
 
-//BAR HEALTH - change "health" line to:
-//"file"      "scripts/health - bar.txt"
-
 
 
 

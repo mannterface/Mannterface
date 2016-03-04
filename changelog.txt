@@ -1,18 +1,4 @@
-﻿Changelog:
-
-16.01.16.0 …
-mannterface
-Mannterface, mannlier than ever before. Be a real, burly, sonofabitch with
-this completely redone HUD, working on all resolutions, using #base includes
-sourcing from the default files! More about this and more can be read in the README. 
-Thanks to Wiethoofd and thenoid for everything! 
-
-16.0.0.0 …
-mannterface
-Removal of old version. This old version, which is old and broken, can
-be found here: http://puu.sh/myy5O.zip
-
-15.12.27.0 …
+﻿15.12.27.0 …
 mannterface
 Fixed spectator and spawn healthbars, names, and outlines not showing up
 

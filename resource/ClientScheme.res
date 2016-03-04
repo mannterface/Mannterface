@@ -1,9 +1,16 @@
-#base "paint_colors.res"
+//Fonts
 #base "crosshair_fonts.res"
 #base "block_font.res"
 #base "default_fonts_blur.res"
 #base "default_fonts_shadow.res"
 #base "default_fonts_outline.res"
+
+//Options
+//#base "../options/full colored item panels.res"
+
+//Clientschemes
+#base "paint_colors.res"
+#base "../options/wiet borders.res"
 #base "../default_hudfiles/resource/clientscheme.res"
 // Customization of clientscheme.res
 
@@ -24,8 +31,8 @@ Scheme
         "Health Buff Blur"                      "114 158 66 255"//color of shadow behind bouncing health buff
         "Health Buff Blur2"                     "66 79 59 255"//color of shadow behind bouncing health buff
         "Health Hurt"                           "255 180 20 255"//color of shaking health hurt
-        "Health Hurt Blur"                      "184 56 59 255"//color of shadow behinf shaking health hurt
-        "Health Hurt Blur2"                     "59 31 35 255"//color of shadow behinf shaking health hurt
+        "Health Hurt Blur"                      "184 56 59 255"//color of shadow behind shaking health hurt
+        "Health Hurt Blur2"                     "59 31 35 255"//color of shadow behind shaking health hurt
 
         "Healthbar BG"                          "46 43 42 150"//healthbar background
         
@@ -91,7 +98,7 @@ Scheme
             "1"
             {
                 "name"      "TF2 Build"
-                "tall"      "11"
+                "tall"      "9"
                 "weight"    "400"
                 "additive"  "0"
                 "antialias" "1"

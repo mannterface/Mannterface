@@ -30,10 +30,8 @@
     HudDeathNotice
     {
         "MaxDeathNotices" "7"
-        "LineSpacing"     "2"
-        "textFont"      "HudFontSmallBold"
-        "TeamBlue"      "HUDBlueTeamSolid"
-        "TeamRed"       "HUDRedTeamSolid"
+        "LineSpacing"     "1"
+        "TextFont"      "HudFontSmallestBold"
         "IconColor"     "TanLight"
         "LocalPlayerColor"  "TanDarker"
         "BaseBackgroundColor"   "TanDarker"  

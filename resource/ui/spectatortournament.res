@@ -6,21 +6,19 @@
         "team1_player_base_offset_x"        "0"
         "team1_player_base_y"               "210"
         "team1_player_delta_x"              "0"
-        "team1_player_delta_y"              "-25"
+        "team1_player_delta_y"              "-23"
         
         "team2_player_base_offset_x"        "0"
         "team2_player_base_y"               "250"
         "team2_player_delta_x"              "0"
-        "team2_player_delta_y"              "25"
+        "team2_player_delta_y"              "23"
         
         "playerpanels_kv"
         {
             "visible"       "0"
             "wide"          "136"
-            "tall"          "24"
+            "tall"          "22"
             "zpos"          "1"
-            "draw_corner_width" "0"             // screen size of the corners ( and sides ), proportional
-            "draw_corner_height"    "3"
             
             "borders"
             {
@@ -30,7 +28,7 @@
                 "ypos"          "0"
                 "zpos"          "20"
                 "wide"          "136" // show names 100
-                "tall"          "24"
+                "tall"          "22"
                 "autoResize"    "0"
                 "pinCorner"     "0"
                 "visible"       "1"
@@ -42,7 +40,7 @@
             {
                 "font"          "HudFontSmallestBoldShadow"
                 "xpos"          "41"
-                "ypos"          "6"
+                "ypos"          "5"
                 "zpos"          "5"
                 "wide"          "90"
                 "tall"          "15"
@@ -59,7 +57,7 @@
                 "fieldName"     "playernameshadow"
                 "font"          "HudFontSmallestBoldBlur"
                 "xpos"          "42"
-                "ypos"          "7"
+                "ypos"          "6"
                 "zpos"          "5"
                 "wide"          "90"
                 "tall"          "15"
@@ -82,7 +80,7 @@
             "classimage"
             {
                 "xpos"          "16"
-                "ypos"          "5"
+                "ypos"          "2"
                 "zpos"          "-5"
                 "wide"          "20"
                 "tall"          "20"
@@ -131,7 +129,7 @@
             {
                 "font"          "HudFontSmallestBoldShadow"
                 "xpos"          "2"
-                "ypos"          "8"
+                "ypos"          "7"
                 "zpos"          "5"
                 "wide"          "25"
                 "tall"          "10"
@@ -145,7 +143,7 @@
                 "fieldName"     "respawntimeshadow"
                 "font"          "HudFontSmallestBoldBlur"
                 "xpos"          "3"
-                "ypos"          "9"
+                "ypos"          "8"
                 "zpos"          "5"
                 "wide"          "25"
                 "tall"          "10"
@@ -161,7 +159,7 @@
             {
                 "font"          "HudFontSmallestBoldShadow"
                 "xpos"          "0"
-                "ypos"          "6"
+                "ypos"          "5"
                 "zpos"          "10"
                 "wide"          "25"
                 "tall"          "15"
@@ -174,7 +172,7 @@
                 "fieldName"     "chargeamountblur"
                 "font"          "HudFontSmallestBoldBlur"
                 "xpos"          "1"
-                "ypos"          "7"
+                "ypos"          "6"
                 "zpos"          "5"
                 "wide"          "25"
                 "tall"          "15"
@@ -241,9 +239,11 @@
     }
     "ReinforcementsLabel"
     {
-        "ypos_minmode"  "70"     [$WIN32]
+        "ypos"  "60"     [$WIN32]
+        "ypos_minmode"  "75"     [$WIN32]
         "wide_minmode"  "600"
-        "font"          "HudFontMediumSmallBold"
+        "font"          "HudFontSmallBoldShadow"
+        "fgcolor_override"       "Damage Numbers"
     }
     "itempanel"
     {

@@ -36,7 +36,7 @@
         "labelText"     "%Health%"
         "textAlignment" "center"    
         "font"          "HudFontMediumBoldShadow"
-        "fgcolor"       "TanLight"
+        "fgcolor_override"       "TanLight"
     } 
     "PlayerStatusHealthValueFreezeShadow"
     {

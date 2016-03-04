@@ -11,6 +11,6 @@
         "tall"                  "40"             
         "bgcolor_override"      "0 0 0 0"
         "paintborder"           "1"
-        "fgcolor_override"      "Uber Ready2"
+        "fgcolor_override"      "Uber Normal"
     }
 }

@@ -5,5 +5,5 @@ steamid=
 url=https://github.com/mannterface/Mannterface
 url=http://steamcommunity.com/groups/mannterface
 url=http://www.teamfortress.tv/28348/introducing-the-mannterface
-version=1601160
+version=1603030
 update_url=https://github.com/mannterface/Mannterface/archive/master.zip

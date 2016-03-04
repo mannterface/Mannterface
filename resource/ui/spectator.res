@@ -30,12 +30,22 @@
         "ypos"          "r0"
         "ypos_minmode"  "r0"      
     }
+    "ClassOrTeamLabel"
+    {
+        "xpos"          "r0"
+        "xpos_minmode"  "r0"
+        "ypos"          "r0"
+        "ypos_minmode"  "r0"  
+    }
     "ReinforcementsLabel"
     {
         "ypos_minmode"  "50"     [$WIN32]
         "wide_minmode"  "600"
-        "font"          "HudFontMediumSmallBold"
+        "font"          "HudFontSmallBoldShadow"
+        "fgcolor_override"       "Damage Numbers"
     }
+    
+
     "itempanel"
     {
         "wide"          "200"
