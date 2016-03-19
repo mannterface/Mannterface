@@ -410,10 +410,10 @@
         "zpos"          "12"
         "wide"          "20"
         "tall"          "20"
-        "visible"       "1"
-        "enabled"       "1"
         if_competitive
         {
+            "visible"       "1"
+            "enabled"       "1"
         }
         if_competitive_stress_event
         {

@@ -6,18 +6,18 @@
         "team1_player_base_offset_x"        "0"
         "team1_player_base_y"               "210"
         "team1_player_delta_x"              "0"
-        "team1_player_delta_y"              "-23"
+        "team1_player_delta_y"              "-24"
         
         "team2_player_base_offset_x"        "0"
         "team2_player_base_y"               "250"
         "team2_player_delta_x"              "0"
-        "team2_player_delta_y"              "23"
+        "team2_player_delta_y"              "24"
         
         "playerpanels_kv"
         {
             "visible"       "0"
             "wide"          "136"
-            "tall"          "22"
+            "tall"          "20"
             "zpos"          "1"
             
             "borders"
@@ -28,7 +28,7 @@
                 "ypos"          "0"
                 "zpos"          "20"
                 "wide"          "136" // show names 100
-                "tall"          "22"
+                "tall"          "20"
                 "autoResize"    "0"
                 "pinCorner"     "0"
                 "visible"       "1"
@@ -40,7 +40,7 @@
             {
                 "font"          "HudFontSmallestBoldShadow"
                 "xpos"          "41"
-                "ypos"          "5"
+                "ypos"          "4"
                 "zpos"          "5"
                 "wide"          "90"
                 "tall"          "15"
@@ -57,7 +57,7 @@
                 "fieldName"     "playernameshadow"
                 "font"          "HudFontSmallestBoldBlur"
                 "xpos"          "42"
-                "ypos"          "6"
+                "ypos"          "5"
                 "zpos"          "5"
                 "wide"          "90"
                 "tall"          "15"
@@ -80,7 +80,7 @@
             "classimage"
             {
                 "xpos"          "16"
-                "ypos"          "2"
+                "ypos"          "0"
                 "zpos"          "-5"
                 "wide"          "20"
                 "tall"          "20"
@@ -106,7 +106,7 @@
                 "visible"       "1"
                 "enabled"       "1" 
                 "zpos"          "1"
-                "HealthBonusPosAdj" "225" //250 for 16:10, 225 for 16:9, 178 for 1920x850 
+                "HealthBonusPosAdj" "178" //250 for 16:10, 225 for 16:9, 178 for 1920x850 
                 "HealthDeathWarning"        "1.0"
                 "TextColor"                 "0 0 0 0"
             }
@@ -129,7 +129,7 @@
             {
                 "font"          "HudFontSmallestBoldShadow"
                 "xpos"          "2"
-                "ypos"          "7"
+                "ypos"          "6"
                 "zpos"          "5"
                 "wide"          "25"
                 "tall"          "10"
@@ -143,7 +143,7 @@
                 "fieldName"     "respawntimeshadow"
                 "font"          "HudFontSmallestBoldBlur"
                 "xpos"          "3"
-                "ypos"          "8"
+                "ypos"          "7"
                 "zpos"          "5"
                 "wide"          "25"
                 "tall"          "10"
@@ -159,7 +159,7 @@
             {
                 "font"          "HudFontSmallestBoldShadow"
                 "xpos"          "0"
-                "ypos"          "5"
+                "ypos"          "4"
                 "zpos"          "10"
                 "wide"          "25"
                 "tall"          "15"
@@ -172,7 +172,7 @@
                 "fieldName"     "chargeamountblur"
                 "font"          "HudFontSmallestBoldBlur"
                 "xpos"          "1"
-                "ypos"          "6"
+                "ypos"          "5"
                 "zpos"          "5"
                 "wide"          "25"
                 "tall"          "15"

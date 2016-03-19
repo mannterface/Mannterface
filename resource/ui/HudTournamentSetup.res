@@ -1,0 +1,220 @@
+"Resource/UI/HudTournamentSetup.res"
+{
+    "HudTournamentSetupBG"
+    {
+        "ControlName"       "ScalableImagePanel"
+        "fieldName"     "HudTournamentSetupBG"
+        "xpos"          "0"
+        "ypos"          "5"
+        "zpos"          "-1"
+        "wide"          "175"
+        "tall"          "60"
+        "autoResize"        "0"
+        "pinCorner"     "0"
+        "visible"       "0"
+        "enabled"       "1"
+        "image"         "../HUD/tournament_panel_brown"
+
+
+        "src_corner_height" "40"                // pixels inside the image
+        "src_corner_width"  "40"
+        
+        "draw_corner_width" "0"             // screen size of the corners ( and sides ), proportional
+        "draw_corner_height"    "0" 
+    }
+    
+    "FlameBackground"
+    {
+        "ControlName"       "ImagePanel"
+        "fieldName"     "FlameBackground"
+        "xpos"          "0"
+        "ypos"          "5"
+        "zpos"          "-2"
+        "wide"          "175"
+        "tall"          "60"
+        "autoResize"    "1"
+        "scaleImage"    "1"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "fillcolor"     "FlameTransBlack"
+        "PaintBackgroundType"   "0"
+    }
+    
+    "FlameLeftBar"
+    {
+        "ControlName"       "CTFImagePanel"
+        "fieldName"     "FlameLeftBar"
+        "xpos"          "0"
+        "ypos"          "5"
+        "zpos"          "-1"
+        "wide"          "2"
+        "tall"          "60"
+        "autoResize"    "1"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "image"         "../hud/color_panel_brown"
+        "scaleImage"    "1"
+        "teambg_1"      "../hud/color_panel_brown"
+        "teambg_2"      "../hud/color_panel_red"
+        "teambg_3"      "../hud/color_panel_blu"
+        
+        "src_corner_height"     "40"            // pixels inside the image
+        "src_corner_width"      "40"            
+        "draw_corner_width"     "0"         // screen size of the corners ( and sides ), proportional
+        "draw_corner_height"    "0"     
+    }
+    
+    "FlameRightBar"
+    {
+        "ControlName"       "CTFImagePanel"
+        "fieldName"     "FlameRightBar"
+        "xpos"          "174"
+        "ypos"          "5"
+        "zpos"          "-1"
+        "wide"          "2"
+        "tall"          "60"
+        "autoResize"    "1"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "image"         "../hud/color_panel_brown"
+        "scaleImage"    "1"
+        "teambg_1"      "../hud/color_panel_brown"
+        "teambg_2"      "../hud/color_panel_red"
+        "teambg_3"      "../hud/color_panel_blu"
+        
+        "src_corner_height"     "40"            // pixels inside the image
+        "src_corner_width"      "40"            
+        "draw_corner_width"     "0"         // screen size of the corners ( and sides ), proportional
+        "draw_corner_height"    "0" 
+    }
+
+    "TournamentSetupLabel"
+    {   
+        "ControlName"       "Label"
+        "fieldName"     "TournamentLabel"
+        "font"          "HudFontSmallBold"
+        "xpos"          "0"
+        "ypos"          "0"
+        "zpos"          "1"
+        "wide"          "180"
+        "tall"          "35"
+        "autoResize"        "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "wrap"          "0"
+        "labelText"     "%tournamentstatelabel%"
+        "textAlignment"     "center"
+    }
+
+    "TournamentTeamNameLabel"
+    {   
+        "ControlName"       "Label"
+        "fieldName"     "TournamentTeamNameLabel"
+        "font"          "HudFontSmallest"
+        "xpos"          "77"
+        "ypos"          "28"
+        "zpos"          "1"
+        "wide"          "74"
+        "tall"          "0"
+        "autoResize"        "0"
+        "pinCorner"     "0"
+        "visible"       "0"
+        "enabled"       "1"
+        "wrap"          "0"
+        "labelText"     "#Tournament_TeamNamePanel"
+        "textAlignment"     "east"
+    }
+
+    "TournamentNameEdit"
+    {
+        "ControlName"       "TextEntry"
+        "fieldName"     "TournamentNameEdit"
+        "xpos"      "7"
+        "ypos"      "27"
+        "wide"      "160"
+        "tall"      "16"
+        "autoResize"        "0"
+        "pinCorner"     "0"
+        "visible"       "1"
+        "enabled"       "1"
+        "tabPosition"       "0"
+        "textHidden"        "0"
+        "editable"      "1"
+        "maxchars"      "6"
+        "NumericInputOnly"  "0"
+        "unicode"       "0"
+        "wrap"          "0"
+        "fgcolor_override"      "235 226 202 255"
+        "bgcolor_override"  "FlameBlack"
+        "labelText"     "%teamname%"
+        "textAlignment"     "center"
+    }
+
+    "HudTournamentNameBG"
+    {
+        "ControlName"       "CTFImagePanel"
+        "fieldName"     "HudTournamentNameBG"
+        "xpos"      "8"
+        "ypos"      "28"
+        "wide"      "50"
+        "tall"      "14"
+        "zpos"      "0"
+        "autoResize"    "0"
+        "pinCorner" "0"
+        "visible"   "1"
+        "enabled"   "1"
+        "fillcolor" "FlameBlack"
+        "scaleImage"    "1"
+    }
+
+    "TournamentNotReadyButton"
+    {
+        "ControlName"   "CExButton"
+        "fieldName"     "TournamentNotReadyButton"
+        "xpos"      "8"
+        "ypos"      "46"
+        "wide"      "70"
+        "tall"      "14"
+        "zpos"      "0"
+        "autoResize"    "0"
+        "pinCorner"     "2"
+        "visible"       "1"
+        "enabled"       "1"
+        "labelText"     "Not Ready"
+        "textAlignment" "center"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "command"       "teamnotready"
+        "default"       "1"
+        "font"          "HudFontSmallestBold"
+        "fgcolor"       "Red"
+    }
+
+    "TournamentReadyButton"
+    {
+        "ControlName"   "CExButton"
+        "fieldName"     "TournamentReadyButton"
+        "xpos"      "96"
+        "ypos"      "46"
+        "wide"      "70"
+        "tall"      "14"
+        "zpos"      "0"
+        "autoResize"    "0"
+        "pinCorner"     "2"
+        "visible"       "1"
+        "enabled"       "1"
+        "labelText"     "Ready"
+        "textAlignment" "center"
+        "dulltext"      "0"
+        "brighttext"    "0"
+        "command"       "teamready" 
+        "default"       "1"
+        "font"          "HudFontSmallestBold"
+        "fgcolor"       "FooterBGBlack"
+    }
+}
+
