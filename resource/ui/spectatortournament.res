@@ -106,7 +106,7 @@
                 "visible"       "1"
                 "enabled"       "1" 
                 "zpos"          "1"
-                "HealthBonusPosAdj" "178" //250 for 16:10, 225 for 16:9, 178 for 1920x850 
+                "HealthBonusPosAdj" "225" //250 for 16:10, 225 for 16:9, 178 for 1920x850 
                 "HealthDeathWarning"        "1.0"
                 "TextColor"                 "0 0 0 0"
             }

@@ -2,7 +2,7 @@
 {
     "VersionNumber"
     {
-        "labelText" "16.03.18.0"
+        "labelText" "16.03.24.0"
         "fgcolor"   "TanLight"
     }
 }

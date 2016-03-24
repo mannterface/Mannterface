@@ -288,12 +288,30 @@
         "xpos"          "r36"
         "ypos"          "80"
     }
-    
-    "Notifications_ShowButtonPanel"
+    "MOTD_Panel"
+    {
+        "xpos"          "r340"
+    }
+    "WatchStreamButton"
     {
         "xpos"          "r36"
         "ypos"          "115"
+        "SubButton"
+        {
+            "image_drawcolor"   "Health Buff Blur"
+            "image_armedcolor"  "Health Buff"
+        }
+    }    
+    "StreamListPanel"
+    {
+        "xpos"          "r340"
     }
+    "Notifications_ShowButtonPanel"
+    {
+        "xpos"          "r36"
+        "ypos"          "150"
+    }
+
     //remove resume button
     "ResumeGameButton"
     {
@@ -380,12 +398,25 @@
             "border_armed"      "MainMenuButtonArmed"
             "paintbackground"   "0"
             
-            "defaultFgColor_override" "46 43 42 255"
-            "armedFgColor_override" "235 226 202 255"
-            "depressedFgColor_override" "46 43 42 255"
+            "defaultFgColor_override" "TanDark"
+            "armedFgColor_override" "TanDark"
+            "depressedFgColor_override" "TanDark"
             
             "image_drawcolor"   "117 107 94 255"
             "image_armedcolor"  "235 226 202 255"
+            if_competitive
+            {
+                "defaultFgColor_override" "46 43 42 255"
+                "armedFgColor_override" "235 226 202 255"
+                "depressedFgColor_override" "46 43 42 255"
+            }
+            if_competitive_stress_event
+            {
+                "defaultFgColor_override"   "125 31 35 255"
+                "armedFgColor_override"     "184 56 59 255"
+                "depressedFgColor_override" "125 31 35 255"
+            }
+
 
             "SubImage"
             {
@@ -412,8 +443,8 @@
         "tall"          "20"
         if_competitive
         {
-            "visible"       "1"
-            "enabled"       "1"
+            "visible"       "0"
+            "enabled"       "0"
         }
         if_competitive_stress_event
         {

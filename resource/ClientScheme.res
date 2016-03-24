@@ -5,6 +5,7 @@
 #base "default_fonts_shadow.res"
 #base "default_fonts_outline.res"
 
+
 //Options
 //#base "../options/full colored item panels.res"
 

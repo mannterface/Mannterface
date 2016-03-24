@@ -74,6 +74,14 @@
         "xpos_minmode"  "r0"
         "ypos_minmode"  "r0"
     }
+    
+    "BlueLeaderAvatar"
+    {
+        "xpos"          "r0"
+        "ypos"          "r0"
+        "xpos_minmode"  "r0"
+        "ypos_minmode"  "r0"
+    }
     "BlueTeamLabel"
     {
         "font"          "HudFontSmallBoldShadowShadow"
@@ -112,6 +120,7 @@
         "tall"          "25"
         "fgcolor"       "TanLight"
         "font"          "HudFontSmallBoldShadow"
+        "textAlignment" "center"
     }
     "RedTeamLabel"
     {
@@ -123,6 +132,13 @@
         "tall"          "25"
         "visible"       "1"
         "fgcolor"       "TanLight"
+    }
+    "RedLeaderAvatar"
+    {
+        "xpos"          "r0"
+        "ypos"          "r0"
+        "xpos_minmode"  "r0"
+        "ypos_minmode"  "r0"
     }
     "RedTeamScore"
     {
@@ -151,6 +167,7 @@
         "tall"          "25"
         "fgcolor"       "TanLight"
         "font"          "HudFontSmallShadowestBoldShadow"
+        "textAlignment" "center"
     }
     "BlueMainBG"
     {
