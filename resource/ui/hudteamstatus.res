@@ -159,6 +159,36 @@
                 "image"         "../HUD/comp_player_status" 
                 "scaleImage"    "1" 
             }
+            "FreshSpawn"
+            {
+                "ControlName"   "ImagePanel"        
+                "fieldName" "FreshSpawn"
+                "xpos"      "15"
+                "ypos"      "28"
+                "zpos"      "999"
+                "wide"      "14"
+                "tall"      "14"
+                "visible"   "1"
+                "enabled"   "1"
+                "image"     "../HUD/ico_time_10"
+                "scaleImage"    "1"
+                "alpha"     "0"
+            }
+            "FreshSpawn_ClassDim"
+            {
+                "ControlName"       "ImagePanel"
+                "fieldName"     "FreshSpawn_ClassDim"
+                "xpos"          "0"
+                "ypos"          "0"
+                "zpos"          "999"
+                "visible"       "1"
+                "wide"          "40"
+                "tall"          "28"
+                "enabled"       "1"
+                "fillcolor"      "TransparentLightBlack"
+                "Alpha"         "0"
+               
+            }
         }
     }
 }

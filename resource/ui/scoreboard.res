@@ -84,7 +84,7 @@
     }
     "BlueTeamLabel"
     {
-        "font"          "HudFontSmallBoldShadowShadow"
+        "font"          "HudFontSmallBoldShadow"
         "textAlignment"     "west"
         "xpos"          "4"
         "ypos"          "c-30"
