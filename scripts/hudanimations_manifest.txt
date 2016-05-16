@@ -8,8 +8,8 @@ hudanimations_manifest
     //health
     "file"      "scripts/health - default.txt"
     
-    //low ammo
-    "file"      "scripts/lowammo.txt"
+    //low ammo and others
+    "file"      "scripts/others.txt"
     
     "file"      "scripts/hudanimations_tf.txt"
 }

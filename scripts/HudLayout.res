@@ -77,30 +77,6 @@
         "wide" "f0"
         "tall" "480"
     }
-    WinPanel
-    {
-        "xpos"                  "c-140"
-        "ypos"                  "239"
-        "wide"                  "280"
-        "tall"                  "239"
-        "zpos"                  "11"
-    }
-    ArenaWinPanel
-    {
-        "xpos"                  "c-200"
-        "ypos"                  "230"
-        "wide"                  "400"
-        "tall"                  "211"       
-        "zpos"                  "11"
-    }
-    
-    PVEWinPanel
-    {
-        "xpos"                  "c-150"
-        "ypos"                  "255"
-        "wide"                  "300"
-        "tall"                  "215"
-    }
     
     StatPanel
     {
