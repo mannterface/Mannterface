@@ -41,7 +41,7 @@
     {
         "ypos_minmode"  "50"     [$WIN32]
         "wide_minmode"  "600"
-        "font"          "HudFontSmallBoldShadow"
+        "font"          "FontShadow14"
         "fgcolor_override"       "Damage Numbers"
     }
     

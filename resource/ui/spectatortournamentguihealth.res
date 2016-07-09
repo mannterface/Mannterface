@@ -60,7 +60,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "west"    
-        "font"          "HudFontTinyBold"
+        "font"          "Font8"
         "fgcolor"       "TanDarker"
         "alpha"         "225"
     }

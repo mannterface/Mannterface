@@ -155,8 +155,8 @@
         "xpos_minmode"          "75"
         "CarryingLabel"
         {   
-            "font"              "HudFontSmallestBoldShadow"
-            "font_minmode"      "HudFontSmallestBoldShadow"
+            "font"              "FontShadow11"
+            "font_minmode"      "FontShadow11"
         }
 
         "CarryingLabelDropShadow"
@@ -169,8 +169,8 @@
 
         "OwnerLabel"
         {   
-            "font"              "HudFontSmallestBold"
-            "font_minmode"      "HudFontSmallestBold"
+            "font"              "Font11"
+            "font_minmode"      "Font11"
         }
     }
 }

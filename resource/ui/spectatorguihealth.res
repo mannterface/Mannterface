@@ -44,7 +44,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"              "HudFontMediumBoldShadow"  
+        "font"              "FontShadow24"  
         "fgcolor_override"  "Health Normal"
     }
     "PlayerStatusHealthValueID2"
@@ -62,7 +62,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"              "HudFontMediumBold"  
+        "font"              "Font24"  
         "fgcolor_override"  "0 0 0 0"
     }
 
@@ -81,7 +81,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"              "HudFontMediumBoldBlur"  
+        "font"              "FontBlur24"  
         "fgcolor_override"  "Shadow Color"
     }
     "PlayerStatusHealthValueIDShadow1"
@@ -99,7 +99,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"              "HudFontMediumBoldBlur"  
+        "font"              "FontBlur24"  
         "fgcolor_override"  "0 0 0 0"
     }
 
@@ -118,7 +118,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"              "HudFontMediumBoldBlur"  
+        "font"              "FontBlur24"  
         "fgcolor_override"  "0 0 0 0"
     }
     "PlayerStatusHealthValueIDShadow3"
@@ -136,7 +136,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"              "HudFontMediumBoldBlur"  
+        "font"              "FontBlur24"  
         "fgcolor_override"  "0 0 0 0"
     }
     "PlayerStatusHealthValueIDShadow4"
@@ -154,7 +154,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"              "HudFontMediumBoldBlur"  
+        "font"              "FontBlur24"  
         "fgcolor_override"  "0 0 0 0"
     }
     "PlayerStatusHealthValueIDShadow5"
@@ -172,7 +172,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"              "HudFontMediumBoldBlur"  
+        "font"              "FontBlur24"  
         "fgcolor_override"  "0 0 0 0"
     }
 }

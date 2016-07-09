@@ -47,9 +47,9 @@
             "dulltext"      "0"
             "brighttext"    "0"
             "fgcolor"       "Damage Numbers"
-            "font"          "HudFontMediumBoldShadow"
-            "font_minmode"  "HudFontMediumBoldShadow"
-            "font_lodef"    "HudFontMediumBoldShadow"
+            "font"          "FontShadow24"
+            "font_minmode"  "FontShadow24"
+            "font_lodef"    "FontShadow24"
         }
         "NumPipesLabelDropshadow"
         {
@@ -61,9 +61,9 @@
             "dulltext"      "0"
             "brighttext"    "0"
             "fgcolor"       "Shadow Color"
-            "font"          "HudFontMediumBoldBlur"
-            "font_minmode"  "HudFontMediumBoldBlur"
-            "font_lodef"    "HudFontMediumBoldBlur"
+            "font"          "FontBlur24"
+            "font_minmode"  "FontBlur24"
+            "font_lodef"    "FontBlur24"
         }       
     }
     
@@ -96,9 +96,9 @@
             "dulltext"      "0"
             "brighttext"    "0"
             "fgcolor"       "TanDark"
-            "font"          "HudFontMediumBoldShadow"
-            "font_minmode"  "HudFontMediumBoldShadow"
-            "font_lodef"    "HudFontMediumBoldShadow"
+            "font"          "FontShadow24"
+            "font_minmode"  "FontShadow24"
+            "font_lodef"    "FontShadow24"
         }
         "NumPipesLabelDropshadow"
         {
@@ -110,9 +110,9 @@
             "dulltext"      "0"
             "brighttext"    "0"
             "fgcolor"       "Shadow Color"
-            "font"          "HudFontMediumBoldBlur"
-            "font_minmode"  "HudFontMediumBoldBlur"
-            "font_lodef"    "HudFontMediumBoldBlur"
+            "font"          "FontBlur24"
+            "font_minmode"  "FontBlur24"
+            "font_lodef"    "FontBlur24"
         }           
     }
 }

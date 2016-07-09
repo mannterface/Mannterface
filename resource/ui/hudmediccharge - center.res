@@ -23,7 +23,7 @@
         "labelText"     "#TF_UberchargeMinHUD"
         "textAlignment" "center"
         "fgcolor"       "Uber Number"
-        "font"          "HudFontSmallBoldShadow"
+        "font"          "FontShadow14"
     }
     "ChargeLabelFull"
     {
@@ -47,7 +47,7 @@
         "dulltext"      "0"
         "brighttext"    "0"
         "fgcolor"       "0 0 0 0"
-        "font"          "HudFontSmallBold"
+        "font"          "Font14"
     }
 
     "ChargeMeter"
@@ -72,7 +72,7 @@
         "tall"          "20"
         "labelText"     "#TF_IndividualUberchargesMinHUD"
         "textAlignment" "center"
-        "font"          "HudFontSmallBoldShadow"
+        "font"          "FontShadow14"
     }
      "ChargeMeter1"
     {   

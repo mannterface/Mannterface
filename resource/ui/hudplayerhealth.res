@@ -43,7 +43,7 @@
         "wide"          "250"
         "tall"          "120"
         "textAlignment" "center"    
-        "font"          "HudFontGiantBoldShadow"
+        "font"          "FontShadow44"
         "fgcolor"       "Health Normal"
     }
     //background
@@ -63,7 +63,7 @@
         "tall"          "120"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"          "HudFontGiantBoldBlur"
+        "font"          "FontBlur44"
         "fgcolor"       "0 0 0 255"
     }
  
@@ -82,7 +82,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"          "HudFontGiganticBold"
+        "font"          "Font60"
         "fgcolor"       "0 0 0 0"
     }
     "PlayerStatusHealthValueGiganticBounceBlur1"
@@ -100,7 +100,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"          "HudFontGiganticBold"
+        "font"          "Font60"
         "fgcolor"       "0 0 0 0"
     } 
     "PlayerStatusHealthValueGiganticBounceBlur2"
@@ -118,7 +118,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"          "HudFontGiganticBoldBlur"
+        "font"          "FontBlur60"
         "fgcolor"       "0 0 0 0"
     }
     "PlayerStatusHealthValueGiganticBounceBlur3"
@@ -136,7 +136,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"          "HudFontGiganticBoldBlur"
+        "font"          "FontBlur60"
         "fgcolor"       "0 0 0 0"
     }
     "PlayerStatusHealthValueGiganticBounceBlur4"
@@ -154,7 +154,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"          "HudFontGiganticBoldBlur"
+        "font"          "FontBlur60"
         "fgcolor"       "0 0 0 0"
     }
 
@@ -175,7 +175,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"          "HudFontGiganticBoldBlur"
+        "font"          "FontBlur60"
         "fgcolor"       "0 0 0 0"
     } 
     "PlayerStatusHealthValueGiganticShadow2"
@@ -193,7 +193,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"          "HudFontGiganticBoldBlur"
+        "font"          "FontBlur60"
         "fgcolor"       "0 0 0 0"
     } 
     "PlayerStatusHealthValueGiganticShadow3"
@@ -211,7 +211,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"          "HudFontGiganticBoldBlur"
+        "font"          "FontBlur60"
         "fgcolor"       "0 0 0 0"
     } 
     "PlayerStatusHealthValueGiganticShadow4"
@@ -229,7 +229,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"          "HudFontGiganticBoldBlur"
+        "font"          "FontBlur60"
         "fgcolor"       "0 0 0 0"
     } 
     "PlayerStatusHealthValueGiganticShadow5"
@@ -247,7 +247,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"          "HudFontGiganticBoldBlur"
+        "font"          "FontBlur60"
         "fgcolor"       "0 0 0 0"
     } 
 }

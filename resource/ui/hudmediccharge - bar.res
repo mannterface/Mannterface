@@ -23,7 +23,7 @@
         "labelText"     "#TF_UberchargeMinHUD"
         "textAlignment" "center"
         "fgcolor"       "Uber Number"
-        "font"          "HudFontGiantBoldShadow"
+        "font"          "FontShadow44"
     }
     "ChargeLabelShadow"
     {
@@ -46,7 +46,7 @@
         "textAlignment" "center"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "HudFontGiantBoldBlur"
+        "font"          "FontBlur44"
         "fgcolor"       "Shadow Color"
     }
     "ChargeLabelFull"
@@ -71,7 +71,7 @@
         "dulltext"      "0"
         "brighttext"    "0"
         "fgcolor"       "0 0 0 0"
-        "font"          "HudFontSmallBold"
+        "font"          "FontBlur14"
     }
 
     "ChargeMeter"
@@ -110,7 +110,7 @@
         "tall"          "40"
         "labelText"     "#TF_IndividualUberchargesMinHUD"
         "textAlignment" "center"
-        "font"          "HudFontGiantBold"
+        "font"          "Font44"
         "fgcolor"       "Uber Normal"
     }
      "ChargeMeter1"
@@ -191,7 +191,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "HudFontMediumBold"
+        "font"          "Font24"
         "fgcolor"  "0 0 255 0"
     }
     "ChargeLabelFullCBlur"
@@ -213,7 +213,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "HudFontMediumBoldBlur"
+        "font"          "Font24Blur"
         "fgcolor"  "0 0 255 0"
     }
     "ChargeLabelFullH"
@@ -235,7 +235,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "HudFontMediumBold"
+        "font"          "Font24"
         "fgcolor"  "0 0 255 0"
     }
     "ChargeLabelFullHBlur"
@@ -257,7 +257,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "HudFontMediumBoldBlur"
+        "font"          "Font24Blur"
         "fgcolor"  "0 0 255 0"
     }
     "ChargeLabelFullA"
@@ -279,7 +279,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "HudFontMediumBold"
+        "font"          "Font24"
         "fgcolor"  "0 0 255 0"
     }
     "ChargeLabelFullABlur"
@@ -301,7 +301,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "HudFontMediumBoldBlur"
+        "font"          "Font24Blur"
         "fgcolor"  "0 0 255 0"
     }
     "ChargeLabelFullR"
@@ -323,7 +323,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "HudFontMediumBold"
+        "font"          "Font24"
         "fgcolor"  "0 0 255 0"
     }
     "ChargeLabelFullRBlur"
@@ -345,7 +345,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "HudFontMediumBoldBlur"
+        "font"          "Font24Blur"
         "fgcolor"  "0 0 255 0"
     }
     "ChargeLabelFullG"
@@ -367,7 +367,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "HudFontMediumBold"
+        "font"          "Font24"
         "fgcolor"  "0 0 255 0"
     }
     "ChargeLabelFullGBlur"
@@ -389,7 +389,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "HudFontMediumBoldBlur"
+        "font"          "Font24Blur"
         "fgcolor"  "0 0 255 0"
     }
     "ChargeLabelFullE"
@@ -411,7 +411,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "HudFontMediumBold"
+        "font"          "Font24"
         "fgcolor"  "0 0 255 0"
     }
     "ChargeLabelFullEBlur"
@@ -433,7 +433,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "HudFontMediumBoldBlur"
+        "font"          "Font24Blur"
         "fgcolor"  "0 0 255 0"
     }
 
@@ -456,7 +456,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "HudFontMediumBold"
+        "font"          "Font24"
         "fgcolor"  "0 0 255 0"
     }
     "ChargeLabelFullXBlur"
@@ -478,7 +478,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "HudFontMediumBoldBlur"
+        "font"          "Font24Blur"
         "fgcolor"  "0 0 255 0"
     }
 

@@ -41,8 +41,8 @@
     }
     "TargetNameLabel"
     {   
-        "font"          "HudFontSmallBoldShadow"
-        "font_minmode"  "HudFontSmallBoldShadow"
+        "font"          "FontShadow14"
+        "font_minmode"  "FontShadow14"
         "xpos"          "8"
         "xpos_minmode"  "8"
         "ypos"          "12"
@@ -50,8 +50,8 @@
     }
     "TargetDataLabel"
     {   
-        "font"          "HudFontSmallestBoldShadow"
-        "font_minmode"  "HudFontSmallestBoldShadow"
+        "font"          "FontShadow11"
+        "font_minmode"  "FontShadow11"
         "xpos"          "0"
         "xpos_minmode"  "0"
         "ypos"          "-2"    [$WIN32]

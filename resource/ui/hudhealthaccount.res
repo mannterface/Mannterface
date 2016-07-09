@@ -9,6 +9,6 @@
         "PositiveColor"         "Heal Numbers"
         "NegativeColor"         "Damage Numbers"
         "delta_lifetime"        "1.5"
-        "delta_item_font"       "HudFontMediumBoldShadow"
+        "delta_item_font"       "FontShadow24"
     }
 }

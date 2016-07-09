@@ -8,7 +8,7 @@
         "PositiveColor"         "Health Buff"
         "NegativeColor"         "Health Hurt"
         "delta_lifetime"        "1.5"
-        "delta_item_font"       "HudFontSmallBold"
+        "delta_item_font"       "Font14"
     }
     
     "AccountBG"
@@ -60,6 +60,6 @@
         "dulltext"      "0"
         "brighttext"    "0"
         "fgcolor"       "Default Color"
-        "font"          "HudFontSmallBoldShadow"
+        "font"          "FontShadow14"
     }
 }

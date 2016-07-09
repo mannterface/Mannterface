@@ -5,6 +5,11 @@
 #base "default_fonts_shadow.res"
 #base "default_fonts_outline.res"
 
+//#base "fontoptions/font.res"
+
+#base "fontoptions/font - TF2 Build.res"
+//#base "fontoptions/font - Cerbetica.res"
+//#base "fontoptions/font - Roboto.res"
 
 //Options
 //#base "../options/full colored item panels.res"
@@ -56,18 +61,6 @@ Scheme
     }
     Fonts
     {
-        "Default"
-        {
-            "6"
-            {
-                "name"      "TF2 Build"
-                "tall"      "14"
-                "range"         "0x0000 0x00FF"
-                "weight"        "500"
-                "antialias" "1"
-                "dropshadow" "1"
-            }
-        }
         "HudFontGiganticBold"
         {
             "1"
@@ -249,5 +242,20 @@ Scheme
                 }
             }
         }    
+    }    
+    CustomFontFiles
+    {
+        "13" // Cerbetica bolded, for ammo/health, etc.
+        {
+        
+            "font" "resource/fonts/Cerbetica_bold.ttf"
+            "name" "Cerbetica Bold"
+        }
+        "14" // Roboto bolded, for ammo/health, etc.
+        {
+        
+            "font" "resource/font/RobotoCondensed-Bold.ttf"
+            "name" "Roboto Condensed Bold"
+        }
     }
 }

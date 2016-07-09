@@ -116,7 +116,7 @@
         "wrap"      "0"
         "command"       "okay"
         "default"       "1"
-        "font"          "HudFontSmallBold"
+        "font"          "Font14"
     }
     
     "MenuBG"

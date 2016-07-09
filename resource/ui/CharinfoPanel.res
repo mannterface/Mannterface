@@ -54,7 +54,7 @@
         "tabskv"
         {
             "textinsetx"        "15"
-            "font"              "HudFontMediumBold"
+            "font"              "Font24"
             "selectedcolor"     "200 187 161 255"
             "unselectedcolor"   "130 120 104 255"
             "defaultBgColor_override"   "0 0 0 0" //"46 43 42 255"
@@ -82,7 +82,7 @@
         "enabled"       "1"
         "tabPosition"       "0"
         "labelText"     "<< Back (&Q)" //"#TF_BackCarat"
-        "font"          "HudFontSmallBold"
+        "font"          "Font18"
         "textAlignment"     "center"
         "dulltext"      "0"
         "brighttext"        "0"

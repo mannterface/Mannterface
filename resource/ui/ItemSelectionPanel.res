@@ -47,14 +47,14 @@
     }
     "ClassLabel" {
         "textAlignment"     "west"  
-        "font"          "HudFontMediumBold"
+        "font"          "Font24"
         "ypos"          "2"
         "wide"          "600"
         "tall"          "24"
     }
     
     "ItemSlotLabel" {
-        "font"          "HudFontSmallBold"
+        "font"          "Font14"
         "ypos"          "22"
         "wide"          "400"
         "tall"          "18"

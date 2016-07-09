@@ -71,7 +71,7 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "PopFileLabel"
-        "font"          "HudFontMediumBold"
+        "font"          ""Font24""
         "labelText"     "%popfile%"
         "textAlignment" "center"
         "xpos"          "4"

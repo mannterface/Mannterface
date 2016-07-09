@@ -38,7 +38,7 @@
             }
             "NemesisLabel"
             {
-                "font"          "HudFontMediumSmallBold"
+                "font"          "Font18"
                 "wide"          "125"
             }
             "NemesisLabel2"
@@ -48,13 +48,13 @@
         }
         "FreezeLabelKiller"
         {   
-            "font"          "HudFontSmallBoldShadow"
+            "font"          "FontShadow14"
         }
         "FreezeLabelKillerShadow"
         {   
             "ControlName"       "Label"
             "fieldName"     "FreezeLabelKillerShadow"
-            "font"          "HudFontSmallBoldBlur"
+            "font"          "FontBlur14"
             "fgcolor"       "Shadow Color"
             "xpos"          "c7"            // No avatar image on X360
             "xpos_hidef"        "c69"

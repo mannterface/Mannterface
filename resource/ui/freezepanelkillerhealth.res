@@ -35,7 +35,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"          "HudFontMediumBoldShadow"
+        "font"          "FontShadow24"
         "fgcolor_override"       "TanLight"
     } 
     "PlayerStatusHealthValueFreezeShadow"
@@ -51,7 +51,7 @@
         "enabled"       "1"
         "labelText"     "%Health%"
         "textAlignment" "center"    
-        "font"          "HudFontMediumBoldBlur"
+        "font"          "FontBlur24"
         "fgcolor"       "Shadow Color"
     } 
   
@@ -67,7 +67,7 @@
     {   
         "ControlName"       "CExLabel"
         "fieldName"     "CommTipPanel"
-        "font"          "HudFontTinyBold"
+        "font"          "Font8"
         "xpos"          "5"
         "ypos"          "16"
         "zpos"          "5"
@@ -87,7 +87,7 @@
     {   
         "ControlName"       "CExLabel"
         "fieldName"     "CommTipPanel"
-        "font"          "HudFontTinyBoldBlur"
+        "font"          "FontBlur8"
         "xpos"          "6"
         "ypos"          "17"
         "zpos"          "5"

@@ -17,7 +17,7 @@
     }
     "AmmoInClip"
     {
-        "font"          "HudFontGiantBoldShadow"
+        "font"          "FontShadow44"
         "fgcolor"       "Ammo In Clip"
         "xpos"          "-140"
         "xpos_minmode"  "-140"
@@ -30,7 +30,7 @@
     }       
     "AmmoInClipShadow"
     {
-        "font"          "HudFontGiantBoldBlur"
+        "font"          "FontBlur44"
         "fgcolor"       "Shadow Color"
         "xpos"          "-139"
         "xpos_minmode"  "-139"
@@ -45,8 +45,8 @@
   
     "AmmoInReserve"
     {
-        "font"          "HudFontMediumSmallBoldShadow"
-        "font_minmode"  "HudFontMediumSmallBoldShadow"
+        "font"          "FontShadow18"
+        "font_minmode"  "FontShadow18"
         "fgcolor"       "Ammo In Reserve"
         "xpos"          "120"
         "xpos_minmode"  "120"
@@ -60,8 +60,8 @@
     }       
     "AmmoInReserveShadow"
     {
-        "font"          "HudFontMediumSmallBoldBlur"
-        "font_minmode"  "HudFontMediumSmallBoldBlur"
+        "font"          "FontBlur18"
+        "font_minmode"  "FontBlur18"
         "fgcolor"       "Shadow Color"
         "xpos"          "121"
         "xpos_minmode"  "121"
@@ -77,7 +77,7 @@
     }                                   
     "AmmoNoClip"
     {
-        "font"          "HudFontGiantBoldShadow"
+        "font"          "FontShadow44"
         "fgcolor"       "Ammo In Clip"
         "xpos"          "0"
         "ypos"          "0"
@@ -90,7 +90,7 @@
     }   
     "AmmoNoClipShadow"
     {
-        "font"          "HudFontGiantBoldBlur"
+        "font"          "FontBlur44"
         "fgcolor"       "Shadow Color"
         "xpos"          "1"
         "ypos"          "1"

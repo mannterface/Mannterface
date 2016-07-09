@@ -38,7 +38,7 @@
 
             "playername"
             {
-                "font"          "HudFontSmallestBoldShadow"
+                "font"          "FontShadow11"
                 "xpos"          "41"
                 "ypos"          "4"
                 "zpos"          "5"
@@ -55,7 +55,7 @@
             {
                 "ControlName"   "CExLabel"
                 "fieldName"     "playernameshadow"
-                "font"          "HudFontSmallestBoldBlur"
+                "font"          "FontBlur11"
                 "xpos"          "42"
                 "ypos"          "5"
                 "zpos"          "5"
@@ -127,7 +127,7 @@
             }
             "respawntime"
             {
-                "font"          "HudFontSmallestBoldShadow"
+                "font"          "FontShadow11"
                 "xpos"          "2"
                 "ypos"          "6"
                 "zpos"          "5"
@@ -141,7 +141,7 @@
             {
                 "ControlName"   "CExLabel"
                 "fieldName"     "respawntimeshadow"
-                "font"          "HudFontSmallestBoldBlur"
+                "font"          "FontBlur11"
                 "xpos"          "3"
                 "ypos"          "7"
                 "zpos"          "5"
@@ -157,7 +157,7 @@
 
             "chargeamount"
             {
-                "font"          "HudFontSmallestBoldShadow"
+                "font"          "FontShadow11"
                 "xpos"          "0"
                 "ypos"          "4"
                 "zpos"          "10"
@@ -170,7 +170,7 @@
             {
                 "ControlName"   "CExLabel"
                 "fieldName"     "chargeamountblur"
-                "font"          "HudFontSmallestBoldBlur"
+                "font"          "FontBlur11"
                 "xpos"          "1"
                 "ypos"          "5"
                 "zpos"          "5"
@@ -242,7 +242,7 @@
         "ypos"  "60"     [$WIN32]
         "ypos_minmode"  "75"     [$WIN32]
         "wide_minmode"  "600"
-        "font"          "HudFontSmallBoldShadow"
+        "font"          "FontShadow14"
         "fgcolor_override"       "Damage Numbers"
     }
     "itempanel"

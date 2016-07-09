@@ -155,7 +155,7 @@
         "brighttext"    "0"
         "command"       "continue"
         "default"       "1"
-        "font"          "HudFontSmallBold"
+        "font"          "Font14"
         "fgcolor"       "Black"
     }
 
@@ -181,7 +181,7 @@
         "brighttext"    "0"
         "command"       "intro"
         "default"       "1"
-        "font"          "HudFontSmallBold"
+        "font"          "Font14"
         "fgcolor"       "Black"
     }
     
@@ -206,7 +206,7 @@
         "dulltext"      "0"
         "brighttext"    "0"
         "command"       "back"
-        "font"          "HudFontSmallBold"
+        "font"          "Font14"
         "fgcolor"       "Black"
     }
     
