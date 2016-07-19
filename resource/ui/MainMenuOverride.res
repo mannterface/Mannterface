@@ -312,6 +312,7 @@
             "wide"          "240"
             "tall"          "40"
             "textAlignment" "center"
+            "font"          "Font14"
         }
     }
     "ResumeGameButton"
@@ -326,6 +327,7 @@
             "wide"          "120"
             "tall"          "40"
             "textAlignment" "center"
+            "font"          "Font14"
         }
     }
 
@@ -346,6 +348,28 @@
         "xpos"          "c-135"
         "ypos"          "210"
         "zpos"          "1002"
+        "Background"
+        {
+            "TitleLabel"
+            {
+                "font"          "Font14"
+            }
+            "ViewDetailsButton"
+            {
+                "SubButton"
+                {
+                    "font"          "Font14"
+                }
+            }
+            "ViewWarButton"
+            {
+                "zpos"          "1005"
+                "SubButton"
+                {                  
+                    "font"          "Font14"
+                }
+            }
+        }
     }
 
     //mannterface version number

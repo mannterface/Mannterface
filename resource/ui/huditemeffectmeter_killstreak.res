@@ -43,7 +43,7 @@
         "wide"                  "40"
         "tall"                  "20"    
         "textAlignment"         "west"
-        "font"                  "HudFontSmallBold"
-        "font_minmode"          "HudFontSmallBold"
+        "font"                  "Font14"
+        "font_minmode"          "Font14"
     }
 }

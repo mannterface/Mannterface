@@ -70,8 +70,10 @@
     }  
     "GeneralStoreButtonNew"
     {
-        "label" "Store"
-    }  
+        "label" "Shop"
+        "command" "engine open_store"
+        "subimage" "glyph_store"
+    }   
     "CreateServerButtonNew"
     {
         "label" "#GameUI_GameMenu_CreateServer"

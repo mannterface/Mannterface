@@ -84,7 +84,7 @@
     }
     "BlueTeamLabel"
     {
-        "font"          "HudFontSmallBoldShadow"
+        "font"          "FontShadow14"
         "textAlignment"     "west"
         "xpos"          "4"
         "ypos"          "c-30"
@@ -95,7 +95,7 @@
     }
     "BlueTeamScore"
     {
-        "font"          "HudFontMediumBoldShadow"
+        "font"          "FontShadow24"
         "textAlignment"     "east"
         "xpos"          "-10"
         "ypos"          "c-30" 
@@ -119,12 +119,12 @@
         "wide"          "290"
         "tall"          "25"
         "fgcolor"       "TanLight"
-        "font"          "HudFontSmallBoldShadow"
+        "font"          "FontShadow14"
         "textAlignment" "center"
     }
     "RedTeamLabel"
     {
-        "font"          "HudFontSmallBoldShadow"
+        "font"          "FontShadow14"
         "textAlignment"     "east"
         "xpos"          "346"
         "ypos"          "c-30"
@@ -142,7 +142,7 @@
     }
     "RedTeamScore"
     {
-        "font"          "HudFontMediumBoldShadow"
+        "font"          "FontShadow24"
         "textAlignment"     "west"
         "xpos"          "364"
         "ypos"          "c-30" 
@@ -166,7 +166,7 @@
         "wide"          "290"
         "tall"          "25"
         "fgcolor"       "TanLight"
-        "font"          "HudFontSmallShadowestBoldShadow"
+        "font"          "FontShadow14"
         "textAlignment" "center"
     }
     "BlueMainBG"
@@ -275,7 +275,7 @@
     }
     "ServerTimeLeftValue"
     {
-        "font"          "HudFontMediumSmallBold"
+        "font"          "Font18"
         "xpos"          "286"
         "ypos"          "c-30"
         "zpos"          "2"
@@ -364,7 +364,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "Kills2"
-            "font"          "HudFontGiantBoldShadow"
+            "font"          "FontShadow44"
             "labelText"     "%kills%"
             "textAlignment"     "east"
             "xpos"          "50"
@@ -389,7 +389,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "Deaths2"
-            "font"          "HudFontGiantBoldShadow"
+            "font"          "FontShadow44"
             "labelText"     "%deaths%"
             "textAlignment"     "west"
             "xpos"          "146"
@@ -407,7 +407,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "Colon"
-            "font"          "HudFontGiantBoldShadow"
+            "font"          "FontShadow44"
             "labelText"     ":"
             "textAlignment"     "center"
             "xpos"          "130"
@@ -432,7 +432,7 @@
         {
             "ControlName"   "CExLabel"
             "fieldName"     "DamageLabel2"
-            "font"          "HudFontSmallShadow"
+            "font"          "FontShadow14"
             "labelText"     "DMG"
             "textAlignment" "center"
             "xpos"          "205"   [$WIN32]
@@ -457,7 +457,7 @@
         {
             "ControlName"   "CExLabel"
             "fieldName"     "Damage2"
-            "font"          "HudFontMediumSmallBoldShadow"
+            "font"          "Font18Shadow"
             "labelText"     "%damage%"
             "textAlignment" "center"
             "xpos"          "215"   [$WIN32]
@@ -475,7 +475,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "AssistsLabel"
-            "font"          "HudFontSmallShadow"
+            "font"          "Font14"
             "labelText"     "AST:"
             "textAlignment"     "east"
             "xpos"          "238"
@@ -500,7 +500,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "Assists2"
-            "font"          "HudFontSmallBoldShadow"
+            "font"          "FontShadow14"
             "labelText"     "%assists%"
             "textAlignment" "west"
             "xpos"          "327"   [$WIN32]
@@ -525,7 +525,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "BonusLabel"
-            "font"          "HudFontSmallShadow"
+            "font"          "Font14"
             "labelText"     "BON:"
             "textAlignment"     "east"
             "xpos"          "238"
@@ -543,7 +543,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "Bonus2"
-            "font"          "HudFontSmallBoldShadow"
+            "font"          "FontShadow14"
             "labelText"     "%bonus%"
             "textAlignment" "west"
             "xpos"          "327"   [$WIN32]
@@ -561,7 +561,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "CapturesLabel"
-            "font"          "HudFontSmallShadow"
+            "font"          "Font14"
             "labelText"     "CAP:"
             "textAlignment"     "east"
             "xpos"          "295"
@@ -586,7 +586,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "Captures2"
-            "font"          "HudFontSmallBoldShadow"
+            "font"          "FontShadow14"
             "labelText"     "%captures%"
             "textAlignment" "west"
             "xpos"          "384"   [$WIN32]
@@ -604,7 +604,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "DefensesLabel"
-            "font"          "HudFontSmallShadow"
+            "font"          "Font14"
             "labelText"     "DEF:"
             "textAlignment"     "east"
             "xpos"          "295"
@@ -629,7 +629,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "Defenses2"
-            "font"          "HudFontSmallBoldShadow"
+            "font"          "FontShadow14"
             "labelText"     "%defenses%"
             "textAlignment"     "west"
             "xpos"          "384"   [$WIN32]
@@ -647,7 +647,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "TeleportsLabel"
-            "font"          "HudFontSmallShadow"
+            "font"          "Font14"
             "labelText"     "TEL:"
             "textAlignment"     "east"
             "xpos"          "352"
@@ -672,7 +672,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "Teleports2"
-            "font"          "HudFontSmallBoldShadow"
+            "font"          "FontShadow14"
             "labelText"     "%teleports%"
             "textAlignment"     "west"
             "xpos"          "441"   [$WIN32]
@@ -690,7 +690,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "DestructionLabel"
-            "font"          "HudFontSmallShadow"
+            "font"          "Font14"
             "labelText"     "DES:"
             "textAlignment"     "east"
             "xpos"          "352"
@@ -715,7 +715,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "Destruction2"
-            "font"          "HudFontSmallBoldShadow"
+            "font"          "FontShadow14"
             "labelText"     "%destruction%"
             "textAlignment"     "west"
             "xpos"          "441"   [$WIN32]
@@ -733,7 +733,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "DominationLabel"
-            "font"          "HudFontSmallShadow"
+            "font"          "Font14"
             "labelText"     "DOM:"
             "textAlignment"     "east"
             "xpos"          "406"
@@ -758,7 +758,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "Domination2"
-            "font"          "HudFontSmallBoldShadow"
+            "font"          "FontShadow14"
             "labelText"     "%dominations%"
             "textAlignment"     "west"
             "xpos"          "495"   [$WIN32]
@@ -776,7 +776,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "RevengeLabel"
-            "font"          "HudFontSmallShadow"
+            "font"          "Font14"
             "labelText"     "REV:"
             "textAlignment"     "east"
             "xpos"          "406"
@@ -801,7 +801,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "Revenge2"
-            "font"          "HudFontSmallBoldShadow"
+            "font"          "FontShadow14"
             "labelText"     "%Revenge%"
             "textAlignment"     "west"
             "xpos"          "495"   [$WIN32]
@@ -819,7 +819,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "HeadshotsLabel"
-            "font"          "HudFontSmallShadow"
+            "font"          "Font14"
             "labelText"     "HST:"
             "textAlignment"     "east"
             "xpos"          "460"
@@ -844,7 +844,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "Headshots2"
-            "font"          "HudFontSmallBoldShadow"
+            "font"          "FontShadow14"
             "labelText"     "%headshots%"
             "textAlignment"     "west"
             "xpos"          "549"   [$WIN32]
@@ -869,7 +869,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "BackstabsLabel"
-            "font"          "HudFontSmallShadow"
+            "font"          "Font14"
             "labelText"     "BST:"
             "textAlignment"     "east"
             "xpos"          "460"
@@ -887,7 +887,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "Backstabs2"
-            "font"          "HudFontSmallBoldShadow"
+            "font"          "FontShadow14"
             "labelText"     "%backstabs%"
             "textAlignment" "west"
             "xpos"          "549"   [$WIN32]
@@ -905,7 +905,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "HealingLabel"
-            "font"          "HudFontSmallShadow"
+            "font"          "Font14"
             "labelText"     "HEA:"
             "textAlignment"     "east"
             "xpos"          "514"
@@ -930,7 +930,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "Healing2"
-            "font"          "HudFontSmallBoldShadow"
+            "font"          "FontShadow14"
             "labelText"     "%healing%"
             "textAlignment"     "west"
             "xpos"          "603"   [$WIN32]
@@ -948,7 +948,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "InvulnLabel"
-            "font"          "HudFontSmallShadow"
+            "font"          "Font14"
             "labelText"     "INV:"
             "textAlignment"     "east"
             "xpos"          "514"
@@ -973,7 +973,7 @@
         {
             "ControlName"       "CExLabel"
             "fieldName"     "Invuln2"
-            "font"          "HudFontSmallBoldShadow"
+            "font"          "FontShadow14"
             "labelText"     "%invulns%"
             "textAlignment"     "west"
             "xpos"          "603"   [$WIN32]
@@ -1013,7 +1013,7 @@
     {
         "ControlName"   "CExLabel"
         "fieldName"     "mapname"
-        "font"          "HudFontMediumBoldShadow"
+        "font"          "FontShadow24"
         "labelText"     "%mapname%"
         "textAlignment"     "west"
         "xpos"          "0"
@@ -1035,7 +1035,7 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "ServerLabel"
-        "font"          "HudFontSmallBoldShadow"
+        "font"          "FontShadow14"
         "labelText"     "%server%"
         "textAlignment"     "west"
         "xpos"          "0"
@@ -1060,7 +1060,7 @@
     {
         "ControlName"       "CExLabel"
         "fieldName"     "Spectators"
-        "font"          "HudFontSmallBoldShadow"
+        "font"          "FontShadow14"
         "textAlignment"     "west"
         "xpos"          "0"
         "ypos"          "c-46"    [$WIN32]

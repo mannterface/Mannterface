@@ -1,5 +1,5 @@
 #base "hudmediccharge - center.res"
-//#base "hudmediccharge - enemy.res"
+//#base "hudmediccharge - bar.res"
 
 ///////////////////////////////////////////////
 //MEDIC CHARGE OPTIONS

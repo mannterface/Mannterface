@@ -20,7 +20,7 @@
         {
             //"visible" "1"
             "fgcolor"   "White"
-            "font"      "HudFontSmallishBold"
+            "font"     "Font16"
         }
 
         if_readymode
@@ -43,7 +43,7 @@
             "xpos"      "-1"
             "ypos"      "-1"
             //"visible" "1"
-            "font"      "HudFontSmallishBold"
+            "font"     "Font16"
         }
 
         if_readymode
@@ -88,7 +88,7 @@
         "PositiveColor"     "0 255 0 255"
         "NegativeColor"     "255 0 0 255"
         "delta_lifetime"    "1.5"
-        "delta_item_font"   "HudFontMediumSmall"
+        "delta_item_font"   "Font18"
 
         if_comp
         {
@@ -109,7 +109,7 @@
             "visible"       "1"
             "enabled"       "1"
             "fgcolor"       "TanLight"
-            "font"          "HudFontMediumSmall"
+            "font"          "Font18"
             "textAlignment"     "center"
             "labelText"     "0:00"
             "proportionaltoparent"  "1"
@@ -124,8 +124,8 @@
             "ypos_lodef"    "0"
             "wide_minmode"  "52"
             "wide_lodef"    "52"
-            "font_minmode"  "HudFontMediumSmall"
-            "font_lodef"    "HudFontMediumSmall"
+            "font_minmode"  "Font18"
+            "font_lodef"    "Font18"
 
             if_comp
             {
@@ -136,9 +136,9 @@
                 "textAlignment" "south"
                 "bgcolor_override"  "TransparentBlack"
 
-                "font"      "HudFontMediumSmall"
-                "font_minmode"  "HudFontMediumSmall"
-                "font_lodef"    "HudFontMediumSmall"
+                "font"      "Font18"
+                "font_minmode"  "Font18"
+                "font_lodef"    "Font18"
             }
         }
     }
@@ -250,7 +250,7 @@
                 "ypos"      "-1"
                 "wide"      "30"
                 "tall"      "10"
-                "font"      "HudFontMediumBoldShadow"
+                "font"      "FontShadow24"
 
                 "pin_to_sibling"    "classimagebg"
                 "pin_corner_to_sibling" "PIN_CENTER_TOP"
@@ -335,7 +335,7 @@
             "ypos"      "0"
             "wide"      "125"
             "tall"      "36"
-            "font"      "HudFontSmall"
+            "font"      "Font14"
             "pin_to_sibling"    "BlueTeamBG"
             "pin_corner_to_sibling" "PIN_TOPRIGHT"
             "pin_to_sibling_corner" "PIN_TOPRIGHT"
@@ -413,7 +413,7 @@
             "ypos"      "0"
             "wide"      "125"
             "tall"      "36"
-            "font"      "HudFontSmall"
+            "font"      "Font14"
             "pin_to_sibling"    "RedTeamBG"
             "pin_corner_to_sibling" "PIN_TOPLEFT"
             "pin_to_sibling_corner" "PIN_TOPLEFT"

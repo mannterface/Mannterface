@@ -7,9 +7,25 @@
 
 //#base "fontoptions/font.res"
 
+//TF2 Default Font
 #base "fontoptions/font - TF2 Build.res"
+
+//raysHUD Font
 //#base "fontoptions/font - Cerbetica.res"
+
+//medHUD Font
 //#base "fontoptions/font - Roboto.res"
+
+//m0reHUD Font
+//#base "fontoptions/font - m0re.res"
+
+//HUDAS Iscariote Font
+//#base "fontoptions/font - HUDAS.res"
+
+//yaHUD Font
+//#base "fontoptions/font - yaHUD.res"
+
+
 
 //Options
 //#base "../options/full colored item panels.res"
@@ -18,6 +34,8 @@
 #base "paint_colors.res"
 #base "../options/wiet borders.res"
 #base "../default_hudfiles/resource/clientscheme.res"
+//this final one MUST be present and is NOT an option
+
 // Customization of clientscheme.res
 
 Scheme
@@ -257,5 +275,20 @@ Scheme
             "font" "resource/font/RobotoCondensed-Bold.ttf"
             "name" "Roboto Condensed Bold"
         }
+        "15" 
+        {
+            "font"      "resource/fonts/Surface_Medium.otf"
+            "name"      "Surface-Medium"
+        }
+        "16" 
+        {
+            "font" "resource/Archive.otf"
+            "name" "Archive"
+        }   
+        "17" 
+        {
+            "font" "resource/fonts/BoldNumbers.ttf"
+            "name" "BoldNumbers"    
+        }   
     }
 }

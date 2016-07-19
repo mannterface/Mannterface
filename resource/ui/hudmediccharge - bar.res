@@ -213,7 +213,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "Font24Blur"
+        "font"          "FontBlur24"
         "fgcolor"  "0 0 255 0"
     }
     "ChargeLabelFullH"
@@ -257,7 +257,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "Font24Blur"
+        "font"          "FontBlur24"
         "fgcolor"  "0 0 255 0"
     }
     "ChargeLabelFullA"
@@ -301,7 +301,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "Font24Blur"
+        "font"          "FontBlur24"
         "fgcolor"  "0 0 255 0"
     }
     "ChargeLabelFullR"
@@ -345,7 +345,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "Font24Blur"
+        "font"          "FontBlur24"
         "fgcolor"  "0 0 255 0"
     }
     "ChargeLabelFullG"
@@ -389,7 +389,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "Font24Blur"
+        "font"          "FontBlur24"
         "fgcolor"  "0 0 255 0"
     }
     "ChargeLabelFullE"
@@ -433,7 +433,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "Font24Blur"
+        "font"          "FontBlur24"
         "fgcolor"  "0 0 255 0"
     }
 
@@ -478,7 +478,7 @@
         "textAlignment" "west"
         "dulltext"      "0"
         "brighttext"    "0"
-        "font"          "Font24Blur"
+        "font"          "FontBlur24"
         "fgcolor"  "0 0 255 0"
     }
 

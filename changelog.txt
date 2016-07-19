@@ -1,3 +1,6 @@
+16.07.19.0 …
+Added more font options, fixed floating health
+
 16.07.09.0 …
 Fixed for Meet Your Match, added font options, added new scoreboard
 
