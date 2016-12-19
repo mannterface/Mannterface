@@ -29,6 +29,7 @@
     }
     HudDeathNotice
     {
+        "ypos"   "32"   [$WIN32]
         "MaxDeathNotices" "7"
         "LineSpacing"     "1"
         "TextFont"      "HudFontSmallestBold"

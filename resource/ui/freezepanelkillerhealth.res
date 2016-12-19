@@ -67,7 +67,7 @@
     {   
         "ControlName"       "CExLabel"
         "fieldName"     "CommTipPanel"
-        "font"          "Font8"
+        "font"          "Font7"
         "xpos"          "5"
         "ypos"          "16"
         "zpos"          "5"
@@ -87,7 +87,7 @@
     {   
         "ControlName"       "CExLabel"
         "fieldName"     "CommTipPanel"
-        "font"          "FontBlur8"
+        "font"          "FontBlur7"
         "xpos"          "6"
         "ypos"          "17"
         "zpos"          "5"

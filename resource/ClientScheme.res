@@ -146,6 +146,56 @@ Scheme
     }
     Borders
     {
+        MainMenuButtonDefault
+        {
+            "draw_corner_width" "3"
+            "draw_corner_height"    "3"
+        }
+        MainMenuButtonArmed
+        {
+            "draw_corner_width" "3"
+            "draw_corner_height"    "3"
+        }
+        MainMenuButtonDisabled
+        {
+            "draw_corner_width" "3"
+            "draw_corner_height"    "3"
+        }
+        MainMenuButtonDepressed
+        {
+            "draw_corner_width" "3"
+            "draw_corner_height"    "3"
+        }
+        MainMenuButtonDepressedArmed
+        {
+            "draw_corner_width" "3"
+            "draw_corner_height"    "3"
+        }
+        MainMenuButtonGlow
+        {
+            "draw_corner_width" "3"
+            "draw_corner_height"    "3"
+        }
+        MainMenuButtonGlow2
+        {
+            "draw_corner_width" "3"
+            "draw_corner_height"    "3"
+        }
+         MainMenuMiniButtonDefault
+        {
+            "draw_corner_width"     "1"             // screen size of the corners ( and sides ), proportional
+            "draw_corner_height"    "1" 
+        }
+        MainMenuMiniButtonArmed
+        {
+            "draw_corner_width"     "1"             // screen size of the corners ( and sides ), proportional
+            "draw_corner_height"    "1" 
+        }
+        MainMenuBGBorder
+        {
+            "draw_corner_width"     "2"             // screen size of the corners ( and sides ), proportional
+            "draw_corner_height"    "2" 
+        }
         TFFatLineBorder
         {
             "bordertype"            "scalable_image"

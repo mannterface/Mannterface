@@ -1,3 +1,6 @@
+16.12.19.0 …
+Update for December pre-winter update.
+
 16.07.19.0 …
 Added more font options, fixed floating health
 
