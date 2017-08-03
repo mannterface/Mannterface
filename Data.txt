@@ -2,4 +2,4 @@ name=Mannterface
 desc=The latest in eye-numbers technology!
 creator=Saxton Hale
 steamid=76561198214110227
-version=1607190
+version=1708030
